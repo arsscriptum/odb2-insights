@@ -1,0 +1,358 @@
+[
+  {
+    "Code": "P1192",
+    "Description": "Inlet Air Temp. Circuit Low"
+  },
+  {
+    "Code": "P1193",
+    "Description": "Inlet Air Temp. Circuit High"
+  },
+  {
+    "Code": "P1195",
+    "Description": "/1 O2 Sensor Slow During Catalyst Monitor"
+  },
+  {
+    "Code": "P1196",
+    "Description": "2/1 O2 Sensor Slow During Catalyst Monitor"
+  },
+  {
+    "Code": "P1197",
+    "Description": "/2 O2 Sensor Slow During Catalyst Monitor"
+  },
+  {
+    "Code": "P1198",
+    "Description": "Radiator Temperature Sensor Volts Too High"
+  },
+  {
+    "Code": "P1199",
+    "Description": "Radiator Temperature Sensor Volts Too Low"
+  },
+  {
+    "Code": "P1281",
+    "Description": "Engine Is Cold Too Long"
+  },
+  {
+    "Code": "P1282",
+    "Description": "Fuel Pump Relay Control Circuit"
+  },
+  {
+    "Code": "P1283",
+    "Description": "Idle Select Signal Invalid"
+  },
+  {
+    "Code": "P1284",
+    "Description": "Fuel Injection Pump Battery Voltage Out Of Range"
+  },
+  {
+    "Code": "P1285",
+    "Description": "Fuel Injection Pump Controller Always On"
+  },
+  {
+    "Code": "P1286",
+    "Description": "Accelerator Pedal Position Sensor Supply Voltage Too High"
+  },
+  {
+    "Code": "P1287",
+    "Description": "Fuel Injection Pump Controller Supply Voltage Low"
+  },
+  {
+    "Code": "P1288",
+    "Description": "Intake Manifold Short Runner Solenoid Circuit"
+  },
+  {
+    "Code": "P1289",
+    "Description": "Manifold Tune Valve Solenoid Circuit"
+  },
+  {
+    "Code": "P1290",
+    "Description": "CNG Fuel Pressure Too High"
+  },
+  {
+    "Code": "P1291",
+    "Description": "No Temp Rise Seen From Fuel Heaters"
+  },
+  {
+    "Code": "P1292",
+    "Description": "CNG Pressure Sensor Voltage Too High"
+  },
+  {
+    "Code": "P1293",
+    "Description": "CNG Pressure Sensor Voltage Too Low"
+  },
+  {
+    "Code": "P1294",
+    "Description": "Target Idle Not Reached"
+  },
+  {
+    "Code": "P1295",
+    "Description": "No 5 Volts To TP Sensor"
+  },
+  {
+    "Code": "P1296",
+    "Description": "No 5 Volts To MAP Sensor"
+  },
+  {
+    "Code": "P1297",
+    "Description": "No Change in MAP From Start To Run"
+  },
+  {
+    "Code": "P1298",
+    "Description": "Lean Operation At wide Open Throttle"
+  },
+  {
+    "Code": "P1299",
+    "Description": "Vacuum Leak Found (IAC Fully Seated)"
+  },
+  {
+    "Code": "P1388",
+    "Description": "Auto Shutdown (ASD) Relay Control Circuit"
+  },
+  {
+    "Code": "P1389",
+    "Description": "No Auto Shutdown (ASD) Relay Output Voltage At PCM"
+  },
+  {
+    "Code": "P1390",
+    "Description": "Timing Belt Skipped One Tooth or More"
+  },
+  {
+    "Code": "P1391",
+    "Description": "Intermittent Loss of CMP or CKP"
+  },
+  {
+    "Code": "P1398",
+    "Description": "Mis-Fire Adapter Numerator at Limit"
+  },
+  {
+    "Code": "P1399",
+    "Description": "Wait To Start Lamp Circuit"
+  },
+  {
+    "Code": "P1403",
+    "Description": "No 5 Volts To EGR Sensor"
+  },
+  {
+    "Code": "P1475",
+    "Description": "Aux. 5 Volt Output Too High"
+  },
+  {
+    "Code": "P1476",
+    "Description": "Too Little Secondary Air"
+  },
+  {
+    "Code": "P1477",
+    "Description": "Too Much Secondary Air"
+  },
+  {
+    "Code": "P1478",
+    "Description": "Battery Temp Sensor Volts Out of Limit"
+  },
+  {
+    "Code": "P1479",
+    "Description": "Transmission Fan Relay Circuit"
+  },
+  {
+    "Code": "P1480",
+    "Description": "CV Solenoid Valve"
+  },
+  {
+    "Code": "P1482",
+    "Description": "Catalyst Temperature Sensor Circuit Shorted Low"
+  },
+  {
+    "Code": "P1483",
+    "Description": "Catalyst Temperature Sensor Circuit Shorted High"
+  },
+  {
+    "Code": "P1484",
+    "Description": "Catalytic Converter Overheat Detected"
+  },
+  {
+    "Code": "P1485",
+    "Description": "Air Injection Solenoid Circuit"
+  },
+  {
+    "Code": "P1486",
+    "Description": "Evap Leak Monitor Pinched Hose"
+  },
+  {
+    "Code": "P1487",
+    "Description": "Hi Speed Rad Fan CTRL Relay Circuit"
+  },
+  {
+    "Code": "P1488",
+    "Description": "Auxiliary 5 Volt Supply Output Too Low"
+  },
+  {
+    "Code": "P1489",
+    "Description": "High Speed Fan CTRL Relay Circuit"
+  },
+  {
+    "Code": "P1490",
+    "Description": "Low Speed Fan CTRL Relay Circuit"
+  },
+  {
+    "Code": "P1491",
+    "Description": "Rad Fan Control Relay Circuit"
+  },
+  {
+    "Code": "P1492",
+    "Description": "Battery Temperature Sensor Voltage Too High"
+  },
+  {
+    "Code": "P1493",
+    "Description": "Battery Temperature Sensor Voltage Too Low"
+  },
+  {
+    "Code": "P1494",
+    "Description": "Leak Detection Pump Switch or Mechanical Fault"
+  },
+  {
+    "Code": "P1495",
+    "Description": "Leak Detection Pump Solenoid Circuit"
+  },
+  {
+    "Code": "P1496",
+    "Description": "5 Volt Supply Output Too Low"
+  },
+  {
+    "Code": "P1498",
+    "Description": "High speed Rad Fan Ground CTRL Rly Circuit"
+  },
+  {
+    "Code": "P1594",
+    "Description": "Charging System Voltage Too High"
+  },
+  {
+    "Code": "P1595",
+    "Description": "Speed Control Solenoid Circuits"
+  },
+  {
+    "Code": "P1596",
+    "Description": "Speed Control Switch Always High"
+  },
+  {
+    "Code": "P1597",
+    "Description": "Speed Control Switch Always Low"
+  },
+  {
+    "Code": "P1598",
+    "Description": "A/C Pressure Sensor Volts Too High"
+  },
+  {
+    "Code": "P1599",
+    "Description": "A/C Pressure Sensor Volts Too Low"
+  },
+  {
+    "Code": "P1602",
+    "Description": "CM Not Programmed"
+  },
+  {
+    "Code": "P1680",
+    "Description": "Clutch Released Switch Circuit"
+  },
+  {
+    "Code": "P1681",
+    "Description": "No I/P Cluster CCD/J1850 Messages Received"
+  },
+  {
+    "Code": "P1682",
+    "Description": "Charging System Voltage Too Low"
+  },
+  {
+    "Code": "P1683",
+    "Description": "Speed Control Power Relay Or Speed Control 12 Volt Driver Circuit"
+  },
+  {
+    "Code": "P1684",
+    "Description": "Battery Disconnected Within Last 50 Starts"
+  },
+  {
+    "Code": "P1685",
+    "Description": "Skim Invalid Key"
+  },
+  {
+    "Code": "P1686",
+    "Description": "No SKIM Bus Message Received"
+  },
+  {
+    "Code": "P1687",
+    "Description": "No Cluster Bus Message"
+  },
+  {
+    "Code": "P1688",
+    "Description": "Internal Fuel Injection Pump Controller Failure"
+  },
+  {
+    "Code": "P1689",
+    "Description": "No Communication Between ECM & Injection Pump Module"
+  },
+  {
+    "Code": "P1690",
+    "Description": "Fuel injection pump CKP Sensor Does Not Agree With ECM CKP Sensor"
+  },
+  {
+    "Code": "P1691",
+    "Description": "Fuel Injection Pump Controller Calibration Failure"
+  },
+  {
+    "Code": "P1693",
+    "Description": "DTC Detected In ECM Or PCM"
+  },
+  {
+    "Code": "P1694",
+    "Description": "No CCD Messages Received From ECM"
+  },
+  {
+    "Code": "P1695",
+    "Description": "No CCD/J185O Message From BCM"
+  },
+  {
+    "Code": "P1696",
+    "Description": "CM Failure EEPROM Write Denied"
+  },
+  {
+    "Code": "P1697",
+    "Description": "CM Failure SRI Mile Not Stored"
+  },
+  {
+    "Code": "P1698",
+    "Description": "No CCD Messages Received From PCM"
+  },
+  {
+    "Code": "P1719",
+    "Description": "Skip Shift Solenoid Circuit"
+  },
+  {
+    "Code": "P1740",
+    "Description": "TCC Or OD Solenoid Performance"
+  },
+  {
+    "Code": "P1756",
+    "Description": "Governor Pressure Not Equal To Target At 15–20 PSI"
+  },
+  {
+    "Code": "P1757",
+    "Description": "Governor Pressure Above 3 PSI When Request Is 0 PSI"
+  },
+  {
+    "Code": "P1762",
+    "Description": "Governor Pressure Sensor Offset Improper Voltage"
+  },
+  {
+    "Code": "P1763",
+    "Description": "Governor Pressure Sensor Voltage Too High"
+  },
+  {
+    "Code": "P1764",
+    "Description": "Governor Pressure Sensor Voltage Too Low"
+  },
+  {
+    "Code": "P1765",
+    "Description": "Trans 12 Volt Supply Relay Control Circuit"
+  },
+  {
+    "Code": "P1899",
+    "Description": "ark/Neutral Position Switch Stuck In Park or In Gear"
+  }
+]

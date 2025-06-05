@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "none",
+    "Description": "UNDEFINED"
+  },
+  {
+    "Name": "acura",
+    "Description": "Acura"
+  },
+  {
+    "Name": "audi",
+    "Description": "Audi"
+  },
+  {
+    "Name": "bmw",
+    "Description": "BMW"
+  },
+  {
+    "Name": "chevrolet",
+    "Description": "Chevrolet"
+  },
+  {
+    "Name": "dodge",
+    "Description": "Dodge / Chrysler / Jeep"
+  },
+  {
+    "Name": "ford",
+    "Description": "Ford"
+  },
+  {
+    "Name": "honda",
+    "Description": "Honda"
+  },
+  {
+    "Name": "hyundai",
+    "Description": "Hyundai"
+  },
+  {
+    "Name": "infiniti",
+    "Description": "Infiniti"
+  },
+  {
+    "Name": "isuzu",
+    "Description": "Isuzu"
+  },
+  {
+    "Name": "jaguar",
+    "Description": "Jaguar"
+  },
+  {
+    "Name": "kia",
+    "Description": "Kia"
+  },
+  {
+    "Name": "landrover",
+    "Description": "Land Rover"
+  },
+  {
+    "Name": "lexus",
+    "Description": "Lexus"
+  },
+  {
+    "Name": "mazda",
+    "Description": "Mazda"
+  },
+  {
+    "Name": "mitsubishi",
+    "Description": "Mitsubishi"
+  },
+  {
+    "Name": "nissan",
+    "Description": "Nissan"
+  },
+  {
+    "Name": "subaru",
+    "Description": "Subaru"
+  },
+  {
+    "Name": "toyota",
+    "Description": "Toyota"
+  },
+  {
+    "Name": "volkswagen",
+    "Description": "Volkswagen"
+  }
+]

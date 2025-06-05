@@ -1,0 +1,50 @@
+[
+  {
+    "Code": "P1103",
+    "Description": "Turbocharger Wastegate Actuator."
+  },
+  {
+    "Code": "P1104",
+    "Description": "Turbocharger Wastegate Solenoid."
+  },
+  {
+    "Code": "P1105",
+    "Description": "Fuel Pressure Solenoid."
+  },
+  {
+    "Code": "P1300",
+    "Description": "Ignition Timing Adjustment circuit."
+  },
+  {
+    "Code": "P1400",
+    "Description": "Manifold Differential Pressure Sensor circuit."
+  },
+  {
+    "Code": "P1500",
+    "Description": "Alternator FR Terminal circuit."
+  },
+  {
+    "Code": "P1600",
+    "Description": "Serial Communication Link."
+  },
+  {
+    "Code": "P1715",
+    "Description": "ulse Generator Assembly."
+  },
+  {
+    "Code": "P1750",
+    "Description": "Solenoid Assembly."
+  },
+  {
+    "Code": "P1751",
+    "Description": "A/T Control Relay."
+  },
+  {
+    "Code": "P1791",
+    "Description": "Engine Coolant Temperature Level Input circuit."
+  },
+  {
+    "Code": "P1795",
+    "Description": "Throttle Position Input circuit to TCM."
+  }
+]

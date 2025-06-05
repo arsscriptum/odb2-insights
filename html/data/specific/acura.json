@@ -1,0 +1,214 @@
+[
+  {
+    "Code": "P1106",
+    "Description": "BARO Sensor Circuit Range/Performance Malfunction"
+  },
+  {
+    "Code": "P1107",
+    "Description": "BARO Circuit Low Input"
+  },
+  {
+    "Code": "P1108",
+    "Description": "BARO Circuit High Input"
+  },
+  {
+    "Code": "P1121",
+    "Description": "Throttle Position Lower Than Expected"
+  },
+  {
+    "Code": "P1122",
+    "Description": "Throttle Position Higher Than Expected"
+  },
+  {
+    "Code": "P1128",
+    "Description": "MAP Lower Than Expected"
+  },
+  {
+    "Code": "P1129",
+    "Description": "MAP Higher Than Expected"
+  },
+  {
+    "Code": "P1259",
+    "Description": "VTEC System Malfunction"
+  },
+  {
+    "Code": "P1297",
+    "Description": "ELD Circuit Low Input"
+  },
+  {
+    "Code": "P1298",
+    "Description": "ELD Circuit High Input"
+  },
+  {
+    "Code": "P1300",
+    "Description": "Random Misfire"
+  },
+  {
+    "Code": "P1336",
+    "Description": "Crankshaft Speed Fluctuation Sensor Intermittant Interruption"
+  },
+  {
+    "Code": "P1337",
+    "Description": "Crankshaft Speed Fluctuation Sensor No Signal"
+  },
+  {
+    "Code": "P1359",
+    "Description": "Crankshaft Position/TDC/Cylinder Position Sensor Connector Disconnection"
+  },
+  {
+    "Code": "P1361",
+    "Description": "TDC Sensor Intermittent Interruption"
+  },
+  {
+    "Code": "P1362",
+    "Description": "TDC 1 Sensor No Signal"
+  },
+  {
+    "Code": "P1366",
+    "Description": "TDC 2 Sensor Intermittent"
+  },
+  {
+    "Code": "P1367",
+    "Description": "TDC 2 Sensor No Signal"
+  },
+  {
+    "Code": "P1381",
+    "Description": "Cylinder Position Sensor Intermittant Inturruption"
+  },
+  {
+    "Code": "P1382",
+    "Description": "Cylinder Position Sensor No Signal"
+  },
+  {
+    "Code": "P1456",
+    "Description": "EVAP System Leak Detected (Fuel Tank System)"
+  },
+  {
+    "Code": "P1457",
+    "Description": "EVAP Control System Leak Detected (Control Canister System)"
+  },
+  {
+    "Code": "P1491",
+    "Description": "EGR Valve Lift Insufficient Detected"
+  },
+  {
+    "Code": "P1498",
+    "Description": "Voltage Problem In EGR Valve Position Sensor Circuit"
+  },
+  {
+    "Code": "P1508",
+    "Description": "Idle Air Control Valve Circuit Failure"
+  },
+  {
+    "Code": "P1519",
+    "Description": "IAC Valve Circuit Failure"
+  },
+  {
+    "Code": "P1607",
+    "Description": "ECM/PCM Internal Circuit Failure"
+  },
+  {
+    "Code": "P1656",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1660",
+    "Description": "A/T FI Data Line Failure"
+  },
+  {
+    "Code": "P1676",
+    "Description": "FPTDR Signal Line Failure"
+  },
+  {
+    "Code": "P1678",
+    "Description": "FPTDR Signal Line Failure"
+  },
+  {
+    "Code": "P1681",
+    "Description": "A/T FI Signal A Low Input"
+  },
+  {
+    "Code": "P1682",
+    "Description": "A/T FI Signal A High Input"
+  },
+  {
+    "Code": "P1686",
+    "Description": "A/T FI Signal B Low Input"
+  },
+  {
+    "Code": "P1687",
+    "Description": "A/T FI Signal B High Input"
+  },
+  {
+    "Code": "P1705",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1706",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1709",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1710",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1713",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1738",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1739",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1740",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1753",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1758",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1768",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1773",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1778",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1786",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1790",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1791",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1792",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1794",
+    "Description": "Automatic Transaxle"
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "Code": "P1106",
+    "Description": "Barometric Pressure Circuit Range/Performance"
+  },
+  {
+    "Code": "P1107",
+    "Description": "Barometric Pressure Circuit Low Input"
+  },
+  {
+    "Code": "P1108",
+    "Description": "Barometric Pressure Circuit High Input"
+  },
+  {
+    "Code": "P1121",
+    "Description": "Throttle Position Lower Than Expected"
+  },
+  {
+    "Code": "P1122",
+    "Description": "Throttle Position Higher Than Expected"
+  },
+  {
+    "Code": "P1128",
+    "Description": "MAP Lower Than Expected"
+  },
+  {
+    "Code": "P1129",
+    "Description": "MAP Higher Than Expected"
+  },
+  {
+    "Code": "P1149",
+    "Description": "rimary HO2S (Sensor 1) Circuit Range/Performance Problem"
+  },
+  {
+    "Code": "P1162",
+    "Description": "rimary HO2S (No. 1) Circuit Malfunction"
+  },
+  {
+    "Code": "P1163",
+    "Description": "rimary HO2S (No. 1) Circuit Slow Response"
+  },
+  {
+    "Code": "P1164",
+    "Description": "rimary HO2S (No. 1) Circuit Range/Performance"
+  },
+  {
+    "Code": "P1165",
+    "Description": "rimary HO2S (No. 1) Circuit Range/Performance"
+  },
+  {
+    "Code": "P1166",
+    "Description": "rimary HO2S (No. 1) Heater System Electrical"
+  },
+  {
+    "Code": "P1167",
+    "Description": "rimary HO2S (No. 1) Heater System"
+  },
+  {
+    "Code": "P1168",
+    "Description": "rimary HO2S (No. 1) LABEL Low Input"
+  },
+  {
+    "Code": "P1169",
+    "Description": "rimary HO2S (No. 1) LABEL High Input"
+  },
+  {
+    "Code": "P1253",
+    "Description": "VTEC System Malfunction"
+  },
+  {
+    "Code": "P1257",
+    "Description": "VTEC System Malfunction"
+  },
+  {
+    "Code": "P1258",
+    "Description": "VTEC System Malfunction"
+  },
+  {
+    "Code": "P1259",
+    "Description": "VTEC System Malfunction"
+  },
+  {
+    "Code": "P1297",
+    "Description": "Electrical Load Detector Circuit Low Input"
+  },
+  {
+    "Code": "P1298",
+    "Description": "Electrical Load Detector Circuit High Input"
+  },
+  {
+    "Code": "P1300",
+    "Description": "Multiple Cylinder Misfire Detected"
+  },
+  {
+    "Code": "P1336",
+    "Description": "CSF Sensor Intermittent Interruption"
+  },
+  {
+    "Code": "P1337",
+    "Description": "CSF Sensor No Signal"
+  },
+  {
+    "Code": "P1359",
+    "Description": "CKP/TDC Sensor Connector Disconnection"
+  },
+  {
+    "Code": "P1361",
+    "Description": "Intermittent Interruption In TDC 1 Sensor Circuit"
+  },
+  {
+    "Code": "P1362",
+    "Description": "No Signal In TDC 1 Sensor Circuit"
+  },
+  {
+    "Code": "P1366",
+    "Description": "Intermittent Interruption In TDC 2 Sensor Circuit"
+  },
+  {
+    "Code": "P1367",
+    "Description": "No Signal In TDC 2 Sensor Circuit"
+  },
+  {
+    "Code": "P1381",
+    "Description": "Cylinder Position Sensor Intermittent Interruption"
+  },
+  {
+    "Code": "P1382",
+    "Description": "Cylinder Position Sensor No Signal"
+  },
+  {
+    "Code": "P1456",
+    "Description": "EVAP Emission Control System Leak Detected (Fuel Tank System)"
+  },
+  {
+    "Code": "P1457",
+    "Description": "EVAP Emission Control System Leak Detected (Control Canister System)"
+  },
+  {
+    "Code": "P1459",
+    "Description": "EVAP Emission Purge Flow Switch Malfunction"
+  },
+  {
+    "Code": "P1486",
+    "Description": "Thermostat Range/Performance Problem"
+  },
+  {
+    "Code": "P1491",
+    "Description": "EGR Valve Lift Insufficient Detected"
+  },
+  {
+    "Code": "P1498",
+    "Description": "EGR Valve Lift Sensor High Voltage"
+  },
+  {
+    "Code": "P1508",
+    "Description": "IAC Valve Circuit Failure"
+  },
+  {
+    "Code": "P1509",
+    "Description": "IAC Valve Circuit Failure"
+  },
+  {
+    "Code": "P1519",
+    "Description": "Idle Air Control Valve Circuit Failure"
+  },
+  {
+    "Code": "P1607",
+    "Description": "ECM/PCM Internal Circuit Failure A"
+  },
+  {
+    "Code": "P1655",
+    "Description": "SEAF/SEFA/TMA/TMB Signal Line Failure"
+  },
+  {
+    "Code": "P1656",
+    "Description": "Automatic Transaxle"
+  },
+  {
+    "Code": "P1660",
+    "Description": "Automatic Transaxle FI Signal A Circuit Failure"
+  },
+  {
+    "Code": "P1676",
+    "Description": "FPTDR Signal Line Failure"
+  },
+  {
+    "Code": "P1678",
+    "Description": "FPTDR Signal Line Failure"
+  },
+  {
+    "Code": "P1681",
+    "Description": "Automatic Transaxle FI Signal A Low Input"
+  },
+  {
+    "Code": "P1682",
+    "Description": "Automatic Transaxle FI Signal A High Input"
+  },
+  {
+    "Code": "P1686",
+    "Description": "Automatic Transaxle FI Signal B Low Input"
+  },
+  {
+    "Code": "P1687",
+    "Description": "Automatic Transaxle FI Signal B High Input"
+  },
+  {
+    "Code": "P1705",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1706",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1738",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1739",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1753",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1758",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1768",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1773",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1785",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1786",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1790",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1791",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1792",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1793",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1794",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1870",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1873",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1879",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1885",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1886",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1888",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1890",
+    "Description": "Automatic Transaxle Concerns"
+  },
+  {
+    "Code": "P1891",
+    "Description": "Automatic Transaxle Concerns"
+  }
+]

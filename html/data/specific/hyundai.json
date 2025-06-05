@@ -1,0 +1,442 @@
+[
+  {
+    "Code": "P1100",
+    "Description": "Manifold absolute pressure (MAP) sensor &#8211; EGR &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1102",
+    "Description": "Manifold absolute pressure (MAP) sensor &#8211; EGR mode 3"
+  },
+  {
+    "Code": "P1103",
+    "Description": "Manifold absolute pressure (MAP) sensor &#8211; EGR mode 2"
+  },
+  {
+    "Code": "P1106",
+    "Description": "Manifold absolute pressure (MAP) sensor &#8211; signal high"
+  },
+  {
+    "Code": "P1107",
+    "Description": "Manifold absolute pressure (MAP) sensor &#8211; signal low"
+  },
+  {
+    "Code": "P1110",
+    "Description": "Electronic throttle system (ETS) &#8211; malfunction"
+  },
+  {
+    "Code": "P1111",
+    "Description": "Intake air temperature (IAT) sensor- circuit low input/intermittent"
+  },
+  {
+    "Code": "P1112",
+    "Description": "Intake air temperature (IAT) sensor- circuit high input/intermittent"
+  },
+  {
+    "Code": "P1114",
+    "Description": "Engine coolant temperature (ECT) sensor &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1115",
+    "Description": "Engine coolant temperature (ECT) sensor &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1118",
+    "Description": "Throttle motor &#8211; malfunction"
+  },
+  {
+    "Code": "P1123",
+    "Description": "Long term fuel trim &#8211; additive &#8211; mixture too rich"
+  },
+  {
+    "Code": "P1124",
+    "Description": "Long term fuel trim -additive &#8211; mixture too lean"
+  },
+  {
+    "Code": "P1127",
+    "Description": "Long term fuel trim &#8211; system too rich"
+  },
+  {
+    "Code": "P1128",
+    "Description": "Long term fuel trim &#8211; system too lean"
+  },
+  {
+    "Code": "P1134",
+    "Description": "Heated oxygen sensor (H02S) 1, bank 1 &#8211; slow response"
+  },
+  {
+    "Code": "P1140",
+    "Description": "Engine load monitoring (MAFfrP) -signals not plausible"
+  },
+  {
+    "Code": "P1147",
+    "Description": "Accelerator pedal position (APP) sensor 1 &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1151.",
+    "Description": "Accelerator pedal position (APP) sensor 2 &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1152",
+    "Description": "Accelerator pedal position (APP) sensor 2 &#8211; low voltage"
+  },
+  {
+    "Code": "P1153",
+    "Description": "Accelerator pedal position (APP) sensor 2 &#8211; high voltage"
+  },
+  {
+    "Code": "P1154",
+    "Description": "Heated oxygen sensor (H02S) 1, bank 2 &#8211; slow response"
+  },
+  {
+    "Code": "P1155",
+    "Description": "Electronic throttle system (ETS) &#8211; malfunction"
+  },
+  {
+    "Code": "P1159",
+    "Description": "Intake manifold air control, target position &#8211; malfunction"
+  },
+  {
+    "Code": "P1166",
+    "Description": "Heated oxygen sensor (H02S) 1, bank 1 &#8211; control limit reached"
+  },
+  {
+    "Code": "P1167",
+    "Description": "Heated oxygen sensor (H02S) 1, bank 2- control limit reached"
+  },
+  {
+    "Code": "P1168",
+    "Description": "Heated oxygen sensor (H02S) 2, bank 1, heater control &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1169",
+    "Description": "Heated oxygen sensor (H02S) 2, bank 2, heater control &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1171",
+    "Description": "Electronic throttle system (ETS), WOT &#8211; malfunction"
+  },
+  {
+    "Code": "P1172",
+    "Description": "ETS throttle motor &#8211; abnormal current"
+  },
+  {
+    "Code": "P1173",
+    "Description": "ETS throttle motor &#8211; abnormal voltage"
+  },
+  {
+    "Code": "P1174",
+    "Description": "Electronic throttle system (ETS), closed throttle 1 &#8211; malfunction"
+  },
+  {
+    "Code": "P1175",
+    "Description": "Electronic throttle system (ETS), closed throttle 2 &#8211; malfunction"
+  },
+  {
+    "Code": "P1176",
+    "Description": "ETS throttle motor &#8211; circuit 1 malfunction"
+  },
+  {
+    "Code": "P1177",
+    "Description": "ETS throttle motor &#8211; circuit 2 malfunction"
+  },
+  {
+    "Code": "P1178",
+    "Description": "Electronic throttle system (ETS) relay &#8211; malfunction"
+  },
+  {
+    "Code": "P1184",
+    "Description": "Heated oxygen sensor (H02S) 1, bank 2 &#8211; no activity detected"
+  },
+  {
+    "Code": "P1191",
+    "Description": "Electronic throttle system (ETS), limp-home valve &#8211; malfunction"
+  },
+  {
+    "Code": "P1192",
+    "Description": "Electronic throttle system (ETS) &#8211; limp-home valve ON"
+  },
+  {
+    "Code": "P1193",
+    "Description": "Electronic throttle system (ETS) &#8211; limp-home valve ON"
+  },
+  {
+    "Code": "P1194",
+    "Description": "Electronic throttle system (ETS) &#8211; limp-home valve ON"
+  },
+  {
+    "Code": "P1195",
+    "Description": "Electronic throttle system (ETS) &#8211; limp-home valve ON"
+  },
+  {
+    "Code": "P1196",
+    "Description": "Electronic throttle system (ETS) &#8211; limp-home &nbsp; valve ON"
+  },
+  {
+    "Code": "P1295",
+    "Description": "Electronic throttle system (ETS) &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1307",
+    "Description": "Rough road sensor &#8211; malfunction"
+  },
+  {
+    "Code": "P1308",
+    "Description": "Rough road sensor &#8211; voltage low"
+  },
+  {
+    "Code": "P1309",
+    "Description": "Rough road sensor &#8211; voltage high"
+  },
+  {
+    "Code": "P1330",
+    "Description": "Ignition spark timing &#8211; malfunction"
+  },
+  {
+    "Code": "P1372",
+    "Description": "Vehicle speed sensor (VSS) &#8211; range/performance problem"
+  },
+  {
+    "Code": "P1400",
+    "Description": "Exhaust gas recirculation (EGR) system &#8211; monitor malfunction"
+  },
+  {
+    "Code": "P1401",
+    "Description": "Fuel tank leakage diagnostic module -system malfunction"
+  },
+  {
+    "Code": "P1402",
+    "Description": "Fuel tank leakage diagnostic module &#8211; motor malfunction"
+  },
+  {
+    "Code": "P1403",
+    "Description": "Fuel tank leakage diagnostic module &#8211; valve malfunction"
+  },
+  {
+    "Code": "P1404",
+    "Description": "Fuel tank leakage diagnostic module &#8211; heater malfunction"
+  },
+  {
+    "Code": "P1440",
+    "Description": "Evaporative emission (EVAP) system, vent &nbsp; valve &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1502",
+    "Description": "Wheel speed sensor &#8211; open circuit"
+  },
+  {
+    "Code": "P1503",
+    "Description": "Cruise control switch &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1504",
+    "Description": "Cruise control switch, CANCEL &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1505",
+    "Description": "Idle air control (lAC) valve &#8211; opening coil circuit &#8211; open circuit"
+  },
+  {
+    "Code": "P1506",
+    "Description": "Idle air control (lAC) valve &#8211; opening coil circuit &#8211; short circuit"
+  },
+  {
+    "Code": "P1507",
+    "Description": "Idle air control (lAC) valve &#8211; closing coil circuit &#8211; open circuit"
+  },
+  {
+    "Code": "P1508",
+    "Description": "Idle air control (lAC) valve &#8211; closing coil circuit &#8211; short circuit"
+  },
+  {
+    "Code": "P1510",
+    "Description": "Idle air control (lAC) valve &#8211; circuit malfunction &#8211; open/short circuit"
+  },
+  {
+    "Code": "P1511",
+    "Description": "Idle air control {lAC) valve &#8211; circuit malfunction &#8211; open/short circuit"
+  },
+  {
+    "Code": "P1513",
+    "Description": "Idle air control (lAC) valve &#8211; opening coil circuit &#8211; short circuit"
+  },
+  {
+    "Code": "P1515",
+    "Description": "Idle air control (lAC) valve &#8211; coil 1 &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1516",
+    "Description": "Idle air control {lAC) valve &#8211; coil 2 &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1520",
+    "Description": "Alternator &#8211; FR terminal malfunction"
+  },
+  {
+    "Code": "P1521",
+    "Description": "ower steering pressure (PSP) switch &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1523",
+    "Description": "Intake manifold air control solenoid"
+  },
+  {
+    "Code": "P1529",
+    "Description": "Transmission control module (TCM) &#8211; communication"
+  },
+  {
+    "Code": "P1550",
+    "Description": "Knock sensor (KS) &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1552",
+    "Description": "Idle air control (lAC) valve &#8211; closing coil circuit &#8211; short circuit"
+  },
+  {
+    "Code": "P1553",
+    "Description": "Idle air control (lAC) valve &#8211; closing coil circuit &#8211; open circuit"
+  },
+  {
+    "Code": "P1560",
+    "Description": "Knock sensor (KS) &#8211; signal malfunction"
+  },
+  {
+    "Code": "P1586",
+    "Description": "AT coding &#8211; signal not plausible"
+  },
+  {
+    "Code": "P1602",
+    "Description": "Transmission control module (TCM) &#8211; serial communication problem"
+  },
+  {
+    "Code": "P1605",
+    "Description": "G-force sensor &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1606",
+    "Description": "G-force sensor &#8211; signal not plausible"
+  },
+  {
+    "Code": "P1607",
+    "Description": "Engine control module (ECM)/electronic throttle system (ETS) &#8211; communication malfunction"
+  },
+  {
+    "Code": "P1608",
+    "Description": "Electronic throttle system (ETS)/engine control module (ECM) &#8211; communication malfunction"
+  },
+  {
+    "Code": "P1609",
+    "Description": "Immobilizer control module &#8211; malfunction"
+  },
+  {
+    "Code": "P1611",
+    "Description": "MIL request signal &#8211; circuiVvoltage low"
+  },
+  {
+    "Code": "P1613-D",
+    "Description": "MIL request signal &#8211; circuiVvoltage high"
+  },
+  {
+    "Code": "P1613-9",
+    "Description": "Electronic throttle system (ETS), controller- malfunction"
+  },
+  {
+    "Code": "P1614-B",
+    "Description": "MIL request signal &#8211; circuiVvoltage high"
+  },
+  {
+    "Code": "P1614-9",
+    "Description": "Electronic throttle system (ETS), EEPROM RJW &#8211; malfunction"
+  },
+  {
+    "Code": "P1615",
+    "Description": "Electronic throttle system (ETS), controller- malfunction"
+  },
+  {
+    "Code": "P1616",
+    "Description": "Engine control relay &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1618",
+    "Description": "Engine torque control – limit reached/exceeded"
+  },
+  {
+    "Code": "P1623",
+    "Description": "Malfunction indicator lamp (MIL) &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1624",
+    "Description": "Engine coolant blower motor relay -low speed circuit malfunction"
+  },
+  {
+    "Code": "P1624",
+    "Description": "Transmission control module (TCM) &#8211; system malfunction"
+  },
+  {
+    "Code": "P1625",
+    "Description": "Engine coolant blower motor relay &#8211; high speed circuit malfunction"
+  },
+  {
+    "Code": "P1632",
+    "Description": "CAN data bus OFF"
+  },
+  {
+    "Code": "P1632",
+    "Description": "Traction control system &#8211; malfunction"
+  },
+  {
+    "Code": "P1642",
+    "Description": "Engine control module (ECM) &#8211; non immobilizer/incorrect type"
+  },
+  {
+    "Code": "P1665",
+    "Description": "Ignition power stage A &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1670",
+    "Description": "Ignition power stage B &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1690",
+    "Description": "Immobilizer system &#8211; malfunction"
+  },
+  {
+    "Code": "P1691",
+    "Description": "Immobilizer system &#8211; antenna malfunction"
+  },
+  {
+    "Code": "P1693-0",
+    "Description": "Transmission control module (TCM) MIL &nbsp; request circuit &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1693-fJ",
+    "Description": "Immobilizer system &#8211; transponder malfunction"
+  },
+  {
+    "Code": "P1694",
+    "Description": "Immobilizer system &#8211; ECM signal malfunction"
+  },
+  {
+    "Code": "P1695",
+    "Description": "Immobilizer system &#8211; ECM EPROM &nbsp; malfunction"
+  },
+  {
+    "Code": "P1696",
+    "Description": "Immobilizer system &#8211; ECM EPROM &nbsp; malfunction"
+  },
+  {
+    "Code": "P1707",
+    "Description": "Cruise control, brake pedal position (BPP) &nbsp; switch &#8211; circuit malfunction"
+  },
+  {
+    "Code": "P1715",
+    "Description": "AT pulse generators &#8211; open circuit"
+  },
+  {
+    "Code": "P1750",
+    "Description": "AT &#8211; shift control solenoids"
+  },
+  {
+    "Code": "P1765",
+    "Description": "Transmission control module (TCM) &#8211; torque reduction malfunction"
+  }
+]

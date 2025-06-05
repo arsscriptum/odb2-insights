@@ -1,0 +1,182 @@
+[
+  {
+    "Code": "P1115",
+    "Description": "Engine Coolant Temperature Signal from ECM to TCM."
+  },
+  {
+    "Code": "P1121",
+    "Description": "Throttle Position Sensor Signal Malfunction from ECM to TCM."
+  },
+  {
+    "Code": "P1170",
+    "Description": "Front Heated Oxygen Sensor Stuck."
+  },
+  {
+    "Code": "P1195",
+    "Description": "EGR Pressure Sensor (1.6L) or Boost Sensor (1.8L) Open or Short."
+  },
+  {
+    "Code": "P1196",
+    "Description": "Ignition Switch \"Start\" Open or Short (1.6L)."
+  },
+  {
+    "Code": "P1250",
+    "Description": "ressure Regulator Control Solenoid Valve Open or Short."
+  },
+  {
+    "Code": "P1252",
+    "Description": "ressure Regulator Control Solenoid Valve No. 2 Circuit Malfunction."
+  },
+  {
+    "Code": "P1307",
+    "Description": "Chassis Acceleration Sensor Signal Malfunction."
+  },
+  {
+    "Code": "P1308",
+    "Description": "Chassis Acceleration Sensor Signal Low."
+  },
+  {
+    "Code": "P1309",
+    "Description": "Chassis Acceleration Sensor Signal High."
+  },
+  {
+    "Code": "P1345",
+    "Description": "No SGC Signal (1.6L)."
+  },
+  {
+    "Code": "P1386",
+    "Description": "Knock Sensor Control Zero Test."
+  },
+  {
+    "Code": "P1402",
+    "Description": "EGR Valve Position Sensor Open or Short."
+  },
+  {
+    "Code": "P1449",
+    "Description": "Canister Drain Cut Valve Open or Short (1.8L)."
+  },
+  {
+    "Code": "P1450",
+    "Description": "Excessive Vacuum Leak."
+  },
+  {
+    "Code": "P1455",
+    "Description": "Fuel Tank Sending Unit Open or Short (1.8L)."
+  },
+  {
+    "Code": "P1457",
+    "Description": "urge Solenoid Valve Low System Malfunction."
+  },
+  {
+    "Code": "P1458",
+    "Description": "A/C Compressor Control Signal Malfunction."
+  },
+  {
+    "Code": "P1485",
+    "Description": "EGR Solenoid Valve Vacuum Open or Short."
+  },
+  {
+    "Code": "P1486",
+    "Description": "EGR Solenoid Valve Vent Open or Short."
+  },
+  {
+    "Code": "P1487",
+    "Description": "EGR Boost Sensor Solenoid Valve Open or Short."
+  },
+  {
+    "Code": "P1496",
+    "Description": "EGR Stepper Motor Malfunction - Circuit 1 (1.8L)."
+  },
+  {
+    "Code": "P1497",
+    "Description": "EGR Stepper Motor Malfunction - Circuit 2 (1.8L)."
+  },
+  {
+    "Code": "P1498",
+    "Description": "EGR Stepper Motor Malfunction - Circuit 3 (1.8L)."
+  },
+  {
+    "Code": "P1499",
+    "Description": "EGR Stepper Motor Malfunction - Circuit 4 (1.8L)."
+  },
+  {
+    "Code": "P1500",
+    "Description": "No Vehicle Speed Signal to TCM."
+  },
+  {
+    "Code": "P1505",
+    "Description": "Idle Air Control Valve Opening Coil Voltage Low."
+  },
+  {
+    "Code": "P1506",
+    "Description": "Idle Air Control Valve Opening Coil Voltage High."
+  },
+  {
+    "Code": "P1507",
+    "Description": "Idle Air Control Valve Closing Coil Voltage Low."
+  },
+  {
+    "Code": "P1508",
+    "Description": "Idle Air Control Valve Closing Coil Voltage High."
+  },
+  {
+    "Code": "P1523",
+    "Description": "VICS Solenoid Valve."
+  },
+  {
+    "Code": "P1586",
+    "Description": "A/T-M/T Codification."
+  },
+  {
+    "Code": "P1608",
+    "Description": "CM Malfunction."
+  },
+  {
+    "Code": "P1611",
+    "Description": "MIL Request Circuit Voltage Low."
+  },
+  {
+    "Code": "P1614",
+    "Description": "MIL Request Circuit Voltage High."
+  },
+  {
+    "Code": "P1624",
+    "Description": "MIL Request Signal from TCM to ECM."
+  },
+  {
+    "Code": "P1631",
+    "Description": "Alternator \"T\" Open or No Power Output (1.8L)."
+  },
+  {
+    "Code": "P1632",
+    "Description": "Battery Voltage Detection Circuit for Alternator Regulator (1.8L)."
+  },
+  {
+    "Code": "P1633",
+    "Description": "Battery Overcharge."
+  },
+  {
+    "Code": "P1634",
+    "Description": "Alternator \"B\" Open (1.8L)."
+  },
+  {
+    "Code": "P1693",
+    "Description": "MIL Circuit Malfunction."
+  },
+  {
+    "Code": "P1743",
+    "Description": "Torque Converter Clutch Solenoid Valve Open or Short."
+  },
+  {
+    "Code": "P1794",
+    "Description": "Battery or Circuit Failure."
+  },
+  {
+    "Code": "P1795",
+    "Description": "4WD Switch Signal Malfunction."
+  },
+  {
+    "Code": "P1797",
+    "Description": " or N Range Signal or Clutch Pedal Position Switch Open or Short."
+  }
+]

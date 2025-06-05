@@ -1,0 +1,626 @@
+[
+  {
+    "Code": "P1001",
+    "Description": " \n    P1001\n    KOER Test Cannot Be Completed\n  "
+  },
+  {
+    "Code": "P1039",
+    "Description": " \n    P1039\n    Vehicle Speed Signal Missing or Improper\n  "
+  },
+  {
+    "Code": "P1051",
+    "Description": " \n    P1051\n    Brake Switch Signal Missing or Improper\n  "
+  },
+  {
+    "Code": "P1100",
+    "Description": " \n    P1100\n    Mass Air Flow Sensor Intermittent\n  "
+  },
+  {
+    "Code": "P1101",
+    "Description": " \n    P1101\n    Mass Air Flow Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1112",
+    "Description": " \n    P1112\n    Intake Air Temperature Sensor Intermittent\n  "
+  },
+  {
+    "Code": "P1116",
+    "Description": " \n    P1116\n    Engine Coolant Temperature Sensor is out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1117",
+    "Description": " \n    P1117\n    Engine Coolant Temperature Sensor Intermittent\n  "
+  },
+  {
+    "Code": "P1120",
+    "Description": " \n    P1120\n    Throttle Position Sensor out of range\n  "
+  },
+  {
+    "Code": "P1121",
+    "Description": " \n    P1121\n    Throttle Position Sensor Inconsistent with Mass Air Flow Sensor\n  "
+  },
+  {
+    "Code": "P1124",
+    "Description": " \n    P1124\n    Throttle Position Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1125",
+    "Description": " \n    P1125\n    Throttle Position Sensor Intermittent\n  "
+  },
+  {
+    "Code": "P1127",
+    "Description": " \n    P1127\n    Heated Oxygen Sensor Heater not on During KOER Test\n  "
+  },
+  {
+    "Code": "P1128",
+    "Description": " \n    P1128\n    Heated Oxygen Sensor Signals reversed\n  "
+  },
+  {
+    "Code": "P1129",
+    "Description": " \n    P1129\n    Heated Oxygen Sensor Signals reversed\n  "
+  },
+  {
+    "Code": "P1130",
+    "Description": " \n    P1130\n    Lack of Upstream Heated Oxygen Sensor Switch - Adaptive Fuel \n      Limit - Bank No. 1\n  "
+  },
+  {
+    "Code": "P1131",
+    "Description": " \n    P1131\n    Lack of Upstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Lean - Bank No. 1\n  "
+  },
+  {
+    "Code": "P1132",
+    "Description": " \n    P1132\n    Lack of Upstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Rich - Bank No. 1\n  "
+  },
+  {
+    "Code": "P1135",
+    "Description": " \n    P1135\n    Ignition Switch Signal Missing or Improper\n  "
+  },
+  {
+    "Code": "P1137",
+    "Description": " \n    P1137\n    Lack of Downstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Lean - Bank No. 1\n  "
+  },
+  {
+    "Code": "P1138",
+    "Description": " \n    P1138\n    Lack of Downstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Rich - Bank No. 1\n  "
+  },
+  {
+    "Code": "P1150",
+    "Description": " \n    P1150\n    Lack of Upstream Heated Oxygen Sensor Switch - Adaptive Fuel \n      Limit - Bank No. 2\n  "
+  },
+  {
+    "Code": "P1151",
+    "Description": " \n    P1151\n    Lack of Upstream Heated Oxygen Sensor \n      Switch - Sensor Indicates Lean - Bank No. 2\n  "
+  },
+  {
+    "Code": "P1152",
+    "Description": " \n    P1152\n    Lack of Upstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Rich - Bank No. 2\n  "
+  },
+  {
+    "Code": "P1157",
+    "Description": " \n    P1157\n    Lack of Downstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Lean - Bank No. 2\n  "
+  },
+  {
+    "Code": "P1158",
+    "Description": " \n    P1158\n    Lack of Downstream Heated Oxygen Sensor Switch - Sensor Indicates \n      Rich - Bank No. 2\n  "
+  },
+  {
+    "Code": "P1220",
+    "Description": " \n    P1220\n    Series Throttle Control fault\n  "
+  },
+  {
+    "Code": "P1224",
+    "Description": " \n    P1224\n    Throttle Position Sensor B out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1230",
+    "Description": " \n    P1230\n    Open Power to Fuel Pump circuit\n  "
+  },
+  {
+    "Code": "P1231",
+    "Description": " \n    P1231\n    High Speed Fuel Pump Relay activated\n  "
+  },
+  {
+    "Code": "P1232",
+    "Description": " \n    P1232\n    Low Speed Fuel Pump Primary circuit failure\n  "
+  },
+  {
+    "Code": "P1233",
+    "Description": " \n    P1233\n    Fuel Pump Driver Module off-line\n  "
+  },
+  {
+    "Code": "P1234",
+    "Description": " \n    P1234\n    Fuel Pump Driver Module off-line\n  "
+  },
+  {
+    "Code": "P1235",
+    "Description": " \n    P1235\n    Fuel Pump Control out of range\n  "
+  },
+  {
+    "Code": "P1236",
+    "Description": " \n    P1236\n    Fuel Pump Control out of range\n  "
+  },
+  {
+    "Code": "P1237",
+    "Description": " \n    P1237\n    Fuel Pump Secondary circuit fault\n  "
+  },
+  {
+    "Code": "P1238",
+    "Description": " \n    P1238\n    Fuel Pump Secondary circuit fault\n  "
+  },
+  {
+    "Code": "P1250",
+    "Description": " \n    P1250\n    Lack of Power to FPRC Solenoid\n  "
+  },
+  {
+    "Code": "P1260",
+    "Description": " \n    P1260\n    Theft Detected - Engine Disabled\n  "
+  },
+  {
+    "Code": "P1270",
+    "Description": " \n    P1270\n    Engine RPM or Vehicle Speed Limiter Reached\n  "
+  },
+  {
+    "Code": "P1288",
+    "Description": " \n    P1288\n    Cylinder Head Temperature Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1289",
+    "Description": " \n    P1289\n    Cylinder Head Temperature Sensor Signal Greater Than Self-Test \n      Range\n  "
+  },
+  {
+    "Code": "P1290",
+    "Description": " \n    P1290\n    Cylinder Head Temperature Sensor Signal Less Than Self-Test \n      Range\n  "
+  },
+  {
+    "Code": "P1299",
+    "Description": " \n    P1299\n    Cylinder Head Temperature Sensor Detected Engine Overheating \n      Condition\n  "
+  },
+  {
+    "Code": "P1309",
+    "Description": " \n    P1309\n    Misfire Detection Monitor not enabled\n  "
+  },
+  {
+    "Code": "P1351",
+    "Description": " \n    P1351\n    Ignition Diagnostic Monitor circuit Input fault\n  "
+  },
+  {
+    "Code": "P1352",
+    "Description": " \n    P1352\n    Ignition Coil A - Primary circuit fault\n  "
+  },
+  {
+    "Code": "P1353",
+    "Description": " \n    P1353\n    Ignition Coil B - Primary circuit fault\n  "
+  },
+  {
+    "Code": "P1354",
+    "Description": " \n    P1354\n    Ignition Coil C - Primary circuit fault\n  "
+  },
+  {
+    "Code": "P1355",
+    "Description": " \n    P1355\n    Ignition Coil D - Primary circuit fault\n  "
+  },
+  {
+    "Code": "P1356",
+    "Description": " \n    P1356\n    Loss of Ignition Diagnostic Module Input to PCM\n  "
+  },
+  {
+    "Code": "P1358",
+    "Description": " \n    P1358\n    Ignition Diagnostic Monitor Signal out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1359",
+    "Description": " \n    P1359\n    Spark Output circuit fault\n  "
+  },
+  {
+    "Code": "P1364",
+    "Description": " \n    P1364\n    Ignition Coil Primary circuit fault\n  "
+  },
+  {
+    "Code": "P1380",
+    "Description": " \n    P1380\n    VCT Solenoid Valve circuit Short or Open\n  "
+  },
+  {
+    "Code": "P1381",
+    "Description": " \n    P1381\n    Cam Timing Advance is excessive\n  "
+  },
+  {
+    "Code": "P1383",
+    "Description": " \n    P1383\n    Cam Timing Advance is excessive\n  "
+  },
+  {
+    "Code": "P1390",
+    "Description": " \n    P1390\n    Octane Adjust out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1400",
+    "Description": " \n    P1400\n    Differential Pressure Feedback Electronic Sensor circuit Low \n      Voltage\n  "
+  },
+  {
+    "Code": "P1401",
+    "Description": " \n    P1401\n    Differential Pressure Feedback Electronic Sensor circuit High \n      Voltage\n  "
+  },
+  {
+    "Code": "P1403",
+    "Description": " \n    P1403\n    Differential Pressure Feedback Electronic Sensor Hoses Reversed\n  "
+  },
+  {
+    "Code": "P1405",
+    "Description": " \n    P1405\n    Differential Pressure Feedback Electronic Sensor circuit Upstream \n      Hose\n  "
+  },
+  {
+    "Code": "P1406",
+    "Description": " \n    P1406\n    Differential Pressure Feedback Electronic Sensor circuit Downstream \n      Hose\n  "
+  },
+  {
+    "Code": "P1407",
+    "Description": " \n    P1407\n    EGR No Flow Detected\n  "
+  },
+  {
+    "Code": "P1408",
+    "Description": " \n    P1408\n    EGR Flow out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1409?",
+    "Description": " \n    P1409?\n    EGR Vacuum Regulator circuit malfunction\n  "
+  },
+  {
+    "Code": "P1409?",
+    "Description": " \n    P1409?\n    Electronic Vacuum Regulator Control circuit fault\n  "
+  },
+  {
+    "Code": "P1410",
+    "Description": " \n    P1410\n    EGR Barometric Pressure Sensor VREF Voltage\n  "
+  },
+  {
+    "Code": "P1411",
+    "Description": " \n    P1411\n    Secondary Air is not being diverted\n  "
+  },
+  {
+    "Code": "P1413",
+    "Description": " \n    P1413\n    Secondary Air Injection System Monitor circuit Low Voltage\n  "
+  },
+  {
+    "Code": "P1414",
+    "Description": " \n    P1414\n    Secondary Air Injection System Monitor circuit High Voltage\n  "
+  },
+  {
+    "Code": "P1442",
+    "Description": " \n    P1442\n    Secondary Air Injection System Monitor circuit High Voltage\n  "
+  },
+  {
+    "Code": "P1443",
+    "Description": " \n    P1443\n    Evaporative Emission Control System - Vacuum System - Purge \n      Control Solenoid or Purge Control Valve fault\n  "
+  },
+  {
+    "Code": "P1444",
+    "Description": " \n    P1444\n    Purge Flow Sensor circuit Input Low\n  "
+  },
+  {
+    "Code": "P1445",
+    "Description": " \n    P1445\n    Purge Flow Sensor circuit Input High\n  "
+  },
+  {
+    "Code": "P1450",
+    "Description": " \n    P1450\n    Inability of Evaporative Emission Control System to Bleed \n      Fuel Tank\n  "
+  },
+  {
+    "Code": "P1451",
+    "Description": " \n    P1451\n    EVAP Control System Canister Vent Solenoid \n      Circuit Malfunction\n  "
+  },
+  {
+    "Code": "P1452",
+    "Description": " \n    P1452\n    Inability of Evaporative Emission Control System to Bleed \n      Fuel Tank\n  "
+  },
+  {
+    "Code": "P1455",
+    "Description": " \n    P1455\n    Substantial Leak or Blockage in Evaporative Emission Control \n      System\n  "
+  },
+  {
+    "Code": "P1460",
+    "Description": " \n    P1460\n    Wide Open Throttle Air Conditioning Cutoff circuit malfunction\n  "
+  },
+  {
+    "Code": "P1461",
+    "Description": " \n    P1461\n    Air Conditioning Pressure Sensor circuit Low Input\n  "
+  },
+  {
+    "Code": "P1462",
+    "Description": " \n    P1462\n    Air Conditioning Pressure Sensor circuit high Input\n  "
+  },
+  {
+    "Code": "P1463",
+    "Description": " \n    P1463\n    Air Conditioning Pressure Sensor Insufficient Pressure change\n  "
+  },
+  {
+    "Code": "P1464",
+    "Description": " \n    P1464\n    ACCS to PCM High During Self-Test\n  "
+  },
+  {
+    "Code": "P1469",
+    "Description": " \n    P1469\n    Low Air Conditioning Cycling Period\n  "
+  },
+  {
+    "Code": "P1473",
+    "Description": " \n    P1473\n    Fan Secondary High with Fans Off\n  "
+  },
+  {
+    "Code": "P1474",
+    "Description": " \n    P1474\n    Low Fan Control Primary circuit\n  "
+  },
+  {
+    "Code": "P1479",
+    "Description": " \n    P1479\n    High Fan Control Primary circuit\n  "
+  },
+  {
+    "Code": "P1480",
+    "Description": " \n    P1480\n    Fan Secondary Low with Low Fans On\n  "
+  },
+  {
+    "Code": "P1481",
+    "Description": " \n    P1481\n    Fan Secondary Low with High Fans On\n  "
+  },
+  {
+    "Code": "P1483",
+    "Description": " \n    P1483\n    Power to Cooling Fan Exceeded Normal Draw\n  "
+  },
+  {
+    "Code": "P1484",
+    "Description": " \n    P1484\n    Variable Load Control Module Pin 1 Open\n  "
+  },
+  {
+    "Code": "P1500",
+    "Description": " \n    P1500\n    Vehicle Speed Sensor Intermittent\n  "
+  },
+  {
+    "Code": "P1501",
+    "Description": " \n    P1501\n    Programmable Speedometer &amp; Odometer Module/Vehicle Speed \n      Sensor Intermittent circuit-failure\n  "
+  },
+  {
+    "Code": "P1502",
+    "Description": " \n    P1502\n    Invalid or Missing Vehicle Speed Message or Brake Data\n  "
+  },
+  {
+    "Code": "P1504",
+    "Description": " \n    P1504\n    Intake Air Control circuit malfunction\n  "
+  },
+  {
+    "Code": "P1505",
+    "Description": " \n    P1505\n    Idle Air Control System at Adaptive Clip\n  "
+  },
+  {
+    "Code": "P1506",
+    "Description": " \n    P1506\n    Idle Air Control Over Speed Error\n  "
+  },
+  {
+    "Code": "P1507",
+    "Description": " \n    P1507\n    Idle Air Control Under Speed Error\n  "
+  },
+  {
+    "Code": "P1512",
+    "Description": " \n    P1512\n    Intake Manifold Runner Control Stuck Closed\n  "
+  },
+  {
+    "Code": "P1513",
+    "Description": " \n    P1513\n    Intake Manifold Runner Control Stuck Closed\n  "
+  },
+  {
+    "Code": "P1516",
+    "Description": " \n    P1516\n    Intake Manifold Runner Control Input Error\n  "
+  },
+  {
+    "Code": "P1517",
+    "Description": " \n    P1517\n    Intake Manifold Runner Control Input Error\n  "
+  },
+  {
+    "Code": "P1518",
+    "Description": " \n    P1518\n    Intake Manifold Runner Control fault - Stuck Open\n  "
+  },
+  {
+    "Code": "P1519?",
+    "Description": " \n    P1519?\n    Intake Manifold Runner Control Stuck Open\n  "
+  },
+  {
+    "Code": "P1520?",
+    "Description": " \n    P1520?\n    Intake Manifold Runner Control circuit fault\n  "
+  },
+  {
+    "Code": "P1519?",
+    "Description": " \n    P1519?\n    Intake Manifold Runner Control fault - Stuck Closed\n  "
+  },
+  {
+    "Code": "P1520?",
+    "Description": " \n    P1520?\n    Intake Manifold Runner Control fault\n  "
+  },
+  {
+    "Code": "P1530",
+    "Description": " \n    P1530\n    Open or Short to A/C Compressor Clutch circuit\n  "
+  },
+  {
+    "Code": "P1537",
+    "Description": " \n    P1537\n    Intake Manifold Runner Control Stuck Open\n  "
+  },
+  {
+    "Code": "P1538",
+    "Description": " \n    P1538\n    Intake Manifold Runner Control Stuck Open\n  "
+  },
+  {
+    "Code": "P1539",
+    "Description": " \n    P1539\n    Power to A/C Compressor Clutch circuit Exceeded Normal Current \n      Draw\n  "
+  },
+  {
+    "Code": "P1549",
+    "Description": " \n    P1549\n    Intake Manifold Temperature Valve Vacuum Actuator Connection\n  "
+  },
+  {
+    "Code": "P1550",
+    "Description": " \n    P1550\n    Power Steering Pressure Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1605",
+    "Description": " \n    P1605\n    PCM Keep Alive Memory Test Error\n  "
+  },
+  {
+    "Code": "P1625",
+    "Description": " \n    P1625\n    Voltage to Vehicle Load Control Module Fan circuit not detected\n  "
+  },
+  {
+    "Code": "P1626",
+    "Description": " \n    P1626\n    Voltage to Vehicle Load Control Module circuit not detected\n  "
+  },
+  {
+    "Code": "P1650",
+    "Description": " \n    P1650\n    Power Steering Pressure Switch out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1651",
+    "Description": " \n    P1651\n    Power Steering Pressure Switch Input fault\n  "
+  },
+  {
+    "Code": "P1700",
+    "Description": " \n    P1700\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1701",
+    "Description": " \n    P1701\n    Reverse Engagement Error\n  "
+  },
+  {
+    "Code": "P1702",
+    "Description": " \n    P1702\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1703",
+    "Description": " \n    P1703\n    Brake On/Off Switch out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1704",
+    "Description": " \n    P1704\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1705",
+    "Description": " \n    P1705\n    Manual Lever Position Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1709",
+    "Description": " \n    P1709\n    Park or Neutral Position Switch out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1710",
+    "Description": " \n    P1710\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1711",
+    "Description": " \n    P1711\n    Transmission Fluid Temperature Sensor out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1713\n      thru\n      P172",
+    "Description": "Transmission system problems\n  "
+  },
+  {
+    "Code": "P1729",
+    "Description": " \n    P1729\n    4x4 Low Switch Error\n  "
+  },
+  {
+    "Code": "P1740",
+    "Description": " \n    P1740\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1741",
+    "Description": " \n    P1741\n    Torque Converter Clutch Control Error\n  "
+  },
+  {
+    "Code": "P1742",
+    "Description": " \n    P1742\n    Torque Converter Clutch Solenoid Faulty\n  "
+  },
+  {
+    "Code": "P1743",
+    "Description": " \n    P1743\n    Torque Converter Clutch Solenoid Faulty\n  "
+  },
+  {
+    "Code": "P1744",
+    "Description": " \n    P1744\n    Torque Converter Clutch System Stuck in Off Position\n  "
+  },
+  {
+    "Code": "P1745",
+    "Description": " \n    P1745\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1746",
+    "Description": " \n    P1746\n    Electronic Pressure Control Solenoid - Open circuit\n  "
+  },
+  {
+    "Code": "P1747",
+    "Description": " \n    P1747\n    Electronic Pressure Control Solenoid - Short circuit\n  "
+  },
+  {
+    "Code": "P1749",
+    "Description": " \n    P1749\n    Electronic Pressure Control Solenoid Failed Low\n  "
+  },
+  {
+    "Code": "P1751",
+    "Description": " \n    P1751\n    Shift Solenoid No. 1 Performance\n  "
+  },
+  {
+    "Code": "P1754",
+    "Description": " \n    P1754\n    Coast Clutch Solenoid circuit malfunction\n  "
+  },
+  {
+    "Code": "P1756",
+    "Description": " \n    P1756\n    Shift Solenoid No. 2 Performance\n  "
+  },
+  {
+    "Code": "P1760",
+    "Description": " \n    P1760\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1761",
+    "Description": " \n    P1761\n    Shift Solenoid No. 3 Performance\n  "
+  },
+  {
+    "Code": "P1762",
+    "Description": " \n    P1762\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1767",
+    "Description": " \n    P1767\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1780",
+    "Description": " \n    P1780\n    Transmission Control Switch circuit is out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1781",
+    "Description": " \n    P1781\n    4x4 Low Switch is out of Self-Test Range\n  "
+  },
+  {
+    "Code": "P1783",
+    "Description": " \n    P1783\n    Transmission Over-Temperature Condition\n  "
+  },
+  {
+    "Code": "P1784",
+    "Description": " \n    P1784\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1785",
+    "Description": " \n    P1785\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1786",
+    "Description": " \n    P1786\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1787",
+    "Description": " \n    P1787\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1788",
+    "Description": " \n    P1788\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1789",
+    "Description": " \n    P1789\n    Transmission system problems\n  "
+  },
+  {
+    "Code": "P1900",
+    "Description": " \n    P1900\n    Transmission system problems\n"
+  }
+]

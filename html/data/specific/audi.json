@@ -1,0 +1,2158 @@
+[
+  {
+    "Code": "P1101",
+    "Description": "O2 Sensor Circ.,Bank1-Sensor1Voltage too Low/Air Leak"
+  },
+  {
+    "Code": "P1102",
+    "Description": "O2 Sensor Heating Circ.,Bank1-Sensor1 Short to B+"
+  },
+  {
+    "Code": "P1103",
+    "Description": "O2 Sensor Heating Circ.,Bank1-Sensor1 Output too Low"
+  },
+  {
+    "Code": "P1104",
+    "Description": "Bank1-Sensor2 Voltage too Low/Air Leak"
+  },
+  {
+    "Code": "P1105",
+    "Description": "O2 Sensor Heating Circ.,Bank1-Sensor2 Short to B+"
+  },
+  {
+    "Code": "P1106",
+    "Description": "O2 Sensor Circ.,Bank2-Sensor1 Voltage too Low/Air Leak"
+  },
+  {
+    "Code": "P1107",
+    "Description": "O2 Sensor Heating Circ.,Bank2-Sensor1 Short to B+"
+  },
+  {
+    "Code": "P1108",
+    "Description": "O2 Sensor Heating Circ.,Bank2-Sensor1 Output too Low"
+  },
+  {
+    "Code": "P1109",
+    "Description": "O2 Sensor Circ.,Bank2-Sensor2 Voltage too Low/Air Leak"
+  },
+  {
+    "Code": "P1110",
+    "Description": "O2 Sensor Heating Circ.,Bank2-Sensor2 Short to B+"
+  },
+  {
+    "Code": "P1111",
+    "Description": "O2 Control (Bank 1) System too lean"
+  },
+  {
+    "Code": "P1112",
+    "Description": "O2 Control (Bank 1) System too rich"
+  },
+  {
+    "Code": "P1113",
+    "Description": "Bank1-Sensor1 Internal Resistance too High"
+  },
+  {
+    "Code": "P1114",
+    "Description": "Bank1-Sensor2 Internal Resistant too High"
+  },
+  {
+    "Code": "P1115",
+    "Description": "O2 Sensor Heater Circ.,Bank1-Sensor1 Short to Ground"
+  },
+  {
+    "Code": "P1116",
+    "Description": "O2 Sensor Heater Circ.,Bank1-Sensor1 Open"
+  },
+  {
+    "Code": "P1117",
+    "Description": "O2 Sensor Heater Circ.,Bank1-Sensor2 Short to Ground"
+  },
+  {
+    "Code": "P1118",
+    "Description": "O2 Sensor Heater Circ.,Bank1-Sensor2 Open"
+  },
+  {
+    "Code": "P1119",
+    "Description": "O2 Sensor Heater Circ.,Bank2-Sensor1 Short to Ground"
+  },
+  {
+    "Code": "P1120",
+    "Description": "O2 Sensor Heater Circ.,Bank2-Sensor1 Open"
+  },
+  {
+    "Code": "P1121",
+    "Description": "O2 Sensor Heater Circ.,Bank2-Sensor2 Short to Ground"
+  },
+  {
+    "Code": "P1122",
+    "Description": "O2 Sensor Heater Circ.,Bank2-Sensor2 Open"
+  },
+  {
+    "Code": "P1123",
+    "Description": "Long Term Fuel Trim Add.Air.,Bank1 System too Rich"
+  },
+  {
+    "Code": "P1124",
+    "Description": "Long Term Fuel Trim Add.Air.,Bank1 System too Lean"
+  },
+  {
+    "Code": "P1125",
+    "Description": "Long Term Fuel Trim \n        Add.Air.,Bank2 System too Rich"
+  },
+  {
+    "Code": "P1126",
+    "Description": "Long Term Fuel Trim \n        Add.Air.,Bank2 System too Lean"
+  },
+  {
+    "Code": "P1127",
+    "Description": "Long Term Fuel Trim \n        mult.,Bank1 System too Rich"
+  },
+  {
+    "Code": "P1128",
+    "Description": "Long Term Fuel Trim \n        mult.,Bank1 System too Lean"
+  },
+  {
+    "Code": "P1129",
+    "Description": "Long Term Fuel Trim \n        mult.,Bank2 System too Rich"
+  },
+  {
+    "Code": "P1130",
+    "Description": "Long Term Fuel Trim \n        mult.,Bank2 System too Lean"
+  },
+  {
+    "Code": "P1131",
+    "Description": "Bank2-Sensor1 Internal \n        Rsistance too High"
+  },
+  {
+    "Code": "P1132",
+    "Description": "O2 Sensor Heating \n        Circ.,Bank1+2-Sensor1 Short to B+"
+  },
+  {
+    "Code": "P1133",
+    "Description": "O2 Sensor Heating \n        Circ.,Bank1+2-Sensor1 Electrical Malfunction"
+  },
+  {
+    "Code": "P1134",
+    "Description": "O2 Sensor Heating \n        Circ.,Bank1+2-Sensor2 Short to B+"
+  },
+  {
+    "Code": "P1135",
+    "Description": "O2 Sensor Heating \n        Circ.,Bank1+2-Sensor2 Electrical Malfunction"
+  },
+  {
+    "Code": "P1136",
+    "Description": "Long Term Fuel Trim \n        Add.Fuel,Bank1 System too Lean"
+  },
+  {
+    "Code": "P1137",
+    "Description": "Long Term Fuel Trim \n        Add.Fuel,Bank1 System too Rich"
+  },
+  {
+    "Code": "P1138",
+    "Description": "Long Term Fuel Trim \n        Add.Fuel,Bank2 System too Lean"
+  },
+  {
+    "Code": "P1139",
+    "Description": "Long Term Fuel Trim \n        Add.Fuel,Bank2 System too Rich"
+  },
+  {
+    "Code": "P1140",
+    "Description": "Bank2-Sensor2 Internal \n        Resistance too High"
+  },
+  {
+    "Code": "P1141",
+    "Description": "Load Calculation \n        Cross Check Range/Performance"
+  },
+  {
+    "Code": "P1142",
+    "Description": "Load Calculation \n        Cross Check Lower Limit Exceeded"
+  },
+  {
+    "Code": "P1143",
+    "Description": "Load Calculation \n        Cross Check Upper Limit Exceeded"
+  },
+  {
+    "Code": "P1144",
+    "Description": "Mass or Volume Air \n        Flow Circ Open/Short to Ground"
+  },
+  {
+    "Code": "P1145",
+    "Description": "Mass or Volume Air \n        Flow Circ Short to B+"
+  },
+  {
+    "Code": "P1146",
+    "Description": "Mass or Volume Air \n        Flow Circ Supply Malfunction"
+  },
+  {
+    "Code": "P1147",
+    "Description": "O2 Control (Bank \n        2) System too lean"
+  },
+  {
+    "Code": "P1148",
+    "Description": "O2 Control (Bank \n        2) System too rich"
+  },
+  {
+    "Code": "P1149",
+    "Description": "O2 Control (Bank \n        1) Out of range"
+  },
+  {
+    "Code": "P1150",
+    "Description": "O2 Control (Bank \n        2) Out of range"
+  },
+  {
+    "Code": "P1151",
+    "Description": "Bank1, Long Term \n        Fuel Trim, Range 1 Leanness Lower Limit Exceeded"
+  },
+  {
+    "Code": "P1152",
+    "Description": "Bank1, Long Term \n        Fuel Trim, Range 2 Leanness Lower Limit Exceeded"
+  },
+  {
+    "Code": "P1154",
+    "Description": "Manifold Switch Over \n        Malfunction"
+  },
+  {
+    "Code": "P1155",
+    "Description": "Manifold Abs.Pressure \n        Sensor Circ. Short to B+"
+  },
+  {
+    "Code": "P1156",
+    "Description": "Manifold Abs.Pressure \n        Sensor Circ. Open/Short to Ground"
+  },
+  {
+    "Code": "P1157",
+    "Description": "Manifold Abs.Pressure \n        Sensor Circ. Power Supply Malfunction"
+  },
+  {
+    "Code": "P1158",
+    "Description": "Manifold Abs.Pressure \n        Sensor Circ. Range/Performance"
+  },
+  {
+    "Code": "P1160",
+    "Description": "Manifold Temp.Sensor \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1161",
+    "Description": "Manifold Temp.Sensor \n        Circ. Open/Short to B+"
+  },
+  {
+    "Code": "P1162",
+    "Description": "Fuel Temp.Sensor \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1163",
+    "Description": "Fuel Temp.Sensor \n        Circ. Open/Short to B+"
+  },
+  {
+    "Code": "P1164",
+    "Description": "Fuel Temperature \n        Sensor Range/Performance/Incorrect Signal"
+  },
+  {
+    "Code": "P1165",
+    "Description": "Bank1, Long Term \n        Fuel Trim, Range 1 Rich Limit Exceeded"
+  },
+  {
+    "Code": "P1166",
+    "Description": "Bank1, Long Term \n        Fuel Trim, Range 2 Rich Limit Exceeded"
+  },
+  {
+    "Code": "P1171",
+    "Description": "Throttle Actuation \n        Potentiometer Sign.2 Range/Performance"
+  },
+  {
+    "Code": "P1172",
+    "Description": "Throttle Actuation \n        Potentiometer Sign.2 Signal too Low"
+  },
+  {
+    "Code": "P1173",
+    "Description": "Throttle Actuation \n        Potentiometer Sign.2 Signal too High"
+  },
+  {
+    "Code": "P1174",
+    "Description": "Fuel Trim, Bank 1 \n        Different injection times"
+  },
+  {
+    "Code": "P1176",
+    "Description": "O2 Correction Behind \n        Catalyst,B1 Limit Attained"
+  },
+  {
+    "Code": "P1177",
+    "Description": "O2 Correction Behind \n        Catalyst,B2 Limit Attained"
+  },
+  {
+    "Code": "P1178",
+    "Description": "Linear 02 Sensor \n        / Pump Current Open Circuit"
+  },
+  {
+    "Code": "P1179",
+    "Description": "Linear 02 Sensor \n        / Pump Current Short to ground"
+  },
+  {
+    "Code": "P1180",
+    "Description": "Linear 02 Sensor \n        / Pump Current Short to B+"
+  },
+  {
+    "Code": "P1181",
+    "Description": "Linear 02 Sensor \n        / Reference Voltage Open Circuit"
+  },
+  {
+    "Code": "P1182",
+    "Description": "Linear 02 Sensor \n        / Reference Voltage Short to ground"
+  },
+  {
+    "Code": "P1183",
+    "Description": "Linear 02 Sensor \n        / Reference Voltage Short to B+"
+  },
+  {
+    "Code": "P1184",
+    "Description": "Linear 02 Sensor \n        / Common Ground Wire Open Circuit"
+  },
+  {
+    "Code": "P1185",
+    "Description": "Linear 02 Sensor \n        / Common Ground Wire Short to ground"
+  },
+  {
+    "Code": "P1186",
+    "Description": "Linear 02 Sensor \n        / Common Ground Wire Short to B+"
+  },
+  {
+    "Code": "P1187",
+    "Description": "Linear 02 Sensor \n        / Compens. Resistor Open Circuit"
+  },
+  {
+    "Code": "P1188",
+    "Description": "Linear 02 Sensor \n        / Compens. Resistor Short to ground"
+  },
+  {
+    "Code": "P1189",
+    "Description": "Linear 02 Sensor \n        / Compens. Resistor Short to B+"
+  },
+  {
+    "Code": "P1190",
+    "Description": "Linear 02 Sensor \n        / Reference Voltage Incorrect Signal"
+  },
+  {
+    "Code": "P1196",
+    "Description": "O2 Sensor Heater \n        Circ.,Bank1-Sensor1 Electrical Malfunction"
+  },
+  {
+    "Code": "P1197",
+    "Description": "O2 Sensor Heater \n        Circ.,Bank2-Sensor1 Electrical Malfunction"
+  },
+  {
+    "Code": "P1198",
+    "Description": "O2 Sensor Heater \n        Circ.,Bank1-Sensor2 Electrical Malfunction"
+  },
+  {
+    "Code": "P1199",
+    "Description": "O2 Sensor Heater \n        Circ.,Bank2-Sensor2 Electrical Malfunction"
+  },
+  {
+    "Code": "P1201",
+    "Description": "Cyl.1-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1202",
+    "Description": "Cyl.2-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1203",
+    "Description": "Cyl.3-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1204",
+    "Description": "Cyl.4-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1205",
+    "Description": "Cyl.5-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1206",
+    "Description": "Cyl.6-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1207",
+    "Description": "Cyl.7-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1208",
+    "Description": "Cyl.8-Fuel Inj.Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1209",
+    "Description": "Intake valves for \n        cylinder shut-off Short circuit to ground"
+  },
+  {
+    "Code": "P1210",
+    "Description": "Intake valves for \n        cylinder shut-off Short to B+"
+  },
+  {
+    "Code": "P1211",
+    "Description": "Intake valves for \n        cylinder shut-off Open circuit "
+  },
+  {
+    "Code": "P1213",
+    "Description": "Cyl.1-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1214",
+    "Description": "Cyl.2-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1215",
+    "Description": "Cyl.3-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1216",
+    "Description": "Cyl.4-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1217",
+    "Description": "Cyl.5-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1218",
+    "Description": "Cyl.6-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1219",
+    "Description": "Cyl.7-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1220",
+    "Description": "Cyl.8-Fuel Inj.Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1221",
+    "Description": "Cylinder shut-off \n        exhaust valves Short circuit to ground "
+  },
+  {
+    "Code": "P1222",
+    "Description": "Cylinder shut-off \n        exhaust valves Short to B+ "
+  },
+  {
+    "Code": "P1223",
+    "Description": "Cylinder shut-off \n        exhaust valves Open circuit"
+  },
+  {
+    "Code": "P1225",
+    "Description": "Cyl.1-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1226",
+    "Description": "Cyl.2-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1227",
+    "Description": "Cyl.3-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1228",
+    "Description": "Cyl.4-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1229",
+    "Description": "Cyl.5-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1230",
+    "Description": "Cyl.6-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1231",
+    "Description": "Cyl.7-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1232",
+    "Description": "Cyl.8-Fuel Inj.Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1237",
+    "Description": "Cyl.1-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1238",
+    "Description": "Cyl.2-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1239",
+    "Description": "Cyl.3-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1240",
+    "Description": "Cyl.4-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1241",
+    "Description": "Cyl.5-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1242",
+    "Description": "Cyl.6-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1243",
+    "Description": "Cyl.7-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1244",
+    "Description": "Cyl.8-Fuel Inj.Circ. \n        Open Circ."
+  },
+  {
+    "Code": "P1245",
+    "Description": "Needle Lift Sensor \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1246",
+    "Description": "Needle Lift Sensor \n        Circ. Range/Performance"
+  },
+  {
+    "Code": "P1247",
+    "Description": "Needle Lift Sensor \n        Circ. Open/Short to B+"
+  },
+  {
+    "Code": "P1248",
+    "Description": "Injection Start Control \n        Deviation"
+  },
+  {
+    "Code": "P1249",
+    "Description": "Fuel consumption \n        signal Electrical Fault in Circuit"
+  },
+  {
+    "Code": "P1250",
+    "Description": "Fuel Level Too Low"
+  },
+  {
+    "Code": "P1251",
+    "Description": "Start of Injection \n        Solenoid Circ Short to B+"
+  },
+  {
+    "Code": "P1252",
+    "Description": "Start of Injection \n        Solenoid Circ Open/Short to Ground"
+  },
+  {
+    "Code": "P1253",
+    "Description": "Fuel consumption \n        signal Short to ground"
+  },
+  {
+    "Code": "P1254",
+    "Description": "Fuel consumption \n        signal Short to B+"
+  },
+  {
+    "Code": "P1255",
+    "Description": "Engine Coolant Temp.Circ \n        Short to Ground"
+  },
+  {
+    "Code": "P1256",
+    "Description": "Engine Coolant Temp.Circ \n        Open/Short to B+"
+  },
+  {
+    "Code": "P1257",
+    "Description": "Engine Coolant System \n        Valve Open"
+  },
+  {
+    "Code": "P1258",
+    "Description": "Engine Coolant System \n        Valve Short to B+"
+  },
+  {
+    "Code": "P1259",
+    "Description": "Engine Coolant System \n        Valve Short to Ground"
+  },
+  {
+    "Code": "P1280",
+    "Description": "Fuel Inj.Air Contr.Valve \n        Circ. Flow too Low"
+  },
+  {
+    "Code": "P1283",
+    "Description": "Fuel Inj.Air Contr.Valve \n        Circ. Electrical Malfunction"
+  },
+  {
+    "Code": "P1284",
+    "Description": "Fuel Inj.Air Contr.Valve \n        Circ. Open"
+  },
+  {
+    "Code": "P1285",
+    "Description": "Fuel Inj.Air Contr.Valve \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1286",
+    "Description": "Fuel Inj.Air Contr.Valve \n        Circ. Short to B+"
+  },
+  {
+    "Code": "P1287",
+    "Description": "Turbocharger bypass \n        valve open"
+  },
+  {
+    "Code": "P1288",
+    "Description": "Turbocharger bypass \n        valve short to B+"
+  },
+  {
+    "Code": "P1289",
+    "Description": "Turbocharger bypass \n        valve short to ground"
+  },
+  {
+    "Code": "P1296",
+    "Description": "Cooling system malfunction"
+  },
+  {
+    "Code": "P1297",
+    "Description": "Connection turbocharger \n        - throttle valve pressure hose"
+  },
+  {
+    "Code": "P1300",
+    "Description": "Misfire detected \n        Reason: Fuel level too low"
+  },
+  {
+    "Code": "P1319",
+    "Description": "Knock Sensor 1 Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1320",
+    "Description": "Knock Sensor 2 Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1321",
+    "Description": "Knock Sensor 3 Circ. \n        Low Input"
+  },
+  {
+    "Code": "P1322",
+    "Description": "Knock Sensor 3 Circ. \n        High Input"
+  },
+  {
+    "Code": "P1323",
+    "Description": "Knock Sensor 4 Circ. \n        Low Input"
+  },
+  {
+    "Code": "P1324",
+    "Description": "Knock Sensor 4 Circ. \n        High Input"
+  },
+  {
+    "Code": "P1325",
+    "Description": "Cyl.1-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1326",
+    "Description": "Cyl.2-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1327",
+    "Description": "Cyl.3-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1328",
+    "Description": "Cyl.4-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1329",
+    "Description": "Cyl.5-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1330",
+    "Description": "Cyl.6-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1331",
+    "Description": "Cyl.7-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1332",
+    "Description": "Cyl.8-Knock Contr. \n        Limit Attained"
+  },
+  {
+    "Code": "P1335",
+    "Description": "Engine Torque Monitoring \n        2 Control Limint Exceeded"
+  },
+  {
+    "Code": "P1336",
+    "Description": "Engine Torque Monitoring \n        Adaptation at limit"
+  },
+  {
+    "Code": "P1337",
+    "Description": "Camshaft Pos.Sensor,Bank1 \n        Short to Ground"
+  },
+  {
+    "Code": "P1338",
+    "Description": "Camshaft Pos.Sensor,Bank1 \n        Open Circ./Short to B+"
+  },
+  {
+    "Code": "P1339",
+    "Description": "Crankshaft Pos./Engine \n        Speed Sensor Cross Connected"
+  },
+  {
+    "Code": "P1340",
+    "Description": "Crankshaft-/Camshaft \n        Pos.Sens.Signals Out of Sequence"
+  },
+  {
+    "Code": "P1341",
+    "Description": "Ignition Coil Power \n        Output Stage 1 Short to Ground"
+  },
+  {
+    "Code": "P1342",
+    "Description": "Ignition Coil Power \n        Output Stage 1 Short to B+"
+  },
+  {
+    "Code": "P1343",
+    "Description": "Ignition Coil Power \n        Output Stage 2 Short to Ground"
+  },
+  {
+    "Code": "P1344",
+    "Description": "Ignition Coil Power \n        Output Stage 2 Short to B+"
+  },
+  {
+    "Code": "P1345",
+    "Description": "Ignition Coil Power \n        Output Stage 3 Short to Ground"
+  },
+  {
+    "Code": "P1346",
+    "Description": "Ignition Coil Power \n        Output Stage 3 Short to B+"
+  },
+  {
+    "Code": "P1347",
+    "Description": "Bank2,Crankshaft-/Camshaft \n        os.Sens.Sign. Out of Sequence"
+  },
+  {
+    "Code": "P1348",
+    "Description": "Ignition Coil Power \n        Output Stage 1 Open Circuit"
+  },
+  {
+    "Code": "P1349",
+    "Description": "Ignition Coil Power \n        Output Stage 2 Open Circuit"
+  },
+  {
+    "Code": "P1350",
+    "Description": "Ignition Coil Power \n        Output Stage 3 Open Circuit"
+  },
+  {
+    "Code": "P1354",
+    "Description": "Modulation Piston \n        Displ.Sensor Circ. Malfunction"
+  },
+  {
+    "Code": "P1355",
+    "Description": "Cyl. 1, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1356",
+    "Description": "Cyl. 1, ignition \n        circuit Short to B+"
+  },
+  {
+    "Code": "P1357",
+    "Description": "Cyl. 1, ignition \n        circuit Short to ground"
+  },
+  {
+    "Code": "P1358",
+    "Description": "Cyl. 2, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1359",
+    "Description": "Cyl. 2, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1360",
+    "Description": "Cyl. 2, ignition \n        circuit Short Circuit to Ground"
+  },
+  {
+    "Code": "P1361",
+    "Description": "Cyl. 3, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1362",
+    "Description": "Cyl. 3, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1363",
+    "Description": "Cyl. 3, ignition \n        circuit Short Circuit to ground"
+  },
+  {
+    "Code": "P1364",
+    "Description": "Cyl. 4 ignition circuit \n        Open Circuit"
+  },
+  {
+    "Code": "P1365",
+    "Description": "Cyl. 4 ignition circuit \n        Short circuit to B+"
+  },
+  {
+    "Code": "P1366",
+    "Description": "Cyl. 4 ignition circuit \n        Short circuit to ground"
+  },
+  {
+    "Code": "P1367",
+    "Description": "Cyl. 5, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1368",
+    "Description": "Cyl. 5, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1369",
+    "Description": "Cyl. 5, ignition \n        circuit short to ground"
+  },
+  {
+    "Code": "P1370",
+    "Description": "Cyl. 6, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1371",
+    "Description": "Cyl. 6, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1372",
+    "Description": "Cyl. 6, ignition \n        circuit short to ground"
+  },
+  {
+    "Code": "P1373",
+    "Description": "Cyl. 7, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1374",
+    "Description": "Cyl. 7, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1375",
+    "Description": "Cyl. 7, ignition \n        circuit short to ground"
+  },
+  {
+    "Code": "P1376",
+    "Description": "Cyl. 8, ignition \n        circuit Open Circuit"
+  },
+  {
+    "Code": "P1377",
+    "Description": "Cyl. 8, ignition \n        circuit Short Circuit to B+"
+  },
+  {
+    "Code": "P1378",
+    "Description": "Cyl. 8, ignition \n        circuit short to ground"
+  },
+  {
+    "Code": "P1386",
+    "Description": "Internal Control \n        Module Knock Control Circ.Error"
+  },
+  {
+    "Code": "P1387",
+    "Description": "Internal Contr. Module \n        altitude sensor error"
+  },
+  {
+    "Code": "P1388",
+    "Description": "Internal Contr. Module \n        drive by wire error"
+  },
+  {
+    "Code": "P1391",
+    "Description": "Camshaft Pos.Sensor,Bank2 \n        Short to Ground"
+  },
+  {
+    "Code": "P1392",
+    "Description": "Camshaft Pos.Sensor,Bank2 \n        Open Circ./Short to B+"
+  },
+  {
+    "Code": "P1393",
+    "Description": "Ignition Coil Power \n        Output Stage 1 Electrical Malfunction"
+  },
+  {
+    "Code": "P1394",
+    "Description": "Ignition Coil Power \n        Output Stage 2 Electrical Malfunction"
+  },
+  {
+    "Code": "P1395",
+    "Description": "Ignition Coil Power \n        Output Stage 3 Electrical Malfunction"
+  },
+  {
+    "Code": "P1396",
+    "Description": "Engine Speed Sensor \n        Missing Tooth"
+  },
+  {
+    "Code": "P1397",
+    "Description": "Engine speed wheel \n        Adaptation limit reached"
+  },
+  {
+    "Code": "P1398",
+    "Description": "Engine RPM signal, \n        TD Short to ground"
+  },
+  {
+    "Code": "P1399",
+    "Description": "Engine RPM signal, \n        TD Short Circuit to B+"
+  },
+  {
+    "Code": "P1400",
+    "Description": "EGR Valve Circ Electrical \n        Malfunction"
+  },
+  {
+    "Code": "P1401",
+    "Description": "EGR Valve Circ Short \n        to Ground"
+  },
+  {
+    "Code": "P1402",
+    "Description": "EGR Valve Circ Short \n        to B+"
+  },
+  {
+    "Code": "P1403",
+    "Description": "EGR Flow Deviation"
+  },
+  {
+    "Code": "P1404",
+    "Description": "EGR Flow Basic Setting \n        not carried out"
+  },
+  {
+    "Code": "P1406",
+    "Description": "EGR Temp.Sensor Range/Performance"
+  },
+  {
+    "Code": "P1407",
+    "Description": "EGR Temp.Sensor Signal \n        too Low"
+  },
+  {
+    "Code": "P1408",
+    "Description": "EGR Temp.Sensor Signal \n        too High"
+  },
+  {
+    "Code": "P1409",
+    "Description": "Tank Ventilation \n        Valve Circ. Electrical Malfunction"
+  },
+  {
+    "Code": "P1410",
+    "Description": "Tank Ventilation \n        Valve Circ. Short to B+"
+  },
+  {
+    "Code": "P1411",
+    "Description": "Sec.Air Inj.Sys.,Bank2 \n        Flow too Flow"
+  },
+  {
+    "Code": "P1412",
+    "Description": "EGR Different.Pressure \n        Sensor Signal too Low"
+  },
+  {
+    "Code": "P1413",
+    "Description": "EGR Different.Pressure \n        Sensor Signal too High"
+  },
+  {
+    "Code": "P1414",
+    "Description": "Sec.Air Inj.Sys.,Bank2 \n        Leak Detected"
+  },
+  {
+    "Code": "P1417",
+    "Description": "Fuel Level Sensor \n        Circ Signal too Low"
+  },
+  {
+    "Code": "P1418",
+    "Description": "Fuel Level Sensor \n        Circ Signal too High"
+  },
+  {
+    "Code": "P1420",
+    "Description": "Sec.Air Inj.Valve \n        Circ Electrical Malfunction"
+  },
+  {
+    "Code": "P1421",
+    "Description": "Sec.Air Inj.Valve \n        Circ Short to Ground"
+  },
+  {
+    "Code": "P1422",
+    "Description": "Sec.Air Inj.Sys.Contr.Valve \n        Circ Short to B+"
+  },
+  {
+    "Code": "P1423",
+    "Description": "Sec.Air Inj.Sys.,Bank1 \n        Flow too Low"
+  },
+  {
+    "Code": "P1424",
+    "Description": "Sec.Air Inj.Sys.,Bank1 \n        Leak Detected"
+  },
+  {
+    "Code": "P1425",
+    "Description": "Tank Vent.Valve Short \n        to Ground"
+  },
+  {
+    "Code": "P1426",
+    "Description": "Tank Vent.Valve Open"
+  },
+  {
+    "Code": "P1432",
+    "Description": "Sec.Air Inj.Valve \n        Open"
+  },
+  {
+    "Code": "P1433",
+    "Description": "Sec.Air Inj.Sys.Pump \n        Relay Circ. open"
+  },
+  {
+    "Code": "P1434",
+    "Description": "Sec.Air Inj.Sys.Pump \n        Relay Circ. Short to B+"
+  },
+  {
+    "Code": "P1435",
+    "Description": "Sec.Air Inj.Sys.Pump \n        Relay Circ. Short to ground"
+  },
+  {
+    "Code": "P1436",
+    "Description": "Sec.Air Inj.Sys.Pump \n        Relay Circ. Electrical Malfunction"
+  },
+  {
+    "Code": "P1439",
+    "Description": "EGR Potentiometer \n        Error in Basic Seting"
+  },
+  {
+    "Code": "P1440",
+    "Description": "EGR Valve Power Stage \n        Open"
+  },
+  {
+    "Code": "P1441",
+    "Description": "EGR Valve Circ Open/Short \n        to Ground"
+  },
+  {
+    "Code": "P1442",
+    "Description": "EGR Valve Position \n        Sensor Signal too high"
+  },
+  {
+    "Code": "P1443",
+    "Description": "EGR Valve Position \n        Sensor Signal too low"
+  },
+  {
+    "Code": "P1444",
+    "Description": "EGR Valve Position \n        Sensor range/performance"
+  },
+  {
+    "Code": "P1445",
+    "Description": "Catalyst Temp.Sensor \n        2 Circ. Range/Performance"
+  },
+  {
+    "Code": "P1446",
+    "Description": "Catalyst Temp.Circ \n        Short to Ground"
+  },
+  {
+    "Code": "P1447",
+    "Description": "Catalyst Temp.Circ \n        Open/Short to B+"
+  },
+  {
+    "Code": "P1448",
+    "Description": "Catalyst Temp.Sensor \n        2 Circ. Short to Ground"
+  },
+  {
+    "Code": "P1449",
+    "Description": "Catalyst Temp.Sensor \n        2 Circ. Open/Short to B+"
+  },
+  {
+    "Code": "P1450",
+    "Description": "Sec.Air Inj.Sys.Circ \n        Short to B+"
+  },
+  {
+    "Code": "P1451",
+    "Description": "Sec.Air Inj.Sys.Circ \n        Short to Ground"
+  },
+  {
+    "Code": "P1452",
+    "Description": "Sec.Air Inj.Sys. \n        Open Circ."
+  },
+  {
+    "Code": "P1453",
+    "Description": "Exhaust gas temperature \n        sensor 1 open/short to B+"
+  },
+  {
+    "Code": "P1454",
+    "Description": "Exhaust gas temperature \n        sensor short 1 to ground"
+  },
+  {
+    "Code": "P1455",
+    "Description": "Exhaust gas temperature \n        sensor 1 range/performance"
+  },
+  {
+    "Code": "P1456",
+    "Description": "Exhaust gas temperature \n        control bank 1 limit attained"
+  },
+  {
+    "Code": "P1457",
+    "Description": "Exhaust gas temperature \n        sensor 2 open/short to B+"
+  },
+  {
+    "Code": "P1458",
+    "Description": "Exhaust gas temperature \n        sensor 2 short to ground"
+  },
+  {
+    "Code": "P1459",
+    "Description": "Exhaust gas temperature \n        sensor 2 range/performance"
+  },
+  {
+    "Code": "P1460",
+    "Description": "Exhaust gas temperature \n        control bank 2 limit attained"
+  },
+  {
+    "Code": "P1461",
+    "Description": "Exhaust gas temperature \n        control bank 1 Range/Performance"
+  },
+  {
+    "Code": "P1462",
+    "Description": "Exhaust gas temperature \n        control bank 2 Range/Performance"
+  },
+  {
+    "Code": "P1465",
+    "Description": "Additive Pump Short \n        Circuit to B+"
+  },
+  {
+    "Code": "P1466",
+    "Description": "Additive Pump Open/Short \n        to Ground"
+  },
+  {
+    "Code": "P1467",
+    "Description": "EVAP Canister Purge \n        Solenoid Valve Short Circuit to B+"
+  },
+  {
+    "Code": "P1468",
+    "Description": "EVAP Canister Purge \n        Solenoid Valve Short Circuit to Ground"
+  },
+  {
+    "Code": "P1469",
+    "Description": "EVAP Canister Purge \n        Solenoid Valve Open Circuit"
+  },
+  {
+    "Code": "P1470",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Electrical Malfunction"
+  },
+  {
+    "Code": "P1471",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Short to B+"
+  },
+  {
+    "Code": "P1472",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Short to Ground"
+  },
+  {
+    "Code": "P1473",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Open Circ."
+  },
+  {
+    "Code": "P1474",
+    "Description": "EVAP Canister Purge \n        Solenoid Valve electrical malfunction"
+  },
+  {
+    "Code": "P1475",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Malfunction/Signal Circ.Open"
+  },
+  {
+    "Code": "P1476",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Malfunction/Insufficient Vacuum"
+  },
+  {
+    "Code": "P1477",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Malfunction"
+  },
+  {
+    "Code": "P1478",
+    "Description": "EVAP Emission Contr.LDP \n        Circ Clamped Tube Detected"
+  },
+  {
+    "Code": "P1500",
+    "Description": "Fuel Pump Relay Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1501",
+    "Description": "Fuel Pump Relay Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1502",
+    "Description": "Fuel Pump Relay Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1503",
+    "Description": "Load signal from \n        Alternator Term. DF Range/performance/Incorrect Signal"
+  },
+  {
+    "Code": "P1504",
+    "Description": "Intake Air Sys.Bypass \n        Leak Detected"
+  },
+  {
+    "Code": "P1505",
+    "Description": "Closed Throttle Pos. \n        Does Not Close/Open Circ"
+  },
+  {
+    "Code": "P1506",
+    "Description": "Closed Throttle Pos.Switch \n        Does Not Open/Short to Ground"
+  },
+  {
+    "Code": "P1507",
+    "Description": "Idle Sys.Learned \n        Value Lower Limit Attained"
+  },
+  {
+    "Code": "P1508",
+    "Description": "Idle Sys.Learned \n        Value Upper Limit Attained"
+  },
+  {
+    "Code": "P1509",
+    "Description": "Idle Air Control \n        Circ. Electrical Malfunction"
+  },
+  {
+    "Code": "P1510",
+    "Description": "Idle Air Control \n        Circ. Short to B+"
+  },
+  {
+    "Code": "P1511",
+    "Description": "Intake Manifold Changeover \n        Valve circuit electrical malfunction"
+  },
+  {
+    "Code": "P1512",
+    "Description": "Intake Manifold Changeover \n        Valve circuit Short to B+"
+  },
+  {
+    "Code": "P1513",
+    "Description": "Intake Manifold Changeover \n        Valve2 circuit Short to B+"
+  },
+  {
+    "Code": "P1514",
+    "Description": "Intake Manifold Changeover \n        Valve2 circuit Short to ground"
+  },
+  {
+    "Code": "P1515",
+    "Description": "Intake Manifold Changeover \n        Valve circuit Short to Ground"
+  },
+  {
+    "Code": "P1516",
+    "Description": "Intake Manifold Changeover \n        Valve circuit Open"
+  },
+  {
+    "Code": "P1517",
+    "Description": "Main Relay Circ. \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1518",
+    "Description": "Main Relay Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1519",
+    "Description": "Intake Camshaft Contr.,Bank1 \n        Malfunction"
+  },
+  {
+    "Code": "P1520",
+    "Description": "Intake Manifold Changeover \n        Valve2 circuit Open"
+  },
+  {
+    "Code": "P1521",
+    "Description": "Intake Manifold Changeover \n        Valve2 circuit electrical malfunction"
+  },
+  {
+    "Code": "P1522",
+    "Description": "Intake Camshaft Contr.,Bank2 \n        Malfunction"
+  },
+  {
+    "Code": "P1523",
+    "Description": "Crash Signal from \n        Airbag Control Unit range/performance"
+  },
+  {
+    "Code": "P1525",
+    "Description": "Intake Camshaft Contr.Circ.,Bank1 \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1526",
+    "Description": "Intake Camshaft Contr.Circ.,Bank1 \n        Short to B+"
+  },
+  {
+    "Code": "P1527",
+    "Description": "Intake Camshaft Contr.Circ.,Bank1 \n        Short to Ground"
+  },
+  {
+    "Code": "P1528",
+    "Description": "Intake Camshaft Contr.Circ.,Bank1 \n        Open"
+  },
+  {
+    "Code": "P1529",
+    "Description": "Camshaft Control \n        Circuit Short to B+"
+  },
+  {
+    "Code": "P1530",
+    "Description": "Camshaft Control \n        Circuit Short to ground"
+  },
+  {
+    "Code": "P1531",
+    "Description": "Camshaft Control \n        Circuit open"
+  },
+  {
+    "Code": "P1533",
+    "Description": "Intake Camshaft Contr.Circ.,Bank2 \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1534",
+    "Description": "Intake Camshaft Contr.Circ.,Bank2 \n        Short to B+"
+  },
+  {
+    "Code": "P1535",
+    "Description": "Intake Camshaft Contr.Circ.,Bank2 \n        Short to Ground"
+  },
+  {
+    "Code": "P1536",
+    "Description": "Intake Camshaft Contr.Circ.,Bank2 \n        Open"
+  },
+  {
+    "Code": "P1537",
+    "Description": "Engine Shutoff Solenoid \n        Malfunction"
+  },
+  {
+    "Code": "P1538",
+    "Description": "Engine Shutoff Solenoid \n        Open/Short to Ground"
+  },
+  {
+    "Code": "P1539",
+    "Description": "Clutch Vacuum Vent \n        Valve Switch Incorrect signal"
+  },
+  {
+    "Code": "P1540",
+    "Description": "Vehicle Speed Sensor \n        High Input"
+  },
+  {
+    "Code": "P1541",
+    "Description": "Fuel Pump Relay Circ \n        Open"
+  },
+  {
+    "Code": "P1542",
+    "Description": "Throttle Actuation \n        Potentiometer Range/Performance"
+  },
+  {
+    "Code": "P1543",
+    "Description": "Throttle Actuation \n        Potentiometer Signal too Low"
+  },
+  {
+    "Code": "P1544",
+    "Description": "Throttle Actuation \n        Potentiometer Signal too High"
+  },
+  {
+    "Code": "P1545",
+    "Description": "Throttle Pos.Contr \n        Malfunction"
+  },
+  {
+    "Code": "P1546",
+    "Description": "Boost Pressure Contr.Valve \n        Short to B+"
+  },
+  {
+    "Code": "P1547",
+    "Description": "Boost Pressure Contr.Valve \n        Short to Ground"
+  },
+  {
+    "Code": "P1548",
+    "Description": "Boost Pressure Contr.Valve \n        Open"
+  },
+  {
+    "Code": "P1549",
+    "Description": "Boost Pressure Contr.Valve \n        Short to Ground"
+  },
+  {
+    "Code": "P1550",
+    "Description": "Charge Pressure Deviation"
+  },
+  {
+    "Code": "P1551",
+    "Description": "Barometric Pressure \n        Sensor Circ. Short to B+"
+  },
+  {
+    "Code": "P1552",
+    "Description": "Barometric Pressure \n        Sensor Circ. Open/Short to Ground"
+  },
+  {
+    "Code": "P1553",
+    "Description": "Barometric/manifold \n        pressure signal ratio out of range"
+  },
+  {
+    "Code": "P1554",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. Basic Setting Conditions not met"
+  },
+  {
+    "Code": "P1555",
+    "Description": "Charge Pressure Upper \n        Limit exceeded"
+  },
+  {
+    "Code": "P1556",
+    "Description": "Charge Pressure Contr. \n        Negative Deviation"
+  },
+  {
+    "Code": "P1557",
+    "Description": "Charge Pressure Contr. \n        Positive Deviation"
+  },
+  {
+    "Code": "P1558",
+    "Description": "Throttle Actuator \n        Electrical Malfunction"
+  },
+  {
+    "Code": "P1559",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. Adaptation Malfunction"
+  },
+  {
+    "Code": "P1560",
+    "Description": "Maximum Engine Speed \n        Exceeded"
+  },
+  {
+    "Code": "P1561",
+    "Description": "Quantity Adjuster \n        Deviation"
+  },
+  {
+    "Code": "P1562",
+    "Description": "Quantity Adjuster \n        Upper Limit Attained"
+  },
+  {
+    "Code": "P1563",
+    "Description": "Quantity Adjuster \n        Lower Limit Attained"
+  },
+  {
+    "Code": "P1564",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. Low Voltage During Adaptation"
+  },
+  {
+    "Code": "P1565",
+    "Description": "Idle Speed Control \n        Throttle Position lower limit not attained"
+  },
+  {
+    "Code": "P1566",
+    "Description": "Load signal from \n        A/C compressor range/performance"
+  },
+  {
+    "Code": "P1567",
+    "Description": "Load signal from \n        A/C compressor no signal"
+  },
+  {
+    "Code": "P1568",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. mechanical Malfunction"
+  },
+  {
+    "Code": "P1569",
+    "Description": "Cruise control switch \n        Incorrect signal"
+  },
+  {
+    "Code": "P1570",
+    "Description": "Contr.Module Locked"
+  },
+  {
+    "Code": "P1571",
+    "Description": "Left Eng. Mount Solenoid \n        Valve Short to B+"
+  },
+  {
+    "Code": "P1572",
+    "Description": "Left Eng. Mount Solenoid \n        Valve Short to ground"
+  },
+  {
+    "Code": "P1573",
+    "Description": "Left Eng. Mount Solenoid \n        Valve Open circuit"
+  },
+  {
+    "Code": "P1574",
+    "Description": "Left Eng. Mount Solenoid \n        Valve Electrical fault in circuit"
+  },
+  {
+    "Code": "P1575",
+    "Description": "Right Eng. Mount \n        Solenoid Valve Short to B+"
+  },
+  {
+    "Code": "P1576",
+    "Description": "Right Eng. Mount \n        Solenoid Valve Short to ground"
+  },
+  {
+    "Code": "P1577",
+    "Description": "Right Eng. Mount \n        Solenoid Valve Open circuit"
+  },
+  {
+    "Code": "P1578",
+    "Description": "Right Eng. Mount \n        Solenoid Valve Electrical fault in circuit"
+  },
+  {
+    "Code": "P1579",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. Adaptation not started"
+  },
+  {
+    "Code": "P1580",
+    "Description": "Throttle Actuator \n        B1 Malfunction"
+  },
+  {
+    "Code": "P1581",
+    "Description": "Idle Speed Contr.Throttle \n        Pos. Basic Setting Not Carried Out"
+  },
+  {
+    "Code": "P1582",
+    "Description": "Idle Adaptation at \n        Limit"
+  },
+  {
+    "Code": "P1583",
+    "Description": "Transmission mount \n        valves Short to B+"
+  },
+  {
+    "Code": "P1584",
+    "Description": "Transmission mount \n        valves Short to ground"
+  },
+  {
+    "Code": "P1585",
+    "Description": "Transmission mount \n        valves Open circuit"
+  },
+  {
+    "Code": "P1586",
+    "Description": "Engine mount solenoid \n        valves Short to B+"
+  },
+  {
+    "Code": "P1587",
+    "Description": "Engine mount solenoid \n        valves Short to ground"
+  },
+  {
+    "Code": "P1588",
+    "Description": "Engine mount solenoid \n        valves Open circuit"
+  },
+  {
+    "Code": "P1600",
+    "Description": "ower Supply (B+) \n        Terminal 15 Low Voltage"
+  },
+  {
+    "Code": "P1602",
+    "Description": "ower Supply (B+) \n        Terminal 30 Low Voltage"
+  },
+  {
+    "Code": "P1603",
+    "Description": "Internal Control \n        Module Malfunction"
+  },
+  {
+    "Code": "P1604",
+    "Description": "Internal Control \n        Module Driver Error"
+  },
+  {
+    "Code": "P1605",
+    "Description": "Rough Road/Acceleration \n        Sensor Electrical Malfunction"
+  },
+  {
+    "Code": "P1606",
+    "Description": "Rough Road Spec Engine \n        Torque ABS-ECU Electrical Malfunction"
+  },
+  {
+    "Code": "P1607",
+    "Description": "Vehicle speed signal \n        Error message from instrument cluster"
+  },
+  {
+    "Code": "P1608",
+    "Description": "Steering angle signal \n        Error message from steering angle sensor"
+  },
+  {
+    "Code": "P1609",
+    "Description": "Crash shut-down activated"
+  },
+  {
+    "Code": "P1611",
+    "Description": "MIL Call-up Circ./Transm.Contr.Module \n        Short to Ground"
+  },
+  {
+    "Code": "P1612",
+    "Description": "Electronic Control \n        Module Incorrect Coding"
+  },
+  {
+    "Code": "P1613",
+    "Description": "MIL Call-up Circ \n        Open/Short to B+"
+  },
+  {
+    "Code": "P1614",
+    "Description": "MIL Call-up Circ./Transm.Contr.Module \n        Range/Performance"
+  },
+  {
+    "Code": "P1615",
+    "Description": "Engine Oil Temperature \n        Sensor Circuit range/performance"
+  },
+  {
+    "Code": "P1616",
+    "Description": "Glow Plug/Heater \n        Indicator Circ. Short to B+"
+  },
+  {
+    "Code": "P1617",
+    "Description": "Glow Plug/Heater \n        Indicator Circ. Open/Short to Ground"
+  },
+  {
+    "Code": "P1618",
+    "Description": "Glow Plug/Heater \n        Relay Circ. Short to B+"
+  },
+  {
+    "Code": "P1619",
+    "Description": "Glow Plug/Heater \n        Relay Circ. Open/Short to Ground"
+  },
+  {
+    "Code": "P1620",
+    "Description": "Engine coolant temperature \n        signal open/short to B+"
+  },
+  {
+    "Code": "P1621",
+    "Description": "Engine coolant temperature \n        signal short to ground"
+  },
+  {
+    "Code": "P1622",
+    "Description": "Engine coolant temperature \n        signal range/performance"
+  },
+  {
+    "Code": "P1623",
+    "Description": "Data Bus Powertrain \n        No Communication"
+  },
+  {
+    "Code": "P1624",
+    "Description": "MIL Request Sign.active"
+  },
+  {
+    "Code": "P1625",
+    "Description": "Data-Bus Powertrain \n        Unplausible Message from Transm.Contr."
+  },
+  {
+    "Code": "P1626",
+    "Description": "Data-Bus Powertrain \n        Missing Message from Transm.Contr."
+  },
+  {
+    "Code": "P1627",
+    "Description": "Data-Bus Powertrain \n        missing message from fuel injection pump"
+  },
+  {
+    "Code": "P1628",
+    "Description": "Data-Bus Powertrain \n        missing message from steering sensor"
+  },
+  {
+    "Code": "P1629",
+    "Description": "Data-Bus Powertrain \n        missing message from distance control"
+  },
+  {
+    "Code": "P1630",
+    "Description": "Accelera.Pedal Pos.Sensor \n        1 Signal too Low"
+  },
+  {
+    "Code": "P1631",
+    "Description": "Accelera.Pedal Pos.Sensor \n        1 Signal too High"
+  },
+  {
+    "Code": "P1632",
+    "Description": "Accelera.Pedal Pos.Sensor \n        1 Power Supply Malfunction"
+  },
+  {
+    "Code": "P1633",
+    "Description": "Accelera.Pedal Pos.Sensor \n        2 Signal too Low"
+  },
+  {
+    "Code": "P1634",
+    "Description": "Accelera.Pedal Pos.Sensor \n        2 Signal too High"
+  },
+  {
+    "Code": "P1635",
+    "Description": "Data Bus Powertrain \n        missing message f.air condition control"
+  },
+  {
+    "Code": "P1636",
+    "Description": "Data Bus Powertrain \n        missing message from Airbag control"
+  },
+  {
+    "Code": "P1637",
+    "Description": "Data Bus Powertrain \n        missing message f.central electr.control"
+  },
+  {
+    "Code": "P1638",
+    "Description": "Data Bus Powertrain \n        missing message from clutch control"
+  },
+  {
+    "Code": "P1639",
+    "Description": "Accelera.Pedal Pos.Sensor \n        1+2 Range/Performance"
+  },
+  {
+    "Code": "P1640",
+    "Description": "Internal Contr.Module \n        (EEPROM) Error"
+  },
+  {
+    "Code": "P1641",
+    "Description": "lease check DTC \n        Memory of Air Condition ECU"
+  },
+  {
+    "Code": "P1642",
+    "Description": "lease check DTC \n        Memory of Airbag ECU"
+  },
+  {
+    "Code": "P1643",
+    "Description": "lease check DTC \n        Memory of central electric ECU"
+  },
+  {
+    "Code": "P1644",
+    "Description": "lease check DTC \n        Memory of clutch ECU"
+  },
+  {
+    "Code": "P1645",
+    "Description": "Data Bus Powertrain \n        missing message f.all wheel drive contr."
+  },
+  {
+    "Code": "P1646",
+    "Description": "lease Check DTC \n        Memory of all wheel drive ECU"
+  },
+  {
+    "Code": "P1647",
+    "Description": "lease check coding \n        of ECUs in Data Bus Powertrain"
+  },
+  {
+    "Code": "P1648",
+    "Description": "Data Bus Powertrain \n        Malfunction"
+  },
+  {
+    "Code": "P1649",
+    "Description": "Data Bus Powertrain \n        Missing message from ABS Control Module"
+  },
+  {
+    "Code": "P1650",
+    "Description": "Data Bus Powertrain \n        Missing message fr.instrument panel ECU"
+  },
+  {
+    "Code": "P1651",
+    "Description": "Data Bus Powertrain \n        missing messages"
+  },
+  {
+    "Code": "P1652",
+    "Description": "lease check DTC \n        Memory of transmission ECU"
+  },
+  {
+    "Code": "P1653",
+    "Description": "lease check DTC \n        Memory of ABS Control Module"
+  },
+  {
+    "Code": "P1654",
+    "Description": "lease check DTC \n        Memory of control panel ECU"
+  },
+  {
+    "Code": "P1655",
+    "Description": "lease check DTC \n        Memory of ADR Control Module"
+  },
+  {
+    "Code": "P1656",
+    "Description": "A/C clutch relay \n        circuit short to ground"
+  },
+  {
+    "Code": "P1657",
+    "Description": "A/C clutch relay \n        circuit short to B+"
+  },
+  {
+    "Code": "P1658",
+    "Description": "Data Bus Powertrain \n        Incorrect signal from ADR Control Module"
+  },
+  {
+    "Code": "P1676",
+    "Description": "Drive by Wire-MIL \n        Circ. Electrical Malfunction"
+  },
+  {
+    "Code": "P1677",
+    "Description": "Drive by Wire-MIL \n        Circ. Short to B+"
+  },
+  {
+    "Code": "P1678",
+    "Description": "Drive by Wire-MIL \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1679",
+    "Description": "Drive by Wire-MIL \n        Circ. Open"
+  },
+  {
+    "Code": "P1681",
+    "Description": "Contr.Unit Programming, \n        Programming not Finished"
+  },
+  {
+    "Code": "P1684",
+    "Description": "Contr.Unit Programming \n        Communication Error"
+  },
+  {
+    "Code": "P1686",
+    "Description": "Contr.Unit Error \n        Programming Error"
+  },
+  {
+    "Code": "P1690",
+    "Description": "Malfunction Indication \n        Light Malfunction"
+  },
+  {
+    "Code": "P1691",
+    "Description": "Malfunction Indication \n        Light Open"
+  },
+  {
+    "Code": "P1692",
+    "Description": "Malfunction Indication \n        Light Short to Ground"
+  },
+  {
+    "Code": "P1693",
+    "Description": "Malfunction Indication \n        Light Short to B+"
+  },
+  {
+    "Code": "P1694",
+    "Description": "Malfunction Indication \n        Light Open/Short to Ground"
+  },
+  {
+    "Code": "P1704",
+    "Description": "Kick Down Switch \n        Malfunction"
+  },
+  {
+    "Code": "P1705",
+    "Description": "Gear/Ratio Monitoring \n        Adaptation limit reached "
+  },
+  {
+    "Code": "P1711",
+    "Description": "Wheel Speed Signal \n        1 Range/Performance"
+  },
+  {
+    "Code": "P1716",
+    "Description": "Wheel Speed Signal \n        2 Range/Performance"
+  },
+  {
+    "Code": "P1721",
+    "Description": "Wheel Speed Signal \n        3 Range/Performance"
+  },
+  {
+    "Code": "P1723",
+    "Description": "Starter Interlock \n        Circ. Open"
+  },
+  {
+    "Code": "P1724",
+    "Description": "Starter Interlock \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1726",
+    "Description": "Wheel Speed Signal \n        4 Range/Performance"
+  },
+  {
+    "Code": "P1728",
+    "Description": "Different Wheel Speed \n        Signals Range/Performance"
+  },
+  {
+    "Code": "P1729",
+    "Description": "Starter Interlock \n        Circ. Short to B+"
+  },
+  {
+    "Code": "P1733",
+    "Description": "Tiptronic Switch \n        Down Circ. Short to Ground"
+  },
+  {
+    "Code": "P1739",
+    "Description": "Tiptronic Switch \n        up Circ. Short to Ground"
+  },
+  {
+    "Code": "P1740",
+    "Description": "Clutch temperature \n        control"
+  },
+  {
+    "Code": "P1741",
+    "Description": "Clutch pressure adaptation \n        at limit"
+  },
+  {
+    "Code": "P1742",
+    "Description": "Clutch torque adaptation \n        at limit"
+  },
+  {
+    "Code": "P1743",
+    "Description": "Clutch slip control \n        signal too high"
+  },
+  {
+    "Code": "P1744",
+    "Description": "Tiptronic Switch \n        Recognition Circ. Short to Ground"
+  },
+  {
+    "Code": "P1745",
+    "Description": "Transm.Contr.Unit \n        Relay Short to B+"
+  },
+  {
+    "Code": "P1746",
+    "Description": "Transm.Contr.Unit \n        Relay Malfunction"
+  },
+  {
+    "Code": "P1747",
+    "Description": "Transm.Contr.Unit \n        Relay Open/Short to Ground"
+  },
+  {
+    "Code": "P1748",
+    "Description": "Transm.Contr.Unit \n        Self-Check"
+  },
+  {
+    "Code": "P1749",
+    "Description": "Transm.Contr.Unit \n        Incorrect Coded"
+  },
+  {
+    "Code": "P1750",
+    "Description": "ower Supply Voltage \n        Low Voltage"
+  },
+  {
+    "Code": "P1751",
+    "Description": "ower Supply Voltage \n        High Voltage"
+  },
+  {
+    "Code": "P1752",
+    "Description": "ower Supply Malfunction"
+  },
+  {
+    "Code": "P1760",
+    "Description": "Shift Lock Malfunction"
+  },
+  {
+    "Code": "P1761",
+    "Description": "Shift Lock Short \n        to Ground"
+  },
+  {
+    "Code": "P1762",
+    "Description": "Shift Lock Short \n        to B+"
+  },
+  {
+    "Code": "P1763",
+    "Description": "Shift Lock Open"
+  },
+  {
+    "Code": "P1764",
+    "Description": "Transmission temperature \n        control"
+  },
+  {
+    "Code": "P1765",
+    "Description": "Hydraulic Pressure \n        Sensor 2 adaptation at limit"
+  },
+  {
+    "Code": "P1766",
+    "Description": "Throttle Angle Signal \n        Stuck Off"
+  },
+  {
+    "Code": "P1767",
+    "Description": "Throttle Angle Signal \n        Stuck On"
+  },
+  {
+    "Code": "P1768",
+    "Description": "Hydraulic Pressure \n        Sensor 2 Too High"
+  },
+  {
+    "Code": "P1769",
+    "Description": "Hydraulic Pressure \n        Sensor 2 Too Low"
+  },
+  {
+    "Code": "P1770",
+    "Description": "Load Signal Range/Performance"
+  },
+  {
+    "Code": "P1771",
+    "Description": "Load Signal Stuck \n        Off"
+  },
+  {
+    "Code": "P1772",
+    "Description": "Load Signal Stuck \n        On"
+  },
+  {
+    "Code": "P1773",
+    "Description": "Hydraulic Pressure \n        Sensor 1 Too High"
+  },
+  {
+    "Code": "P1774",
+    "Description": "Hydraulic Pressure \n        Sensor 1 Too Low"
+  },
+  {
+    "Code": "P1775",
+    "Description": "Hydraulic Pressure \n        Sensor 1 adaptation at limit"
+  },
+  {
+    "Code": "P1776",
+    "Description": "Hydraulic Pressure \n        Sensor 1 range/performance"
+  },
+  {
+    "Code": "P1777",
+    "Description": "Hydraulic Pressure \n        Sensor 2 range/performance"
+  },
+  {
+    "Code": "P1778",
+    "Description": "Solenoid EV7 Electrical \n        Malfunction"
+  },
+  {
+    "Code": "P1781",
+    "Description": "Engine Torque Reduction \n        Open/Short to Ground"
+  },
+  {
+    "Code": "P1782",
+    "Description": "Engine Torque Reduction \n        Short to B+"
+  },
+  {
+    "Code": "P1784",
+    "Description": "Shift up/down Wire \n        Open/Short to Ground"
+  },
+  {
+    "Code": "P1785",
+    "Description": "Shift up/down Wire \n        Short to B+"
+  },
+  {
+    "Code": "P1786",
+    "Description": "Reversing Light Circ. \n        Open"
+  },
+  {
+    "Code": "P1787",
+    "Description": "Reversing Light Circ. \n        Short to Ground"
+  },
+  {
+    "Code": "P1788",
+    "Description": "Reversing Light Circ. \n        Short to B+"
+  },
+  {
+    "Code": "P1789",
+    "Description": "Idle Speed Intervention \n        Circ. Error Message from Engine Contr."
+  },
+  {
+    "Code": "P1790",
+    "Description": "Transmission Range \n        Display Circ. Open"
+  },
+  {
+    "Code": "P1791",
+    "Description": "Transmission Range \n        Display Circ. Short to Ground"
+  },
+  {
+    "Code": "P1792",
+    "Description": "Transmission Range \n        Display Circ. Short to B+"
+  },
+  {
+    "Code": "P1793",
+    "Description": "Output Speed Sensor \n        2 Circ. No Signal"
+  },
+  {
+    "Code": "P1795",
+    "Description": "Vehicle Speed Signal \n        Circ. Open"
+  },
+  {
+    "Code": "P1796",
+    "Description": "Vehicle Speed Signal \n        Circ. Short to Ground"
+  },
+  {
+    "Code": "P1797",
+    "Description": "Vehicle Speed Signal \n        Circ. Short to B+"
+  },
+  {
+    "Code": "P1798",
+    "Description": "Output Speed Sensor \n        2 Circ. Range/Performance"
+  },
+  {
+    "Code": "P1799",
+    "Description": "Output Speed Sensor \n        2 Circ. Rpm too High"
+  },
+  {
+    "Code": "P1813",
+    "Description": "ressure Contr.Solenoid \n        1 Electrical"
+  },
+  {
+    "Code": "P1814",
+    "Description": "ressure Contr.Solenoid \n        1 Open/Short to Ground"
+  },
+  {
+    "Code": "P1815",
+    "Description": "ressure Contr.Solenoid \n        1 Short to B+"
+  },
+  {
+    "Code": "P1818",
+    "Description": "ressure Contr.Solenoid \n        2 Electrical"
+  },
+  {
+    "Code": "P1819",
+    "Description": "ressure Contr.Solenoid \n        2 Open/Short to Ground"
+  },
+  {
+    "Code": "P1820",
+    "Description": "ressure Contr.Solenoid \n        2 Short to B+"
+  },
+  {
+    "Code": "P1823",
+    "Description": "ressure Contr.Solenoid \n        3 Electrical"
+  },
+  {
+    "Code": "P1824",
+    "Description": "ressure Contr.Solenoid \n        3 Open/Short to Ground"
+  },
+  {
+    "Code": "P1825",
+    "Description": "ressure Contr.Solenoid \n        3 Short to B+"
+  },
+  {
+    "Code": "P1828",
+    "Description": "ressure Contr.Solenoid \n        4 Electrical"
+  },
+  {
+    "Code": "P1829",
+    "Description": "ressure Contr.Solenoid \n        4 Open/Short to Ground"
+  },
+  {
+    "Code": "P1830",
+    "Description": "ressure Contr.Solenoid \n        4 Short to B+"
+  },
+  {
+    "Code": "P1834",
+    "Description": "ressure Contr.Solenoid \n        5 Open/Short to Ground"
+  },
+  {
+    "Code": "P1835",
+    "Description": "ressure Contr.Solenoid \n        5 Short to B+"
+  },
+  {
+    "Code": "P1841",
+    "Description": "Engine/Transmission \n        Control Modules Versions do not match"
+  },
+  {
+    "Code": "P1842",
+    "Description": "lease check DTC \n        Memory of instrument panel ECU"
+  },
+  {
+    "Code": "P1843",
+    "Description": "lease check DTC \n        Memory of ADR Control Module"
+  },
+  {
+    "Code": "P1844",
+    "Description": "lease check DTC \n        Memory of central electric control ECU"
+  },
+  {
+    "Code": "P1847",
+    "Description": "lease check DTC \n        Memory of brake system ECU"
+  },
+  {
+    "Code": "P1848",
+    "Description": "lease check DTC \n        Memory of engine ECU"
+  },
+  {
+    "Code": "P1849",
+    "Description": "lease check DTC \n        Memory of transmission ECU"
+  },
+  {
+    "Code": "P1850",
+    "Description": "Data-Bus Powertrain \n        Missing Message from Engine Contr."
+  },
+  {
+    "Code": "P1851",
+    "Description": "Data-Bus Powertrain \n        Missing Message from Brake Contr."
+  },
+  {
+    "Code": "P1852",
+    "Description": "Data-Bus Powertrain \n        Unplausible Message from Engine Contr."
+  },
+  {
+    "Code": "P1853",
+    "Description": "Data-Bus Powertrain \n        Unplausible Message from Brake Contr."
+  },
+  {
+    "Code": "P1854",
+    "Description": "Data-Bus Powertrain \n        Hardware Defective"
+  },
+  {
+    "Code": "P1855",
+    "Description": "Data-Bus Powertrain \n        Software version Contr."
+  },
+  {
+    "Code": "P1856",
+    "Description": "Throttle/Pedal Pos.Sensor \n        A Circ. Error Message from Engine Contr."
+  },
+  {
+    "Code": "P1857",
+    "Description": "Load Signal Error \n        Message from Engine Contr."
+  },
+  {
+    "Code": "P1858",
+    "Description": "Engine Speed Input \n        Circ. Error Message from Engine Contr."
+  },
+  {
+    "Code": "P1859",
+    "Description": "Brake Switch Circ. \n        Error Message from Engine Contr."
+  },
+  {
+    "Code": "P1860",
+    "Description": "Kick Down Switch \n        Error Message from Engine Contr."
+  },
+  {
+    "Code": "P1861",
+    "Description": "Throttle Position \n        (TP) sensor Error Message from ECM"
+  },
+  {
+    "Code": "P1862",
+    "Description": "Data Bus Powertrain \n        Missing message from instr. panel ECU"
+  },
+  {
+    "Code": "P1863",
+    "Description": "Data Bus Powertrain \n        Missing Message from St. Angle Sensor"
+  },
+  {
+    "Code": "P1864",
+    "Description": "Data Bus Powertrain \n        Missing message from ADR control module"
+  },
+  {
+    "Code": "P1865",
+    "Description": "Data Bus Powertrain \n        Missing message from central electronics"
+  },
+  {
+    "Code": "P1866",
+    "Description": "Data Bus Powertrain \n        Missing messages"
+  }
+]

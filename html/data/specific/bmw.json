@@ -1,0 +1,1002 @@
+[
+  {
+    "Code": "P1083",
+    "Description": "Fuel Control Mixture Lean (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1084",
+    "Description": "Fuel Control Mixture Rich (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1085",
+    "Description": "Fuel Control Mixture Lean (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1086",
+    "Description": "Fuel Control Mixture Rich (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1087",
+    "Description": "O2 Sensor Circuit Slow Response in Lean Control Range (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1088",
+    "Description": "O2 Sensor Circuit Slow Response in Rich Control Range (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1089",
+    "Description": "O2 Sensor Circuit Slow Response in Lean Control Range (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1090",
+    "Description": "re-Catalyst Fuel Trim Too Lean Bank 1 "
+  },
+  {
+    "Code": "P1091",
+    "Description": "re-Catalyst Fuel Trim Too Rich Bank 1 "
+  },
+  {
+    "Code": "P1092",
+    "Description": "re-Catalyst Fuel Trim Too Lean Bank 2 "
+  },
+  {
+    "Code": "P1093",
+    "Description": "re-Catalyst Fuel Trim Too Rich Bank 2 "
+  },
+  {
+    "Code": "P1094",
+    "Description": "O2 Sensor Circuit Slow Response in Rich Control Range (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1095",
+    "Description": "O2 Sensor Circuit Slow Switching From Lean to Rich (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1096",
+    "Description": "O2 Sensor Circuit Slow Switching From Lean to Rich (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1097",
+    "Description": "O2 Sensor Circuit Slow Response after Coast Down Fuel Cutoff (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1098",
+    "Description": "O2 Sensor Circuit Slow Response after Coast Down Fuel Cutoff (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1111",
+    "Description": "Engine Coolant Temperature Radiator Outlet Sensor Low Input "
+  },
+  {
+    "Code": "P1112",
+    "Description": "Engine Coolant Temperature Radiator Outlet Sensor High Input "
+  },
+  {
+    "Code": "P1115",
+    "Description": "Coolant Temperature Sensor Plausibility "
+  },
+  {
+    "Code": "P1116",
+    "Description": "Mass Or Volume Air Flow Circuit Range/Performance Problem (Bank 2) "
+  },
+  {
+    "Code": "P1117",
+    "Description": "Mass Or Volume Air Flow Circuit Low Input (Bank 2) "
+  },
+  {
+    "Code": "P1118",
+    "Description": "Mass Or Volume Air Flow Circuit High Input (Bank 2) "
+  },
+  {
+    "Code": "P1120",
+    "Description": "edal Position Sensor Circuit "
+  },
+  {
+    "Code": "P1121",
+    "Description": "edal Position 1 Range/Performance Problem "
+  },
+  {
+    "Code": "P1122",
+    "Description": "edal Position 1 Low Input "
+  },
+  {
+    "Code": "P1123",
+    "Description": "edal Position 1 High Input "
+  },
+  {
+    "Code": "P1132",
+    "Description": "O2 Sensor Heater Control Circuit (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1133",
+    "Description": "O2 Sensor Heater Control Circuit (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1134",
+    "Description": "O2 Sensor Heater Circuit Signal Intermittent (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1135",
+    "Description": "O2 Sensor Heater Circuit Low Voltage (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1136",
+    "Description": "O2 Sensor Heater Circuit High Voltage (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1137",
+    "Description": "O2 Sensor Heater Circuit Signal Intermittant (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1138",
+    "Description": "O2 Sensor Heater Circuit Low Voltage (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1139",
+    "Description": "O2 Sensor Heater Circuit High Voltage (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1140",
+    "Description": "Mass or Volume Air Flow Circuit Range/Performance Problem "
+  },
+  {
+    "Code": "P1145",
+    "Description": "Solenoid Valve Running Losses Control Circuit Electrical "
+  },
+  {
+    "Code": "P1151",
+    "Description": "O2 Sensor Heater Circuit Signal Intermittant (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1152",
+    "Description": "O2 Sensor Heater Circuit Low Voltage (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1153",
+    "Description": "O2 Sensor Heater Circuit High Voltage (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1155",
+    "Description": "O2 Sensor Heater Circuit Intermittant (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1156",
+    "Description": "O2 Sensor Heater Circuit Low Voltage (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1157",
+    "Description": "O2 Sensor Heater Circuit High Voltage (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1158",
+    "Description": "Fuel Trim Additve Bank 1 Low "
+  },
+  {
+    "Code": "P1159",
+    "Description": "Fuel Trim Additve Bank 1 High "
+  },
+  {
+    "Code": "P1160",
+    "Description": "Fuel Trim Additve Bank 2 Low "
+  },
+  {
+    "Code": "P1161",
+    "Description": "Fuel Trim Additve Bank 2 High "
+  },
+  {
+    "Code": "P1162",
+    "Description": "Fuel Trim Additve Per Ignition Bank 1 Low "
+  },
+  {
+    "Code": "P1163",
+    "Description": "Fuel Trim Additve Per Ignition Bank 1 High "
+  },
+  {
+    "Code": "P1164",
+    "Description": "Fuel Trim Additve Per Ignition Bank 2 Low "
+  },
+  {
+    "Code": "P1165",
+    "Description": "Fuel Trim Additve Per Ignition Bank 2 High "
+  },
+  {
+    "Code": "P1174",
+    "Description": "Fuel Trim Adaptation Additve Bank 1 Malfunction "
+  },
+  {
+    "Code": "P1175",
+    "Description": "Fuel Trim Adaptation Additve Bank 2 Malfunction "
+  },
+  {
+    "Code": "P1176",
+    "Description": "O2 Sensor Slow Response Bank 1 "
+  },
+  {
+    "Code": "P1177",
+    "Description": "O2 Sensor Slow Response Bank 2 "
+  },
+  {
+    "Code": "P1178",
+    "Description": "O2 Sensor Signal Circuit Slow Switching From Rich to Lean (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1179",
+    "Description": "O2 Sensor Signal Circuit Slow Switching From Rich to Lean (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1180",
+    "Description": "O2 Sensor Signal Circuit Slow Switching From Rich to Lean (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1181",
+    "Description": "O2 Sensor Signal Circuit Slow Switching From Rich to Lean (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1182",
+    "Description": "O2 Sensor (Bank 1 Sensor 2) Open Circuit During Coast Down Fuel Cut-off "
+  },
+  {
+    "Code": "P1183",
+    "Description": "O2 Sensor (Bank 2 Sensor 2) Open Circuit During Coast Down Fuel Cut-off "
+  },
+  {
+    "Code": "P1186",
+    "Description": "O2 Sensor Heater Control Circuit (Bank 1 Sensor 2) "
+  },
+  {
+    "Code": "P1187",
+    "Description": "O2 Sensor Heater Control Circuit (Bank 2 Sensor 2) "
+  },
+  {
+    "Code": "P1188",
+    "Description": "Fuel Control (Bank 1 Sensor 1) "
+  },
+  {
+    "Code": "P1189",
+    "Description": "Fuel Control (Bank 2 Sensor 1) "
+  },
+  {
+    "Code": "P1190",
+    "Description": "re-catalyst Fuel Trim System Bank 1 "
+  },
+  {
+    "Code": "P1191",
+    "Description": "re-catalyst Fuel Trim System Bank 2 "
+  },
+  {
+    "Code": "P1192",
+    "Description": "ost-catalyst Fuel Trim System Bank 1 "
+  },
+  {
+    "Code": "P1193",
+    "Description": "ost-catalyst Fuel Trim System Bank 2 "
+  },
+  {
+    "Code": "P1221",
+    "Description": "edal Position Sensor 2 Range/Performance Problem "
+  },
+  {
+    "Code": "P1222",
+    "Description": "edal Position Sensor 2 Low Input "
+  },
+  {
+    "Code": "P1223",
+    "Description": "edal Position Sensor 2 High Input "
+  },
+  {
+    "Code": "P1270",
+    "Description": "Control Module Self-Test, Torque Monitoring "
+  },
+  {
+    "Code": "P1271",
+    "Description": "Ambient Air Pressure Sensor Electrical "
+  },
+  {
+    "Code": "P1283",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 1 Control Circuit Electrical "
+  },
+  {
+    "Code": "P1284",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 1 Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1285",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 1 Control Circuit Signal High "
+  },
+  {
+    "Code": "P1287",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 2 Control Circuit Electrical "
+  },
+  {
+    "Code": "P1288",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 2 Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1289",
+    "Description": "Switching Solenoid for Air Assisted Injection Valves Bank 2 Control Circuit Signal High "
+  },
+  {
+    "Code": "P1313",
+    "Description": "&quot;A&quot; Camshaft Position Plausibility "
+  },
+  {
+    "Code": "P1317",
+    "Description": "&quot;B&quot; Camshaft Position Plausibility "
+  },
+  {
+    "Code": "P1327",
+    "Description": "Knock Sensor 2 (Bank 1) Low Input "
+  },
+  {
+    "Code": "P1328",
+    "Description": "Knock Sensor 2 (Bank 1) High Input "
+  },
+  {
+    "Code": "P1332",
+    "Description": "Knock Sensor 4 Low Input "
+  },
+  {
+    "Code": "P1333",
+    "Description": "Knock Sensor 4 High Input "
+  },
+  {
+    "Code": "P1340",
+    "Description": "Multiple Cylinder Misfire During Start "
+  },
+  {
+    "Code": "P1341",
+    "Description": "Multiple Cylinder Misfire With Fuel Cut-off "
+  },
+  {
+    "Code": "P1342",
+    "Description": "Misfire During Start Cylinder 1 "
+  },
+  {
+    "Code": "P1343",
+    "Description": "Misfire Cylinder 1 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1344",
+    "Description": "Misfire During Start Cylinder 2 "
+  },
+  {
+    "Code": "P1345",
+    "Description": "Misfire Cylinder 2 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1346",
+    "Description": "Misfire During Start Cylinder 3 "
+  },
+  {
+    "Code": "P1347",
+    "Description": "Misfire Cylinder 3 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1348",
+    "Description": "Misfire During Start Cylinder 4 "
+  },
+  {
+    "Code": "P1349",
+    "Description": "Misfire Cylinder 4 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1350",
+    "Description": "Misfire During Start Cylinder 5 "
+  },
+  {
+    "Code": "P1351",
+    "Description": "Misfire Cylinder 5 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1352",
+    "Description": "Misfire During Start Cylinder 6 "
+  },
+  {
+    "Code": "P1353",
+    "Description": "Misfire Cylinder 6 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1354",
+    "Description": "Misfire During Start Cylinder 7 "
+  },
+  {
+    "Code": "P1355",
+    "Description": "Misfire Cylinder 7 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1356",
+    "Description": "Misfire During Start Cylinder 8 "
+  },
+  {
+    "Code": "P1357",
+    "Description": "Misfire Cylinder 8 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1358",
+    "Description": "Misfire During Start Cylinder 9 "
+  },
+  {
+    "Code": "P1359",
+    "Description": "Misfire Cylinder 9 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1360",
+    "Description": "Misfire During Start Cylinder 10 "
+  },
+  {
+    "Code": "P1361",
+    "Description": "Misfire Cylinder 10 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1362",
+    "Description": "Misfire During Start Cylinder 11 "
+  },
+  {
+    "Code": "P1363",
+    "Description": "Misfire Cylinder 11 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1364",
+    "Description": "Misfire During Start Cylinder 12 "
+  },
+  {
+    "Code": "P1365",
+    "Description": "Misfire Cylinder 12 With Fuel Cut-off "
+  },
+  {
+    "Code": "P1384",
+    "Description": "Knock Sensor 3 Circuit "
+  },
+  {
+    "Code": "P1385",
+    "Description": "Knock Sensor 4 Circuit "
+  },
+  {
+    "Code": "P1386",
+    "Description": "Control Module Self-test, Knock Control Baseline Test Bank 1 "
+  },
+  {
+    "Code": "P1396",
+    "Description": "Crankshaft Position Sensor Segment Timing Plausibility "
+  },
+  {
+    "Code": "P1397",
+    "Description": "Camshaft Position Sensor &quot;B&quot; Circuit (Bank 1) "
+  },
+  {
+    "Code": "P1400",
+    "Description": "Heated Catalyst Battery Voltage or Current too Low During Heating (Bank 1) "
+  },
+  {
+    "Code": "P1401",
+    "Description": "Heated Catalyst Current too High During Heating (Bank 1) "
+  },
+  {
+    "Code": "P1402",
+    "Description": "Heated Catalyst Power Switch Overtemperature Condition (Bank 1) "
+  },
+  {
+    "Code": "P1403",
+    "Description": "Carbon Canister Shut Off valve Control Circuit Electrical "
+  },
+  {
+    "Code": "P1404",
+    "Description": "Heated Catalyst Current too High During Heating (Bank 2) "
+  },
+  {
+    "Code": "P1405",
+    "Description": "Heated Catalyst Power Switch Overtemperature Condition (Bank 2) "
+  },
+  {
+    "Code": "P1406",
+    "Description": "Heated Catalyst Internal Control Module Checksum/ROM Error "
+  },
+  {
+    "Code": "P1413",
+    "Description": "Secondary Air Injection Pump Relay Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1414",
+    "Description": "Secondary Air Injection System Monitor Circuit High "
+  },
+  {
+    "Code": "P1420",
+    "Description": "Secondary Air Valve Control Circuit Electrical"
+  },
+  {
+    "Code": "P1421",
+    "Description": "Secondary Air System Bank 1 "
+  },
+  {
+    "Code": "P1422",
+    "Description": "Secondary Air System Bank 2 "
+  },
+  {
+    "Code": "P1432",
+    "Description": "Secondary Air Injection System Incorrect Flow Detected "
+  },
+  {
+    "Code": "P1438",
+    "Description": "urge Control Valve Control Open Circuit "
+  },
+  {
+    "Code": "P1439",
+    "Description": "urge Control Valve Control Circuit Signal Low"
+  },
+  {
+    "Code": "P1440",
+    "Description": "urge Control Valve Control Circuit Signal High"
+  },
+  {
+    "Code": "P1441",
+    "Description": "Leakage Diagnostic Pump Control Open Circuit"
+  },
+  {
+    "Code": "P1442",
+    "Description": "Leakage Diagnostic Pump Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1443",
+    "Description": "Leakage Diagnostic Pump Control Circuit Signal High "
+  },
+  {
+    "Code": "P1444",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Control Open Circuit "
+  },
+  {
+    "Code": "P1445",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1446",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Control Circuit Signal High "
+  },
+  {
+    "Code": "P1447",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Too High During Switching "
+  },
+  {
+    "Code": "P1448",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Too Low During Switching "
+  },
+  {
+    "Code": "P1449",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Pump Too High "
+  },
+  {
+    "Code": "P1450",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Switching Solenoid Open Circuit "
+  },
+  {
+    "Code": "P1451",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Switching Solenoid Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1452",
+    "Description": "Diagnostic Module Tank Leakage (DM-TL) Switching Solenoid Control Circuit Signal High "
+  },
+  {
+    "Code": "P1453",
+    "Description": "Secondary Air Injection Pump Relay Control Circuit Electrical "
+  },
+  {
+    "Code": "P1454",
+    "Description": "Secondary Air Injection Pump With Series Resistor Control Circuit Electrical "
+  },
+  {
+    "Code": "P1456",
+    "Description": "Heated Catalyst Heater Power Supply Open Circuit (Bank 1) "
+  },
+  {
+    "Code": "P1457",
+    "Description": "Heated Catalyst Heater Power Switch Temperature Sensor Electrical (Bank 1) "
+  },
+  {
+    "Code": "P1459",
+    "Description": "Heated Catalyst Heater Power Supply Open Circuit (Bank 2) "
+  },
+  {
+    "Code": "P1460",
+    "Description": "Heated Catalyst Heater Power Switch Temperature Sensor Electrical (Bank 2) "
+  },
+  {
+    "Code": "P1461",
+    "Description": "Heated Catalyst Gate Voltage Signal Low "
+  },
+  {
+    "Code": "P1462",
+    "Description": "Heated Catalyst Internal Control Module Checksum/ROM Error "
+  },
+  {
+    "Code": "P1463",
+    "Description": "Heated Catalyst Battery Temperature Sensor 1 Electrical "
+  },
+  {
+    "Code": "P1464",
+    "Description": "Heated Catalyst Battery Temperature Sensor 2 Electrical "
+  },
+  {
+    "Code": "P1465",
+    "Description": "Heated Catalyst Battery Temperature Sensor 1 or 2 Plausibility "
+  },
+  {
+    "Code": "P1466",
+    "Description": "Heated Catalyst Power Switch Temperature Sensor Plausibility "
+  },
+  {
+    "Code": "P1467",
+    "Description": "Heated Catalyst Comparison Battery Voltages of Power Switches Plausibility "
+  },
+  {
+    "Code": "P1468",
+    "Description": "Heated Catalyst Battery Disconnecting Switch Plausibility "
+  },
+  {
+    "Code": "P1470",
+    "Description": "Leakage Diagnostic Pump Control Circuit Electrical "
+  },
+  {
+    "Code": "P1472",
+    "Description": "Diagnostic Module Tank leakage (DM-TL) Switching Solenoid Control Circuit Electrical "
+  },
+  {
+    "Code": "P1473",
+    "Description": "Diagnostic Module Tank leakage (DM-TL) Pump Current Plausibility "
+  },
+  {
+    "Code": "P1475",
+    "Description": "Leakage Diagnostic Pump Reed Switch Did Not Close "
+  },
+  {
+    "Code": "P1476",
+    "Description": "Leakage Diagnostic Pump Clamped Tube "
+  },
+  {
+    "Code": "P1477",
+    "Description": "Leakage Diagnostic Pump Reed Switch Did Not Open "
+  },
+  {
+    "Code": "P1500",
+    "Description": "Idle Speed Control Valve Stuck Open "
+  },
+  {
+    "Code": "P1501",
+    "Description": "Idle Speed Control Valve Stuck Closed "
+  },
+  {
+    "Code": "P1502",
+    "Description": "Idle Speed Control Valve Closing Solenoid Control Circuit Signal High or Low "
+  },
+  {
+    "Code": "P1503",
+    "Description": "Idle Speed Control Valve Closing Solenoid Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1504",
+    "Description": "Idle Speed Control Valve Closing Solenoid Control Open Circuit "
+  },
+  {
+    "Code": "P1505",
+    "Description": "Idle Speed Control Valve Closing Solenoid Control Circuit Electrial "
+  },
+  {
+    "Code": "P1506",
+    "Description": "Idle Speed Control Valve Open Solenoid Control Circuit Signal High "
+  },
+  {
+    "Code": "P1507",
+    "Description": "Idle Speed Control Valve Open Solenoid Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1508",
+    "Description": "Idle Speed Control Valve Opening Solenoid Control Open Circuit "
+  },
+  {
+    "Code": "P1509",
+    "Description": "Idle Speed Control Valve Opening Solenoid Control Circuit Electrial "
+  },
+  {
+    "Code": "P1510",
+    "Description": "Idle Speed Control Valve Stuck "
+  },
+  {
+    "Code": "P1511",
+    "Description": "DISA Control Circuit Electrical "
+  },
+  {
+    "Code": "P1512",
+    "Description": "DISA Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1513",
+    "Description": "DISA Control Circuit Signal High "
+  },
+  {
+    "Code": "P1519",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Bank 1 "
+  },
+  {
+    "Code": "P1520",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Bank 1 "
+  },
+  {
+    "Code": "P1522",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Bank 2 "
+  },
+  {
+    "Code": "P1523",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Signal Low Bank 1 "
+  },
+  {
+    "Code": "P1524",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Signal High Bank 1 "
+  },
+  {
+    "Code": "P1525",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1526",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 2 "
+  },
+  {
+    "Code": "P1527",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Circuit Signal Low Bank 1 "
+  },
+  {
+    "Code": "P1528",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Circuit Signal High Bank 1 "
+  },
+  {
+    "Code": "P1529",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Circuit Signal Low Bank 1 "
+  },
+  {
+    "Code": "P1530",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Circuit Signal High Bank 1 "
+  },
+  {
+    "Code": "P1531",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1532",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 2 "
+  },
+  {
+    "Code": "P1533",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Circuit Signal Low Bank 2 "
+  },
+  {
+    "Code": "P1534",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Circuit Signal High Bank 2 "
+  },
+  {
+    "Code": "P1540",
+    "Description": "edal Position Sensor "
+  },
+  {
+    "Code": "P1541",
+    "Description": "edal Position Sensor Double Error "
+  },
+  {
+    "Code": "P1542",
+    "Description": "edal Position Sensor Electrical "
+  },
+  {
+    "Code": "P1543",
+    "Description": "edal Position Sensor "
+  },
+  {
+    "Code": "P1544",
+    "Description": "edal Position Sensor "
+  },
+  {
+    "Code": "P1545",
+    "Description": "edal Position Sensor "
+  },
+  {
+    "Code": "P1546",
+    "Description": "edal Position Sensor "
+  },
+  {
+    "Code": "P1550",
+    "Description": "Idle Speed Control valve Closing Solenoid Control Circuit Electrical "
+  },
+  {
+    "Code": "P1551",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1552",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1556",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1560",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1564",
+    "Description": "Control Module Selection "
+  },
+  {
+    "Code": "P1565",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 1 "
+  },
+  {
+    "Code": "P1569",
+    "Description": "&quot;A&quot; Camshaft Position Actuator Control Open Circuit Bank 2 "
+  },
+  {
+    "Code": "P1580",
+    "Description": "Throttle Valve Mechanically Stuck "
+  },
+  {
+    "Code": "P1581",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 2 "
+  },
+  {
+    "Code": "P1589",
+    "Description": "Control Module Self Test, Knock Control Test Pulse Bank 1 "
+  },
+  {
+    "Code": "P1593",
+    "Description": "DISA Control Circuit Electrical "
+  },
+  {
+    "Code": "P1594",
+    "Description": "&quot;B&quot; Camshaft Position Actuator Control Open Circuit Bank 2 "
+  },
+  {
+    "Code": "P1602",
+    "Description": "Control Module Self Test, Control Module Defective "
+  },
+  {
+    "Code": "P1603",
+    "Description": "Control Module Self Test, Torque Monitoring "
+  },
+  {
+    "Code": "P1604",
+    "Description": "Control Module Self Test, Speed Monitoring "
+  },
+  {
+    "Code": "P1607",
+    "Description": "CAN Version "
+  },
+  {
+    "Code": "P1608",
+    "Description": "Serial Communicating Link Control Module "
+  },
+  {
+    "Code": "P1609",
+    "Description": "Serial Communicating Link EML "
+  },
+  {
+    "Code": "P1611",
+    "Description": "Serial Communicating Link Transmission Control Module "
+  },
+  {
+    "Code": "P1619",
+    "Description": "MAP Cooling Control Circuit Signal Low "
+  },
+  {
+    "Code": "P1620",
+    "Description": "MAP Cooling Control Circuit Signal High "
+  },
+  {
+    "Code": "P1622",
+    "Description": "MAP Cooling Control Circuit Electrical "
+  },
+  {
+    "Code": "P1623",
+    "Description": "edal Position Sensor Potentiometer Supply "
+  },
+  {
+    "Code": "P1624",
+    "Description": "edal Position Sensor Potentiometer Supply Channel 1 Electrical "
+  },
+  {
+    "Code": "P1625",
+    "Description": "edal Position Sensor Potentiometer Supply Channel 2 Electrical "
+  },
+  {
+    "Code": "P1632",
+    "Description": "Throttle Valve Adaptation; Adaptation Condition Not Met "
+  },
+  {
+    "Code": "P1633",
+    "Description": "Throttle Valve Adaptation; Limp Home Position "
+  },
+  {
+    "Code": "P1634",
+    "Description": "Throttle Valve Adaptation; Spring Test Failed "
+  },
+  {
+    "Code": "P1635",
+    "Description": "Throttle Valve Adaptation; Lower Mechanical Stop Not Adapted "
+  },
+  {
+    "Code": "P1636",
+    "Description": "Throttle Valve Control Circuit "
+  },
+  {
+    "Code": "P1637",
+    "Description": "Throttle Valve Position Control; Control Deviation "
+  },
+  {
+    "Code": "P1638",
+    "Description": "Throttle Valve Position Control; Throttle Stuck Temporarily "
+  },
+  {
+    "Code": "P1639",
+    "Description": "Throttle Valve Position Control; Throttle Stuck Permanently "
+  },
+  {
+    "Code": "P1640",
+    "Description": "Internal Control Module (ROM/RAM) Error "
+  },
+  {
+    "Code": "P1690",
+    "Description": "Malfunction Indicator Lamp (MIL) Electrical "
+  },
+  {
+    "Code": "P1734",
+    "Description": "ressure Control Solenoid &quot;B&quot; Electrical "
+  },
+  {
+    "Code": "P1738",
+    "Description": "ressure Control Solenoid &quot;C&quot; Electrical "
+  },
+  {
+    "Code": "P1743",
+    "Description": "ressure Control Solenoid &quot;E&quot; Electrical "
+  },
+  {
+    "Code": "P1744",
+    "Description": "ressure Control Solenoid &quot;A&quot; Electrical "
+  },
+  {
+    "Code": "P1746",
+    "Description": "Transmission Control Module Output Stage "
+  },
+  {
+    "Code": "P1747",
+    "Description": "CAN Bus Monitoring "
+  },
+  {
+    "Code": "P1748",
+    "Description": "Transmission Control Module Self Test "
+  },
+  {
+    "Code": "P1749",
+    "Description": "Secondary Pressure Solenoid Communication Error "
+  },
+  {
+    "Code": "P1750",
+    "Description": "Secondary Pressure Solenoid Circuit Range/Performance "
+  },
+  {
+    "Code": "P1751",
+    "Description": "Secondary Pressure Solenoid Open Circuit "
+  },
+  {
+    "Code": "P1761",
+    "Description": "Shift Solenoid Malfunction "
+  },
+  {
+    "Code": "P1765",
+    "Description": "CAN Throttle Valve "
+  },
+  {
+    "Code": "P1770",
+    "Description": "CAN Torque Interface "
+  },
+  {
+    "Code": "P1780",
+    "Description": "CAN Torque Reduction "
+  }
+]

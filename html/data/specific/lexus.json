@@ -1,0 +1,214 @@
+[
+  {
+    "Code": "P1100",
+    "Description": "BARO Sensor Circuit Malfunction"
+  },
+  {
+    "Code": "P1120",
+    "Description": "Accelerator Pedal Position Sensor Circuit Malfunction"
+  },
+  {
+    "Code": "P1121",
+    "Description": "Accelerator Pedal Position Sensor Range/Performance Problem"
+  },
+  {
+    "Code": "P1125",
+    "Description": "Throttle Control Motor Circuit Malfunction"
+  },
+  {
+    "Code": "P1126",
+    "Description": "Magnetic Clutch Circuit Malfunction"
+  },
+  {
+    "Code": "P1127",
+    "Description": "ECTS Actuator Power Source Circuit Malfunction"
+  },
+  {
+    "Code": "P1128",
+    "Description": "Throttle Control Motor Lock Malfunction"
+  },
+  {
+    "Code": "P1129",
+    "Description": "Electronic Throttle Control System"
+  },
+  {
+    "Code": "P1130",
+    "Description": "Air/Fuel Ratio Sensor Circuit Range/Performance Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1133",
+    "Description": "Air/Fuel Ratio Sensor Circuit Response Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1135",
+    "Description": "Air/Fuel Ratio Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1150",
+    "Description": "Air/Fuel Ratio Sensor Circuit Range/Performance Malfunction (Bank 2 Sensor 1)"
+  },
+  {
+    "Code": "P1153",
+    "Description": "Air/Fuel Ratio Sensor Circuit Response Malfunction (Bank 2 Sensor 1)"
+  },
+  {
+    "Code": "P1155",
+    "Description": "Air/Fuel Ratio Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1200",
+    "Description": "Fuel Pump Relay/ECU Circuit Malfunction"
+  },
+  {
+    "Code": "P1300",
+    "Description": "Igniter Circuit Malfunction (Bank 1 Or No. 1)"
+  },
+  {
+    "Code": "P1305",
+    "Description": "Igniter Circuit Malfunction, (Bank 2 Or No. 2)"
+  },
+  {
+    "Code": "P1310",
+    "Description": "Igniter Circuit Malfunction (No. 3)"
+  },
+  {
+    "Code": "P1315",
+    "Description": "Igniter Circuit Malfunction (No. 4)"
+  },
+  {
+    "Code": "P1320",
+    "Description": "Igniter Circuit Malfunction (No. 5)"
+  },
+  {
+    "Code": "P1325",
+    "Description": "Igniter Circuit Malfunction (No. 6)"
+  },
+  {
+    "Code": "P1330",
+    "Description": "Igniter Circuit Malfunction (No. 7)"
+  },
+  {
+    "Code": "P1335",
+    "Description": "CKP Sensor Circuit Malfunction During Engine Running"
+  },
+  {
+    "Code": "P1340",
+    "Description": "Igniter Circuit Malfunction (No. 8)"
+  },
+  {
+    "Code": "P1345",
+    "Description": "VVT Sensor Circuit Malfunction (Bank 1)"
+  },
+  {
+    "Code": "P1346",
+    "Description": "VVT Sensor Rang/Performance Problem (Bank 1)"
+  },
+  {
+    "Code": "P1349",
+    "Description": "VVT System Malfunction (Bank 1)"
+  },
+  {
+    "Code": "P1350",
+    "Description": "VVT Sensor Circuit Malfunction (Bank 2)"
+  },
+  {
+    "Code": "P1351",
+    "Description": "VVT Sensor Range/Performance Problem (Bank 2)"
+  },
+  {
+    "Code": "P1354",
+    "Description": "VVT System Malfunction (Bank 2)"
+  },
+  {
+    "Code": "P1400",
+    "Description": "Sub-TP Sensor Malfunction"
+  },
+  {
+    "Code": "P1401",
+    "Description": "Sub-TP Sensor Range/Performance"
+  },
+  {
+    "Code": "P1410",
+    "Description": "EGR Valve Position Sensor Circuit Malfunction"
+  },
+  {
+    "Code": "P1411",
+    "Description": "EGR Valve Position Sensor Circuit Range/Performance Malfunction"
+  },
+  {
+    "Code": "P1500",
+    "Description": "Starter Signal Circuit Malfunction"
+  },
+  {
+    "Code": "P1520",
+    "Description": "Stop Lamp Switch Malfunction"
+  },
+  {
+    "Code": "P1565",
+    "Description": "Cruise Control Main Switch Circuit Malfunction"
+  },
+  {
+    "Code": "P1566",
+    "Description": "Cruise Control Main Switch Circuit Malfunction"
+  },
+  {
+    "Code": "P1600",
+    "Description": "ECM BATT Malfunction"
+  },
+  {
+    "Code": "P1605",
+    "Description": "Knock Control CPU Malfunction"
+  },
+  {
+    "Code": "P1633",
+    "Description": "ECM Malfunction (ETCS Circuit)"
+  },
+  {
+    "Code": "P1645",
+    "Description": "Body ECU Malfunction"
+  },
+  {
+    "Code": "P1656",
+    "Description": "OCV Circuit Malfunction (Bank 1)"
+  },
+  {
+    "Code": "P1663",
+    "Description": "OCV Circuit Malfunction (Bank 2)"
+  },
+  {
+    "Code": "P1780",
+    "Description": "NP Switch Malfunction"
+  },
+  {
+    "Code": "B2785",
+    "Description": "Ignition Switch On Malfunction (Immobilizer System)"
+  },
+  {
+    "Code": "B2786",
+    "Description": "Ignition Switch Off Malfunction (Immobilizer System)"
+  },
+  {
+    "Code": "B2785",
+    "Description": "Ignition Switch On Malfunction (Immobilizer System)"
+  },
+  {
+    "Code": "B2791",
+    "Description": "Key Unlock Warning Switch Malfunction (Immobilizer System)"
+  },
+  {
+    "Code": "B2795",
+    "Description": "Unmatch Key Code (Immobilizer System)"
+  },
+  {
+    "Code": "B2796",
+    "Description": "No Communication In Immobilizer System"
+  },
+  {
+    "Code": "B2797",
+    "Description": "Communication Malfunction No. 1 (Immobilizer System)"
+  },
+  {
+    "Code": "B2798",
+    "Description": "Communication Malfunction No. 2 (Immobilizer System)"
+  }
+]

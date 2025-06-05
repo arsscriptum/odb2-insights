@@ -1,0 +1,166 @@
+[
+  {
+    "Code": "P1100",
+    "Description": "BARO Sensor Circuit."
+  },
+  {
+    "Code": "P1120",
+    "Description": "Accelerator Pedal Position Sensor Circuit."
+  },
+  {
+    "Code": "P1121",
+    "Description": "Accelerator Pedal Position Sensor Range/Performance Problem."
+  },
+  {
+    "Code": "P1125",
+    "Description": "Throttle Control Motor Circuit."
+  },
+  {
+    "Code": "P1126",
+    "Description": "Magnetic Clutch Circuit."
+  },
+  {
+    "Code": "P1127",
+    "Description": "ETCS Actuator Power Source Circuit."
+  },
+  {
+    "Code": "P1128",
+    "Description": "Throttle Control Motor Lock."
+  },
+  {
+    "Code": "P1129",
+    "Description": "Electric Throttle Control System."
+  },
+  {
+    "Code": "P1130",
+    "Description": "Air/Fuel Sensor Circuit Range/Performance. (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1133",
+    "Description": "Air/Fuel Sensor Circuit Response. (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1135",
+    "Description": "Air/Fuel Sensor Heater Circuit Response. (Bank 1 Sensor 1)"
+  },
+  {
+    "Code": "P1150",
+    "Description": "Air/Fuel Sensor Circuit Range/Performance. (Bank 1 Sensor 2)"
+  },
+  {
+    "Code": "P1153",
+    "Description": "Air/Fuel Sensor Circuit Response. (Bank 1 Sensor 2)"
+  },
+  {
+    "Code": "P1155",
+    "Description": "Air/Fuel Sensor Heater Circuit. (Bank 1 Sensor 2)"
+  },
+  {
+    "Code": "P1200",
+    "Description": "Fuel Pump Relay Circuit."
+  },
+  {
+    "Code": "P1300",
+    "Description": "Igniter Circuit Malfunction - No. 1."
+  },
+  {
+    "Code": "P1310",
+    "Description": "Igniter Circuit Malfunction - No. 2."
+  },
+  {
+    "Code": "P1335",
+    "Description": "No Crankshaft Position Sensor Signal - Engine Running."
+  },
+  {
+    "Code": "P1349",
+    "Description": "VVT System."
+  },
+  {
+    "Code": "P1400",
+    "Description": "Sub-Throttle Position Sensor."
+  },
+  {
+    "Code": "P1401",
+    "Description": "Sub-Throttle Position Sensor Range/Performance Problem."
+  },
+  {
+    "Code": "P1405",
+    "Description": "Turbo Pressure Sensor Circuit."
+  },
+  {
+    "Code": "P1406",
+    "Description": "Turbo Pressure Sensor Range/Performance Problem."
+  },
+  {
+    "Code": "P1410",
+    "Description": "EGR Valve Position Sensor Circuit Malfunction."
+  },
+  {
+    "Code": "P1411",
+    "Description": "EGR Valve Position Sensor Circuit Range/Performance."
+  },
+  {
+    "Code": "P1500",
+    "Description": "Starter Signal Circuit."
+  },
+  {
+    "Code": "P1510",
+    "Description": "Boost Pressure Control Circuit."
+  },
+  {
+    "Code": "P1511",
+    "Description": "Boost Pressure Low."
+  },
+  {
+    "Code": "P1512",
+    "Description": "Boost Pressure High."
+  },
+  {
+    "Code": "P1520",
+    "Description": "Stop Lamp Switch Signal Malfunction."
+  },
+  {
+    "Code": "P1565",
+    "Description": "Cruise Control Main Switch Circuit."
+  },
+  {
+    "Code": "P1600",
+    "Description": "ECM BATT Malfunction"
+  },
+  {
+    "Code": "P1605",
+    "Description": "Knock Control CPU."
+  },
+  {
+    "Code": "P1630",
+    "Description": "Traction Control System."
+  },
+  {
+    "Code": "P1633",
+    "Description": "ECM."
+  },
+  {
+    "Code": "P1652",
+    "Description": "Idle Air Control Valve Control Circuit."
+  },
+  {
+    "Code": "P1656",
+    "Description": "OCV Circuit."
+  },
+  {
+    "Code": "P1658",
+    "Description": "Wastegate Valve Control Circuit."
+  },
+  {
+    "Code": "P1661",
+    "Description": "EGR Circuit."
+  },
+  {
+    "Code": "P1662",
+    "Description": "EGR by-pass Valve Control Circuit."
+  },
+  {
+    "Code": "P1780",
+    "Description": "ark/Neutral Position Switch Malfunction (Only For A/T)"
+  }
+]

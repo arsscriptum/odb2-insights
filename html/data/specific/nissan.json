@@ -1,0 +1,134 @@
+[
+  {
+    "Code": "P1105",
+    "Description": "MAP/BARO Pressure Switch Solenoid Valve"
+  },
+  {
+    "Code": "P1126",
+    "Description": "Thermostat Function"
+  },
+  {
+    "Code": "P1130",
+    "Description": "Swirl Control Valve Control Solenoid Valve"
+  },
+  {
+    "Code": "P1148",
+    "Description": "Closed Loop Control (Bank 1)"
+  },
+  {
+    "Code": "P1165",
+    "Description": "Swirl Control Valve Control Vacuum Switch"
+  },
+  {
+    "Code": "P1168",
+    "Description": "Closed Loop Control (Bank 2)"
+  },
+  {
+    "Code": "P1320",
+    "Description": "Ignition Signal"
+  },
+  {
+    "Code": "P1211",
+    "Description": "ABS/TCS Control Unit"
+  },
+  {
+    "Code": "P1212",
+    "Description": "ABS/TCS Communication Line"
+  },
+  {
+    "Code": "P1217",
+    "Description": "Engine Over Temperature (Overheat)"
+  },
+  {
+    "Code": "P1320",
+    "Description": "Ignition Signal"
+  },
+  {
+    "Code": "P1335",
+    "Description": "Crankshaft Position Sensor (REF)"
+  },
+  {
+    "Code": "P1336",
+    "Description": "Crankshaft Position Sensor (CKPS)"
+  },
+  {
+    "Code": "P1400",
+    "Description": "EGRC Solenoid Valve"
+  },
+  {
+    "Code": "P1401",
+    "Description": "EGR Temperature Sensor"
+  },
+  {
+    "Code": "P1402",
+    "Description": "EGR System"
+  },
+  {
+    "Code": "P1440",
+    "Description": "EVAP Control System Small Leak"
+  },
+  {
+    "Code": "P1441",
+    "Description": "Vacuum Cut Valve Bypass Valve"
+  },
+  {
+    "Code": "P1444",
+    "Description": "Canister Purge Volume Control Solenoid Valve"
+  },
+  {
+    "Code": "P1445",
+    "Description": "EVAP Canister Purge Volume Control Valve"
+  },
+  {
+    "Code": "P1446",
+    "Description": "EVAP Canister Vent Control Valve (Closed)"
+  },
+  {
+    "Code": "P1447",
+    "Description": "EVAP Control System Purge Flow Monitoring"
+  },
+  {
+    "Code": "P1448",
+    "Description": "EVAP Canister Vent Control Valve (Open)"
+  },
+  {
+    "Code": "P1464",
+    "Description": "Fuel Level Sensor Circuit (Ground Signal)"
+  },
+  {
+    "Code": "P1490",
+    "Description": "Vacuum Cut Valve Bypass Valve (Circuit)"
+  },
+  {
+    "Code": "P1491",
+    "Description": "Vacuum Cut Valve Bypass Valve"
+  },
+  {
+    "Code": "P1492",
+    "Description": "EVAP Canister Purge Control/Solenoid Valve (Circuit)"
+  },
+  {
+    "Code": "P1493",
+    "Description": "EVAP Canister Purge Control Valve/Solenoid Valve"
+  },
+  {
+    "Code": "P1550",
+    "Description": "TCC Solenoid Valve"
+  },
+  {
+    "Code": "P1605",
+    "Description": "A/T Diagnostic Communication Line"
+  },
+  {
+    "Code": "P1705",
+    "Description": "Throttle Position Sensor Circuit A/T"
+  },
+  {
+    "Code": "P1706",
+    "Description": "ark/Neutral Position (PNP) Switch"
+  },
+  {
+    "Code": "P1760",
+    "Description": "Overrun Clutch Solenoid Valve (Circuit)"
+  }
+]
