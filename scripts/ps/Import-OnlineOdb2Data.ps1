@@ -467,7 +467,6 @@ function Get-GenericBodyCodesUrls {
                 $CodesUrl = 'https://www.obd-codes.com{0}' -f $CodeUrlSuffix
                 [void]$ParsedList.Add($CodesUrl)
 
-                /html/body/div/div[2]/p[1]
             } catch {
                 Write-Verbose "$_"
                 continue;
@@ -617,6 +616,7 @@ function Get-GenericBodyCodes {
         [System.Collections.ArrayList]$ParsedList = [System.Collections.ArrayList]::new()
         $Valid = $True
         $Id = 1
+        Write-Host "Fetching Description for Body Codes..." -f DarkCyan
         while ($Valid) {
             try {
                 $XPathLinks = "/html/body/div/div[2]/p[3]/a[{0}]" -f $Id
@@ -632,7 +632,8 @@ function Get-GenericBodyCodes {
 
                 $CodeValue = $ResultNodeLinks.InnerText
                 $CodeUrlSuffix = $ResultNodeLinks.Attributes[0].Value
-                Write-Host "Fetching Description for $CodeValue"
+                Write-Host -n " -> $CodeValue" -f DarkYellow
+                
 
                 $CodesUrl = 'https://www.obd-codes.com{0}' -f $CodeUrlSuffix
                 $BodyCodeDescription = Get-GenericBodyCodeDescriptionFromUrl $CodeUrlSuffix
@@ -644,6 +645,7 @@ function Get-GenericBodyCodes {
                     Type = 'Body'
                 }
                 [void]$ParsedList.Add($o)
+                Write-Host "OK" -f DarkGreen
             } catch {
                 Write-Verbose "$_"
                 continue;
