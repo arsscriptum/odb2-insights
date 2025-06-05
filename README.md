@@ -504,8 +504,14 @@ Write-Host $description  # ➜ Catalyst System Efficiency Below Threshold (Bank 
 ![db](img/db.png)
 
 
+### To Test Data Extraction
+
+Use the script ```scripts/Test.ps1```
+
+![test](img/test.gif)
+
 ### To Insert Data
 
-Use the script ```scripts/db.ps1```
+Use the script ```scripts/Import-DataInDb.ps1```
 
 ![dbgif](img/db.gif)
