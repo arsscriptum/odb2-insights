@@ -6,3 +6,4 @@ scripts/ExportedJson
 scripts/ExportedJson/**
 scripts/TestResults.json
 *.log
+test
