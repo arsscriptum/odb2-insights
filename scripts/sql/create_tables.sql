@@ -43,7 +43,7 @@ CREATE TABLE Code (
     Id                INTEGER PRIMARY KEY AUTOINCREMENT,
     DiagnosticCode    TEXT NOT NULL UNIQUE CHECK (LENGTH(DiagnosticCode) = 5),
     Description       TEXT NOT NULL,
-
+    DetailsUrl        TEXT NULL,
     CodeTypeId        INTEGER NOT NULL,
     SystemCategoryId  INTEGER NOT NULL,
     PartTypeId        INTEGER NOT NULL,

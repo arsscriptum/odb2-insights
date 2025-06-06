@@ -3,6 +3,7 @@ import pandas as pd
 from graphviz import Digraph
 import sqlite3
 
+
 # Path to your SQLite database file
 db_path = "code.db"
 out_path = "img/db.png"

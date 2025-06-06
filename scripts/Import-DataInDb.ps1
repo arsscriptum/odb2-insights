@@ -96,6 +96,17 @@ function Add-Odb2Data {
         Write-Host "Add-KellyBlueBookCodesInTable → FAILED" -f DarkRed
         return
     }
+    
+    Write-Host "`n`n=====================================" -f DarkYellow
+    Write-Host "Add-AllGenericCodeLists" -f DarkRed
+    Write-Host "=====================================" -f DarkYellow
+    $Res = Add-AllGenericCodeLists
+    if ($Res) {
+        Write-Host "Add-AllGenericCodeLists → SUCCESS" -f DarkGreen
+    } else {
+        Write-Host "Add-AllGenericCodeLists → FAILED" -f DarkRed
+        return
+    }
 
     Write-Host "`n`n=====================================" -f DarkYellow
     Write-Host "Add-ManufacturerSpecificCodes" -f DarkRed
@@ -110,6 +121,22 @@ function Add-Odb2Data {
 
 
 }
+
+
+
+function Add-Odb2CodesAll {
+    [CmdletBinding(SupportsShouldProcess)]
+    param(
+        [Parameter(Mandatory = $false, HelpMessage = "Use INSERT OR REPLACE instead of INSERT")]
+        [switch]$ReplaceOnError
+    )
+
+
+    $Kelly=Get-KellyBlueBookCodesTable
+}
+
+
+
 
 Register-SqlLib
 Register-HtmlAgilityPack

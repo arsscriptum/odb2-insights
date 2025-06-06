@@ -1,0 +1,47 @@
+[
+  {
+    "SystemCategoryId": 1,
+    "Name": "FuelAirMetering",
+    "DisplayName": "Fuel & Air Metering"
+  },
+  {
+    "SystemCategoryId": 2,
+    "Name": "FuelAirMeteringInjector",
+    "DisplayName": "Fuel & Air Metering (injector circuit)"
+  },
+  {
+    "SystemCategoryId": 3,
+    "Name": "IgnitionOrMisfire",
+    "DisplayName": "Ignition System or Misfire"
+  },
+  {
+    "SystemCategoryId": 4,
+    "Name": "EmissionControl",
+    "DisplayName": "Auxiliary Emission Control"
+  },
+  {
+    "SystemCategoryId": 5,
+    "Name": "SpeedIdleControl",
+    "DisplayName": "Vehicle Speed & Idle Control System"
+  },
+  {
+    "SystemCategoryId": 6,
+    "Name": "ComputerOutput",
+    "DisplayName": "Computer Output Circuit"
+  },
+  {
+    "SystemCategoryId": 7,
+    "Name": "Transmission",
+    "DisplayName": "Transmission (gearbox)"
+  },
+  {
+    "SystemCategoryId": 8,
+    "Name": "HybridPropulsion",
+    "DisplayName": "Hybrid Propulsion System"
+  },
+  {
+    "SystemCategoryId": 9,
+    "Name": "Unknown",
+    "DisplayName": "Unknown or Reserved System"
+  }
+]

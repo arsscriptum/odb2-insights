@@ -1,4 +1,5 @@
 scripts/ps/ManufacturerSpecificCodes
 scripts/ps/ManufacturerSpecificCodes/**
-
+scripts/ExportedJson
+scripts/ExportedJson/**
 scripts/TestResults.json

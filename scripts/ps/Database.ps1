@@ -570,6 +570,84 @@ function Add-KellyBlueBookCodesInTable {
 }
 
 
+function Add-CodesListInTable {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true,Position=0)]
+        [system.Collections.ArrayList]$List,
+        [Parameter(Mandatory = $false)]
+        [int]$InsertBatchSize = 300
+    )
+
+    [int]$CarMakeId = 0
+
+    # Get all maps inside the function
+    $PartTypeMap = Get-PartTypeMap
+    $CodeTypeMap = Get-CodeTypeMap
+    $SystemCategoryMap = Get-SystemCategoryMap
+
+
+    $dbPath = Get-DatabaseFilePath
+    $conn = New-Object System.Data.SQLite.SQLiteConnection ("Data Source=$dbPath;Version=3;")
+    $conn.Open()
+
+    try {
+        $batch = @()
+        foreach ($item in $List) {
+            $codeId = $item.Code.ToUpper()
+            $description = $item.Description
+            $parsed = Resolve-ObdCode -Code $codeId
+
+            $PartId = $PartTypeMap[$parsed.Part].Id
+            $CodeTypeId = $CodeTypeMap[$parsed.CodeType].Id
+            $SystemCatId = $SystemCategoryMap[$parsed.SystemCategory].Id
+
+            $row = [pscustomobject]@{
+                Code = $codeId
+                Description = $description
+                CodeTypeId = $CodeTypeId
+                SystemCategory = $SystemCatId
+                PartTypeId = $PartId
+                CarMakeId = $CarMakeId
+            }
+
+            $batch += $row
+
+            if ($batch.Count -ge $InsertBatchSize) {
+                Insert-Batch -Connection $conn -Rows $batch
+                $batch = @()
+            }
+        }
+
+        # Insert remaining
+        if ($batch.Count -gt 0) {
+            Insert-Batch -Connection $conn -Rows $batch
+        }
+
+        return $true
+    } catch {
+        Show-ExceptionDetails $_ -ShowStack
+    } finally {
+        $conn.Close()
+    }
+}
+
+function Add-AllGenericCodeLists{
+    $GenericBodyCodes = Get-GenericBodyCodes
+    $GenericChassisCodes=Get-GenericChassisCodes
+    $GenericPowertrainCodes=Get-GenericPowertrainCodes
+    $GenericNetworkCodes=Get-GenericNetworkCodes
+    $ret = $True
+    Write-Host "Insert Generic Body Codes... $ret" -f DarkYellow
+    $ret = $ret -and (Add-CodesListInTable $GenericBodyCodes)
+    Write-Host "Insert Generic Chassis Codes... $ret" -f DarkYellow
+    $ret = $ret -and (Add-CodesListInTable $GenericChassisCodes)
+    Write-Host "Insert Generic PowerTrain Codes...$ret" -f DarkYellow
+    $ret = $ret -and (Add-CodesListInTable $GenericPowertrainCodes)
+    Write-Host "Insert Generic Network Codes...$ret" -f DarkYellow
+    $ret = $ret -and (Add-CodesListInTable $GenericNetworkCodes)
+    $ret
+}
 
 function Get-CarMakeMap {
     $dbPath = Get-DatabaseFilePath
@@ -667,6 +745,64 @@ function Get-SystemCategoryMap {
     $reader.Close()
     $conn.Close()
     return $map
+}
+
+function update-CodesUrlInDb {
+    [CmdletBinding(SupportsShouldProcess)]
+    param()
+
+    [string]$DatabasePath = Get-DatabaseFilePath
+
+    Write-Host "`n`n=====================================" -ForegroundColor DarkYellow
+    Write-Host "Validating URLs for 'Code' Table" -ForegroundColor DarkRed
+    Write-Host "=====================================" -ForegroundColor DarkYellow
+
+    $connectionString = "Data Source=$DatabasePath;Version=3;"
+    $connection = New-Object System.Data.SQLite.SQLiteConnection $connectionString
+    $connection.Open()
+
+    # First, count total number of codes
+    $countCmd = $connection.CreateCommand()
+    $countCmd.CommandText = "SELECT COUNT(*) FROM Code"
+    $total = $countCmd.ExecuteScalar()
+
+    # Select all Ids and DiagnosticCodes
+    $selectCmd = $connection.CreateCommand()
+    $selectCmd.CommandText = "SELECT Id, DiagnosticCode FROM Code"
+    $reader = $selectCmd.ExecuteReader()
+
+    $current = 0
+    while ($reader.Read()) {
+        $current++
+        $CodeId         = $reader["Id"]
+        $DiagnosticCode = $reader["DiagnosticCode"]
+        $Url            = "https://www.obd-codes.com/{0}" -f $DiagnosticCode
+
+        Write-Progress -Activity "Checking Code URLs" `
+                       -Status "Processing code ID $CodeId ($current of $total)" `
+                       -PercentComplete (($current / $total) * 100)
+
+        try {
+            $response = Invoke-WebRequest -UseBasicParsing -Uri $Url -Method Head -TimeoutSec 5 -ErrorAction Stop
+            if ($response.StatusCode -eq 200) {
+                Write-Host "[$CodeId] Valid URL: $Url" -ForegroundColor Green
+
+                $updateCmd = $connection.CreateCommand()
+                $updateCmd.CommandText = "UPDATE Code SET DetailsUrl = @url WHERE Id = @id"
+                $updateCmd.Parameters.AddWithValue("@url", $Url) | Out-Null
+                $updateCmd.Parameters.AddWithValue("@id", $CodeId) | Out-Null
+                $updateCmd.ExecuteNonQuery() | Out-Null
+            }
+        } catch {
+            Write-Host "[$CodeId] Invalid URL: $Url" -ForegroundColor DarkGray
+        }
+    }
+
+    $reader.Close()
+    $connection.Close()
+
+    Write-Progress -Activity "Checking Code URLs" -Completed
+    Write-Host "Update complete." -ForegroundColor Cyan
 }
 
 

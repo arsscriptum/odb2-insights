@@ -212,13 +212,6 @@ body {
   color: white;
 }
 
-/* =========================================================== */
-/* CSS: BODY STYLE
-/* =========================================================== */
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
 
 
 /* =========================================================== */
@@ -547,7 +540,7 @@ body {
   font-size: 14px;
   line-height: 21.875px;
   color: #183247;
-  background-color: #fff;
+
   background-image: none;
   -webkit-font-feature-settings: "locl" 0;
   -moz-font-feature-settings: "locl" 0;

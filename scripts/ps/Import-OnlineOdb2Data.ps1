@@ -1178,7 +1178,9 @@ function Get-KellyBlueBookCodesTable {
         foreach ($family in $json.families) {
             foreach ($group in $family.groups) {
                 foreach ($code in $group.codes) {
-                    $codeTable[$($code.Id)] = "$($code.Description)"
+                    [string]$tmpId = $code.Id
+                    $tmpIdUpper = $tmpId.ToUpper()
+                    $codeTable[$tmpIdUpper] = "$($code.Description)"
                 }
             }
         }

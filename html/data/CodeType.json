@@ -1,0 +1,12 @@
+[
+  {
+    "CodeTypeId": 1,
+    "Name": "Generic",
+    "Description": "Generic OBD-II code"
+  },
+  {
+    "CodeTypeId": 2,
+    "Name": "ManufacturerSpecific",
+    "Description": "Manufacturer-specific code"
+  }
+]

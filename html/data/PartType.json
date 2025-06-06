@@ -1,0 +1,26 @@
+[
+  {
+    "PartTypeId": 1,
+    "PartType": "Powertrain",
+    "DisplayName": "Powertrain (engine, transmission)",
+    "FamilyLetter": "P"
+  },
+  {
+    "PartTypeId": 2,
+    "PartType": "Body",
+    "DisplayName": "Body (AC, airbags)",
+    "FamilyLetter": "B"
+  },
+  {
+    "PartTypeId": 3,
+    "PartType": "Chassis",
+    "DisplayName": "Chassis (ABS, suspension)",
+    "FamilyLetter": "C"
+  },
+  {
+    "PartTypeId": 4,
+    "PartType": "Network",
+    "DisplayName": "Network (CAN bus, communication)",
+    "FamilyLetter": "U"
+  }
+]

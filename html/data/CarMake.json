@@ -1,0 +1,107 @@
+[
+  {
+    "CarMakeId": 1,
+    "Name": "none",
+    "Description": "UNDEFINED"
+  },
+  {
+    "CarMakeId": 2,
+    "Name": "acura",
+    "Description": "Acura"
+  },
+  {
+    "CarMakeId": 3,
+    "Name": "audi",
+    "Description": "Audi"
+  },
+  {
+    "CarMakeId": 4,
+    "Name": "bmw",
+    "Description": "BMW"
+  },
+  {
+    "CarMakeId": 5,
+    "Name": "chevrolet",
+    "Description": "Chevrolet"
+  },
+  {
+    "CarMakeId": 6,
+    "Name": "dodge",
+    "Description": "Dodge / Chrysler / Jeep"
+  },
+  {
+    "CarMakeId": 7,
+    "Name": "ford",
+    "Description": "Ford"
+  },
+  {
+    "CarMakeId": 8,
+    "Name": "honda",
+    "Description": "Honda"
+  },
+  {
+    "CarMakeId": 9,
+    "Name": "hyundai",
+    "Description": "Hyundai"
+  },
+  {
+    "CarMakeId": 10,
+    "Name": "infiniti",
+    "Description": "Infiniti"
+  },
+  {
+    "CarMakeId": 11,
+    "Name": "isuzu",
+    "Description": "Isuzu"
+  },
+  {
+    "CarMakeId": 12,
+    "Name": "jaguar",
+    "Description": "Jaguar"
+  },
+  {
+    "CarMakeId": 13,
+    "Name": "kia",
+    "Description": "Kia"
+  },
+  {
+    "CarMakeId": 14,
+    "Name": "landrover",
+    "Description": "Land Rover"
+  },
+  {
+    "CarMakeId": 15,
+    "Name": "lexus",
+    "Description": "Lexus"
+  },
+  {
+    "CarMakeId": 16,
+    "Name": "mazda",
+    "Description": "Mazda"
+  },
+  {
+    "CarMakeId": 17,
+    "Name": "mitsubishi",
+    "Description": "Mitsubishi"
+  },
+  {
+    "CarMakeId": 18,
+    "Name": "nissan",
+    "Description": "Nissan"
+  },
+  {
+    "CarMakeId": 19,
+    "Name": "subaru",
+    "Description": "Subaru"
+  },
+  {
+    "CarMakeId": 20,
+    "Name": "toyota",
+    "Description": "Toyota"
+  },
+  {
+    "CarMakeId": 21,
+    "Name": "volkswagen",
+    "Description": "Volkswagen"
+  }
+]
