@@ -2,19 +2,14 @@
 <html lang="en">
 
 <head>
-    <base href="/odb2-insights/">
+
     <meta charset="UTF-8">
     <title>ODB2 Insights</title>
 
-    <!-- =========================================================== -->
-    <!-- JavaScript and Stylesheets Includes                         -->
-    <!-- =========================================================== -->
-    
+    <!-- JavaScript and Stylesheets Includes -->
     <script src="js/chart.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/chartjsenhancements.min.js"></script>
     <script src="js/papaparse.min.js"></script>
-    <script src="js/chartjs-plugin-zoom.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" media="print" href="css/portal_print.css" />
@@ -27,45 +22,54 @@
     <center>
         <img src="img/white_bg_smaller.png" alt="Title 1">
     </center>
+
+    <div class="container">
+        <!-- Lookup Codes Group -->
+        <fieldset class="group-box">
+            <legend>Lookup Codes</legend>
+
+            <!-- Car Make + Code Type in Flexbox Row -->
+            <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                <div>
+                    <label for="makeSelect">Car Make:</label><br>
+                    <select id="makeSelect" onchange="reloadCodes()">
+                        <option value="">-- Choose Make --</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="partTypeSelect">Code Type:</label><br>
+                    <select id="partTypeSelect" onchange="reloadCodes()">
+                        <option value="">-- Choose Type --</option>
+                    </select>
+                </div>
+            </div>
+
+            <label for="codeInput">Codes:</label>
+            <textarea id="codeInput" rows="4" placeholder="Comma-separated list of codes (e.g. P0300,P0301,P0302)"></textarea>
+
+            <button onclick="lookupCode()">Search</button>
+        </fieldset>
+
+        <!-- Search Results Group -->
+        <fieldset class="group-box">
+            <legend>Search Results</legend>
+
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Results go here -->
+                </tbody>
+            </table>
+        </fieldset>
     </div>
-
-  <div class="container">
-    <!-- Lookup Codes Group -->
-    <fieldset class="group-box">
-      <legend>Lookup Codes</legend>
-      
-      <label for="makeSelect">Car Make:</label>
-      <select id="makeSelect" onchange="loadMakeCodes()">
-        <option value="">-- Choose Make --</option>
-      </select>
-
-      <label for="codeInput">Codes:</label>
-      <textarea id="codeInput" rows="4" placeholder="Comma-separated list of codes (e.g. P0300,P0301,P0302)"></textarea>
-
-      <button onclick="lookupCode()">Search</button>
-    </fieldset>
-
-    <!-- Search Results Group -->
-    <fieldset class="group-box">
-      <legend>Search Results</legend>
-
-      <table id="resultsTable">
-        <thead>
-          <tr>
-            <th>Code</th>
-            <th>Description</th>
-            <th>Details</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Results go here -->
-        </tbody>
-      </table>
-    </fieldset>
-  </div>
-   
-  <script src="js/app.js"></script>
-  <div id="siteInfo" class="site-info" style="text-align: center; font-size: 0.9em; margin-top: 10px;"></div>
+    <div id="siteInfo" class="site-info" style="text-align: center; font-size: 0.9em; margin-top: 10px;"></div>
 
 </body>
 

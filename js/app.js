@@ -1,11 +1,17 @@
-let allCodes = [];
+
+let allCodes = {};
 let carMakeMap = {};
+let codeTypeMap = {};
+let partTypeMap = {};
 
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
   populateMakeSelect();
+  populatePartTypeSelect(); 
   loadSiteInfo();
+  lookupCode(); 
 });
+
 
 async function loadSiteInfo() {
   try {
@@ -39,7 +45,7 @@ async function loadData() {
     arr.reduce((acc, obj) => { acc[obj[key] || obj[key.toLowerCase()]] = obj; return acc; }, {});
 
   const codeTypeMap = mapById(codeTypes, "CodeTypeId");
-  const partTypeMap = mapById(partTypes, "PartTypeId");
+  partTypeMap = mapById(partTypes, "PartTypeId");
   const systemCategoryMap = mapById(systemCats, "SystemCategoryId");
   carMakeMap = mapById(carMakes, "CarMakeId");
 
@@ -50,6 +56,10 @@ async function loadData() {
     SystemCategory: systemCategoryMap[code.SystemCategoryId]?.Name || "Unknown",
     CarMake: carMakeMap[code.CarMakeId]?.Description || "Universal"
   }));
+}
+
+function reloadCodes() {
+  lookupCode(); // Reuse the existing filter logic
 }
 
 function populateMakeSelect() {
@@ -63,13 +73,28 @@ function populateMakeSelect() {
   });
 }
 
+function populatePartTypeSelect() {
+  const select = document.getElementById("partTypeSelect");
+
+  Object.values(partTypeMap).forEach(type => {
+    const option = document.createElement("option");
+    option.value = type.PartType;
+    option.textContent = type.DisplayName;
+    select.appendChild(option);
+  });
+}
+
+
+
 function lookupCode() {
   const makeFilter = document.getElementById("makeSelect").value.toLowerCase();
+  const partTypeFilter = document.getElementById("partTypeSelect").value.toLowerCase(); // ✅ NEW
   const codesInput = document.getElementById("codeInput").value.trim().toLowerCase();
   const codeList = codesInput.split(",").map(c => c.trim()).filter(c => c);
 
   const results = allCodes.filter(code =>
     (makeFilter === "" || code.CarMake.toLowerCase() === makeFilter) &&
+    (partTypeFilter === "" || code.PartType.toLowerCase() === partTypeFilter) && // ✅ NEW
     (codeList.length === 0 || codeList.includes(code.DiagnosticCode.toLowerCase()))
   );
 

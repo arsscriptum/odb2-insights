@@ -5,3 +5,4 @@ scripts/ps/ManufacturerSpecificCodes/**
 scripts/ExportedJson
 scripts/ExportedJson/**
 scripts/TestResults.json
+*.log
