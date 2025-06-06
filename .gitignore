@@ -1,3 +1,5 @@
+tmp
+tmp/**
 scripts/ps/ManufacturerSpecificCodes
 scripts/ps/ManufacturerSpecificCodes/**
 scripts/ExportedJson

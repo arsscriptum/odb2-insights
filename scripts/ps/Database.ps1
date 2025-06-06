@@ -573,8 +573,8 @@ function Add-KellyBlueBookCodesInTable {
 function Add-CodesListInTable {
     [CmdletBinding()]
     param(
-        [Parameter(Mandatory = $true,Position=0)]
-        [system.Collections.ArrayList]$List,
+        [Parameter(Mandatory = $true, Position = 0)]
+        [System.Collections.ArrayList]$List,
         [Parameter(Mandatory = $false)]
         [int]$InsertBatchSize = 300
     )
@@ -632,11 +632,11 @@ function Add-CodesListInTable {
     }
 }
 
-function Add-AllGenericCodeLists{
+function Add-AllGenericCodeLists {
     $GenericBodyCodes = Get-GenericBodyCodes
-    $GenericChassisCodes=Get-GenericChassisCodes
-    $GenericPowertrainCodes=Get-GenericPowertrainCodes
-    $GenericNetworkCodes=Get-GenericNetworkCodes
+    $GenericChassisCodes = Get-GenericChassisCodes
+    $GenericPowertrainCodes = Get-GenericPowertrainCodes
+    $GenericNetworkCodes = Get-GenericNetworkCodes
     $ret = $True
     Write-Host "Insert Generic Body Codes... $ret" -f DarkYellow
     $ret = $ret -and (Add-CodesListInTable $GenericBodyCodes)
@@ -753,14 +753,19 @@ function Get-CodesWithNonNullUrl {
     $conn.Open()
 
     $cmd = $conn.CreateCommand()
-    $cmd.CommandText = 'SELECT Id,DiagnosticCode,DetailsUrl FROM Code Where DetailsUrl is NOT Null'
+    $cmd.CommandText = @'
+        SELECT Id, DiagnosticCode, DetailsUrl
+        FROM Code
+        WHERE DetailsUrl IS NOT NULL AND TRIM(DetailsUrl) <> ''
+'@
+
     $reader = $cmd.ExecuteReader()
 
     [System.Collections.ArrayList]$List = [System.Collections.ArrayList]::new()
     while ($reader.Read()) {
         $Id = $reader["Id"]
         $DiagnosticCode = $reader["DiagnosticCode"]
-        $DetailsUrl  = $reader["DetailsUrl"]
+        $DetailsUrl = $reader["DetailsUrl"]
         [pscustomobject]$o = [pscustomobject]@{
             Id = $Id
             DiagnosticCode = $DiagnosticCode
@@ -771,11 +776,11 @@ function Get-CodesWithNonNullUrl {
 
     $reader.Close()
     $conn.Close()
-    return $List 
+    return $List
 }
 
 
-function update-CodesUrlInDb {
+function Update-CodesUrlInDb {
     [CmdletBinding(SupportsShouldProcess)]
     param()
 
@@ -802,13 +807,13 @@ function update-CodesUrlInDb {
     $current = 0
     while ($reader.Read()) {
         $current++
-        $CodeId         = $reader["Id"]
+        $CodeId = $reader["Id"]
         $DiagnosticCode = $reader["DiagnosticCode"]
-        $Url            = "https://www.obd-codes.com/{0}" -f $DiagnosticCode
+        $Url = "https://www.obd-codes.com/{0}" -f $DiagnosticCode
 
         Write-Progress -Activity "Checking Code URLs" `
-                       -Status "Processing code ID $CodeId ($current of $total)" `
-                       -PercentComplete (($current / $total) * 100)
+             -Status "Processing code ID $CodeId ($current of $total)" `
+             -PercentComplete (($current / $total) * 100)
 
         try {
             $response = Invoke-WebRequest -UseBasicParsing -Uri $Url -Method Head -TimeoutSec 5 -ErrorAction Stop
@@ -834,16 +839,101 @@ function update-CodesUrlInDb {
 }
 
 
+
+
+
+function Get-UrlFromParsedList {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true, HelpMessage = 'The list of parsed objects', Position = 0)]
+        [ValidateNotNullOrEmpty()]
+        [System.Collections.ArrayList]$ParsedList,
+
+        [Parameter(Mandatory = $true, HelpMessage = 'The diagnostic code to look up', Position = 1)]
+        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
+        [string]$Code
+
+
+    )
+
+    $match = $ParsedList | Where-Object { $_.Code -eq $Code }
+    if ($match) {
+        return $match.Url
+    } else {
+        return $null
+    }
+}
+
+function Update-CodesUrlInDbFast {
+    [CmdletBinding(SupportsShouldProcess)]
+    param()
+    $path = Join-Path (Get-JsonDataPath) "urls.json"
+    $ParsedList = Get-Content $path -Raw | ConvertFrom-Json
+    
+    [string]$DatabasePath = Get-DatabaseFilePath
+
+    Write-Host "`n`n=====================================" -ForegroundColor DarkYellow
+    Write-Host "Validating URLs for 'Code' Table" -ForegroundColor DarkRed
+    Write-Host "=====================================" -ForegroundColor DarkYellow
+
+    $connectionString = "Data Source=$DatabasePath;Version=3;"
+    $connection = New-Object System.Data.SQLite.SQLiteConnection $connectionString
+    $connection.Open()
+
+    # First, count total number of codes
+    $countCmd = $connection.CreateCommand()
+    $countCmd.CommandText = "SELECT COUNT(*) FROM Code"
+    $total = $countCmd.ExecuteScalar()
+
+    # Select all Ids and DiagnosticCodes
+    $selectCmd = $connection.CreateCommand()
+    $selectCmd.CommandText = "SELECT Id, DiagnosticCode FROM Code"
+    $reader = $selectCmd.ExecuteReader()
+
+    $current = 0
+    while ($reader.Read()) {
+        $current++
+        $CodeId = $reader["Id"]
+        $DiagnosticCode = $reader["DiagnosticCode"]
+        $Url = "https://www.obd-codes.com/{0}" -f $DiagnosticCode
+
+        Write-Progress -Activity "Checking Code URLs" `
+             -Status "Processing code ID $CodeId ($current of $total)" `
+             -PercentComplete (($current / $total) * 100)
+
+        try {
+            $UrlStr = Get-UrlFromParsedList $ParsedList $DiagnosticCode
+            if (![string]::IsNullOrEmpty("$UrlStr")) {
+                Write-Host "[$CodeId] Valid URL: $UrlStr" -ForegroundColor Green
+
+                $updateCmd = $connection.CreateCommand()
+                $updateCmd.CommandText = "UPDATE Code SET DetailsUrl = @url WHERE Id = @id"
+                $updateCmd.Parameters.AddWithValue("@url", $UrlStr) | Out-Null
+                $updateCmd.Parameters.AddWithValue("@id", $CodeId) | Out-Null
+                $updateCmd.ExecuteNonQuery() | Out-Null
+            }
+        } catch {
+            Write-Host "$_" -ForegroundColor DarkGray
+        }
+    }
+
+    $reader.Close()
+    $connection.Close()
+
+    Write-Progress -Activity "Checking Code URLs" -Completed
+    Write-Host "Update complete." -ForegroundColor Cyan
+}
+
 function Add-ManufacturerSpecificCodes {
     [CmdletBinding(SupportsShouldProcess)]
-    param (
+    param(
         [int]$InsertBatchSize = 300
     )
 
-    $CarMakeMap         = Get-CarMakeMap
-    $PartTypeMap        = Get-PartTypeMap
-    $CodeTypeMap        = Get-CodeTypeMap
-    $SystemCategoryMap  = Get-SystemCategoryMap
+    $CarMakeMap = Get-CarMakeMap
+    $PartTypeMap = Get-PartTypeMap
+    $CodeTypeMap = Get-CodeTypeMap
+    $SystemCategoryMap = Get-SystemCategoryMap
 
     try {
         $BackupPath = Join-Path "$PSScriptRoot" "ManufacturerSpecificCodes"
@@ -858,7 +948,7 @@ function Add-ManufacturerSpecificCodes {
         [string[]]$AllMakes = @(
             "acura", "audi", "bmw", "chevrolet", "dodge", "ford", "honda", "hyundai",
             "infiniti", "isuzu", "jaguar", "kia", "lexus", "mazda", "mitsubishi",
-            "nissan", "subaru", "toyota", "volkswagen","landrover"
+            "nissan", "subaru", "toyota", "volkswagen", "landrover"
         )
 
         foreach ($make in $AllMakes) {
@@ -889,17 +979,17 @@ function Add-ManufacturerSpecificCodes {
                         continue
                     }
 
-                    $PartId      = $PartTypeMap[$parsed.Part].Id
-                    $CodeTypeId  = $CodeTypeMap[$parsed.CodeType].Id
+                    $PartId = $PartTypeMap[$parsed.Part].Id
+                    $CodeTypeId = $CodeTypeMap[$parsed.CodeType].Id
                     $SystemCatId = $SystemCategoryMap[$parsed.SystemCategory].Id
 
                     $row = [pscustomobject]@{
-                        Code           = $codeId
-                        Description    = $description
-                        CodeTypeId     = $CodeTypeId
+                        Code = $codeId
+                        Description = $description
+                        CodeTypeId = $CodeTypeId
                         SystemCategory = $SystemCatId
-                        PartTypeId     = $PartId
-                        CarMakeId      = $CarMakeId
+                        PartTypeId = $PartId
+                        CarMakeId = $CarMakeId
                     }
 
                     $batch += $row
