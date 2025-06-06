@@ -491,13 +491,16 @@ function Get-Obd2CodeRange {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true, Position = 0)]
-        [ValidatePattern('^P[0-9A-Fa-f]{4}$')]
+        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
         [string]$StartCode,
 
         [Parameter(Mandatory = $true, Position = 1)]
-        [ValidatePattern('^P[0-9A-Fa-f]{4}$')]
+        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
         [string]$EndCode
     )
+    $StartCodeCat = $StartCode.SubString(0,1)
+    $EndCodeCat = $EndCode.SubString(0,1)
+    if($StartCodeCat -ne $EndCodeCat){throw "must be tghe same type"}
 
     # Strip the leading 'P' and convert hex to decimal
     $startHex = $StartCode.SubString(1)
@@ -512,7 +515,7 @@ function Get-Obd2CodeRange {
 
     # Generate codes
     for ($i = $startInt; $i -le $endInt; $i++) {
-        '{0}{1:X4}' -f 'P', $i
+        '{0}{1:X4}' -f $StartCodeCat, $i
     }
 }
 
@@ -633,7 +636,7 @@ function Get-GenericBodyCodes {
                 $CodeValue = $ResultNodeLinks.InnerText
                 $CodeUrlSuffix = $ResultNodeLinks.Attributes[0].Value
                 Write-Host -n " -> $CodeValue" -f DarkYellow
-                
+
 
                 $CodesUrl = 'https://www.obd-codes.com{0}' -f $CodeUrlSuffix
                 $BodyCodeDescription = Get-GenericBodyCodeDescriptionFromUrl $CodeUrlSuffix
@@ -679,7 +682,7 @@ function TryParseErrorCode {
     process {
         try {
             $TmpString = $String.Trim()
-            [regex]$pattern = '^[PpBbCcUu][01][0-9A-Ca-c][0-9A-Fa-f]{2}'
+            [regex]$pattern = '^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}'
 
             $TryCode = $TmpString.SubString(0, 5)
             if ($pattern.Match($TryCode).Success) {
@@ -761,7 +764,7 @@ function Get-GenericPowertrainCodesFromUrl {
         [System.Collections.ArrayList]$ParsedList = [System.Collections.ArrayList]::new()
         $Valid = $True
         $Id = 2
-        [regex]$pattern = '^P[0-3A-Fa-f][0-9A-Fa-f]{3}'
+        [regex]$pattern = '^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}'
         while ($Valid) {
             try {
 
@@ -991,6 +994,7 @@ function Get-GenericNetworkCodes {
         }
 
         $HtmlContent = $Results.Content
+        [regex]$pattern = '^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}'
 
         [HtmlAgilityPack.HtmlDocument]$HtmlDoc = @{}
         $HtmlDoc.LoadHtml($HtmlContent)
@@ -1032,6 +1036,40 @@ function Get-GenericNetworkCodes {
 
                     if (($NetworkCodeDescription[0] -eq ',') -or ($NetworkCodeDescription[0] -eq '-')) {
                         $IsSpecial = $True
+                    } elseif (($NetworkCodeDescription.Split(' ')[0]) -eq 'through') {
+                        $Splitted = $NetworkCodeDescription.Split(' ').Split("`t")
+                        $Code1 = $CodeValue
+                        $Code2 = $Splitted[1]
+                        $DescIndex = $NetworkCodeDescription.IndexOf($Code2) + $Code2.Length + 1
+                        $Desc = $NetworkCodeDescription.SubString($DescIndex)
+                        if($Desc.Split(' ')[0] -eq 'and'){
+                            $Code3 = $Desc.Split(' ')[1]
+                            $DescIndex = $Desc.IndexOf($Code3) + $Code3.Length + 1
+                            $Desc = $Desc.SubString($DescIndex)
+                           
+                            [pscustomobject]$o = [pscustomobject]@{
+                                Code = "$Code3"
+                                Description = $Desc
+                                Url = 'https://www.obd-codes.com/trouble_codes/obd-ii-u-network-codes.php'
+                                Type = 'Network'
+                            }
+                           
+                            [void]$ParsedList.Add($o)
+                            continue;
+
+                        }
+                        $Range = Get-Obd2CodeRange $Code1 $Code2 
+                        $Range | % {
+                            [pscustomobject]$o = [pscustomobject]@{
+                                Code = "$_"
+                                Description = $Desc
+                                Url = ''
+                                Type = 'Network'
+                            }
+                            
+                            [void]$ParsedList.Add($o)
+                        }
+                        continue;
                     }
 
                     if ($IsSpecial) {
@@ -1062,7 +1100,7 @@ function Get-GenericNetworkCodes {
                     }
                     $ValidCodeCount++
                 } catch {
-                    Write-Verbose "$_"
+                    Show-ExceptionDetails ($_) -ShowStack
                     continue;
                 }
             }

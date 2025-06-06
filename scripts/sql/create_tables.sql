@@ -54,3 +54,7 @@ CREATE TABLE Code (
     FOREIGN KEY (PartTypeId) REFERENCES PartType(PartTypeId),
     FOREIGN KEY (CarMakeId) REFERENCES CarMake(CarMakeId)
 );
+DiagnosticCode TEXT NOT NULL UNIQUE CHECK (
+    LENGTH(DiagnosticCode) = 5 AND 
+    DiagnosticCode GLOB '[PCBUpcbu][0-3][0-9A-Ca-c][0-9A-Fa-f][0-9A-Fa-f]'
+)

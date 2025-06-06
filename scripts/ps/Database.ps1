@@ -747,6 +747,34 @@ function Get-SystemCategoryMap {
     return $map
 }
 
+function Get-CodesWithNonNullUrl {
+    $dbPath = Get-DatabaseFilePath
+    $conn = New-Object System.Data.SQLite.SQLiteConnection ("Data Source=$dbPath;Version=3;")
+    $conn.Open()
+
+    $cmd = $conn.CreateCommand()
+    $cmd.CommandText = 'SELECT Id,DiagnosticCode,DetailsUrl FROM Code Where DetailsUrl is NOT Null'
+    $reader = $cmd.ExecuteReader()
+
+    [System.Collections.ArrayList]$List = [System.Collections.ArrayList]::new()
+    while ($reader.Read()) {
+        $Id = $reader["Id"]
+        $DiagnosticCode = $reader["DiagnosticCode"]
+        $DetailsUrl  = $reader["DetailsUrl"]
+        [pscustomobject]$o = [pscustomobject]@{
+            Id = $Id
+            DiagnosticCode = $DiagnosticCode
+            DetailsUrl = $DetailsUrl
+        }
+        [void]$List.Add($o)
+    }
+
+    $reader.Close()
+    $conn.Close()
+    return $List 
+}
+
+
 function update-CodesUrlInDb {
     [CmdletBinding(SupportsShouldProcess)]
     param()
