@@ -16,7 +16,7 @@ function Get-RootPath {
 }
 
 function Get-HtmlPath {
-    return Join-Path -Path (Get-RootPath) -ChildPath "html"
+    return Get-RootPath
 }
 
 function Get-ScriptsPath {
