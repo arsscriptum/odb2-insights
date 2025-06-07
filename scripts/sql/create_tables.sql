@@ -38,10 +38,13 @@ CREATE TABLE CodeType (
     Description  TEXT NOT NULL
 );
 DROP TABLE IF EXISTS Code;
--- Table: Code
+-- Table: Code,allow multiple entries with the same DiagnosticCode as long as the CarMakeId
 CREATE TABLE Code (
     Id                INTEGER PRIMARY KEY AUTOINCREMENT,
-    DiagnosticCode    TEXT NOT NULL UNIQUE CHECK (LENGTH(DiagnosticCode) = 5),
+    DiagnosticCode    TEXT NOT NULL CHECK (
+        LENGTH(DiagnosticCode) = 5 AND 
+        DiagnosticCode GLOB '[PCBUpcbu][0-3][0-9A-Ca-c][0-9A-Fa-f][0-9A-Fa-f]'
+    ),
     Description       TEXT NOT NULL,
     DetailsUrl        TEXT NULL,
     CodeTypeId        INTEGER NOT NULL,
@@ -49,12 +52,11 @@ CREATE TABLE Code (
     PartTypeId        INTEGER NOT NULL,
     CarMakeId         INTEGER NOT NULL,
 
+    -- Ensure uniqueness of DiagnosticCode per CarMake
+    UNIQUE (DiagnosticCode, CarMakeId),
+
     FOREIGN KEY (CodeTypeId) REFERENCES CodeType(CodeTypeId),
     FOREIGN KEY (SystemCategoryId) REFERENCES SystemCategory(SystemCategoryId),
     FOREIGN KEY (PartTypeId) REFERENCES PartType(PartTypeId),
     FOREIGN KEY (CarMakeId) REFERENCES CarMake(CarMakeId)
 );
-DiagnosticCode TEXT NOT NULL UNIQUE CHECK (
-    LENGTH(DiagnosticCode) = 5 AND 
-    DiagnosticCode GLOB '[PCBUpcbu][0-3][0-9A-Ca-c][0-9A-Fa-f][0-9A-Fa-f]'
-)

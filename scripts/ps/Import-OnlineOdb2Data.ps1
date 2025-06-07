@@ -482,99 +482,7 @@ function Get-GenericBodyCodesUrls {
     }
 }
 
-# ======================================================================
-# Get-Obd2CodeRange
-# ======================================================================
 
-
-function Get-Obd2CodeRange {
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory = $true, Position = 0)]
-        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
-        [string]$StartCode,
-
-        [Parameter(Mandatory = $true, Position = 1)]
-        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
-        [string]$EndCode
-    )
-    $StartCodeCat = $StartCode.SubString(0,1)
-    $EndCodeCat = $EndCode.SubString(0,1)
-    if($StartCodeCat -ne $EndCodeCat){throw "must be tghe same type"}
-
-    # Strip the leading 'P' and convert hex to decimal
-    $startHex = $StartCode.SubString(1)
-    $endHex = $EndCode.SubString(1)
-
-    $startInt = [Convert]::ToInt32($startHex, 16)
-    $endInt = [Convert]::ToInt32($endHex, 16)
-
-    if ($startInt -gt $endInt) {
-        throw "StartCode must be less than or equal to EndCode"
-    }
-
-    # Generate codes
-    for ($i = $startInt; $i -le $endInt; $i++) {
-        '{0}{1:X4}' -f $StartCodeCat, $i
-    }
-}
-
-
-
-# ======================================================================
-# Get-GenericBodyCodeDescriptionFromUrl
-# ======================================================================
-
-function Get-GenericBodyCodeDescriptionFromUrl {
-    [CmdletBinding(SupportsShouldProcess)]
-    param(
-        [Parameter(Mandatory = $true, Position = 0)]
-        [string]$UrlSuffix
-    )
-
-    try {
-        $FullUrl = "https://www.obd-codes.com{0}" -f $UrlSuffix
-
-        $Ret = $False
-
-        $HeadersData = @{
-            "authority" = "www.obd-codes.com"
-            "method" = "GET"
-            "path" = "$UrlSuffix"
-            "scheme" = "https"
-            "cache-control" = "no-cache"
-            "pragma" = "no-cache"
-            "referer" = "https://www.obd-codes.com/body-codes"
-        }
-        $Results = Invoke-WebRequest -UseBasicParsing -Uri $FullUrl -Headers $HeadersData
-        $Data = $Results.Content
-        if ($Results.StatusCode -eq 200) {
-            $Ret = $True
-        }
-
-        $HtmlContent = $Results.Content
-
-        [HtmlAgilityPack.HtmlDocument]$HtmlDoc = @{}
-        $HtmlDoc.LoadHtml($HtmlContent)
-        $HtmlNode = $HtmlDoc.DocumentNode
-
-        $XPathLinks = "/html/body/div/div[2]/p[1]"
-
-
-        $ResultNodeLinks = $HtmlNode.SelectSingleNode($XPathLinks)
-
-        if (!$ResultNodeLinks) {
-            return ""
-        }
-
-        $CodeDesc = $ResultNodeLinks.InnerText
-        return $CodeDesc
-
-    } catch {
-        Write-Warning "Error occurred: $_"
-        return $null
-    }
-}
 # ======================================================================
 # Get-GenericBodyCodes
 # ======================================================================
@@ -635,11 +543,11 @@ function Get-GenericBodyCodes {
 
                 $CodeValue = $ResultNodeLinks.InnerText
                 $CodeUrlSuffix = $ResultNodeLinks.Attributes[0].Value
-                Write-Host -n " -> $CodeValue" -f DarkYellow
+                Write-Host -n " -> Description for Code `"$CodeValue`"..." -f DarkYellow
 
 
                 $CodesUrl = 'https://www.obd-codes.com{0}' -f $CodeUrlSuffix
-                $BodyCodeDescription = Get-GenericBodyCodeDescriptionFromUrl $CodeUrlSuffix
+                $BodyCodeDescription = Get-GenericBodyCodeDescription $CodeUrlSuffix
 
                 [pscustomobject]$o = [pscustomobject]@{
                     Code = "$CodeValue"
@@ -648,7 +556,7 @@ function Get-GenericBodyCodes {
                     Type = 'Body'
                 }
                 [void]$ParsedList.Add($o)
-                Write-Host "OK" -f DarkGreen
+                Write-Host " -> OK" -f DarkGreen
             } catch {
                 Write-Verbose "$_"
                 continue;
@@ -665,6 +573,99 @@ function Get-GenericBodyCodes {
 }
 
 
+
+
+# ======================================================================
+# Get-GenericBodyCodeDescriptionFromUrl
+# ======================================================================
+
+function Get-GenericBodyCodeDescription {
+    [CmdletBinding(SupportsShouldProcess)]
+    param(
+        [Parameter(Mandatory = $true, Position = 0)]
+        [string]$UrlSuffix
+    )
+
+    try {
+        $FullUrl = "https://www.obd-codes.com{0}" -f $UrlSuffix
+
+        $Ret = $False
+
+        $HeadersData = @{
+            "authority" = "www.obd-codes.com"
+            "method" = "GET"
+            "path" = "$UrlSuffix"
+            "scheme" = "https"
+            "cache-control" = "no-cache"
+            "pragma" = "no-cache"
+            "referer" = "https://www.obd-codes.com/body-codes"
+        }
+        $Results = Invoke-WebRequest -UseBasicParsing -Uri $FullUrl -Headers $HeadersData
+        $Data = $Results.Content
+        if ($Results.StatusCode -eq 200) {
+            $Ret = $True
+        }
+
+        $HtmlContent = $Results.Content
+
+        [HtmlAgilityPack.HtmlDocument]$HtmlDoc = @{}
+        $HtmlDoc.LoadHtml($HtmlContent)
+        $HtmlNode = $HtmlDoc.DocumentNode
+
+        $XPathLinks = "/html/body/div/div[2]/p[1]"
+
+
+        $ResultNodeLinks = $HtmlNode.SelectSingleNode($XPathLinks)
+
+        if (!$ResultNodeLinks) {
+            return ""
+        }
+
+        $CodeDesc = $ResultNodeLinks.InnerText
+        return $CodeDesc
+
+    } catch {
+        Write-Warning "Error occurred: $_"
+        return $null
+    }
+}
+
+# ======================================================================
+# Get-Obd2CodeRange
+# ======================================================================
+
+
+function Get-Obd2CodeRange {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true, Position = 0)]
+        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
+        [string]$StartCode,
+
+        [Parameter(Mandatory = $true, Position = 1)]
+        [ValidatePattern('^[PpBbCcUu][0-3][0-9A-Ca-c][0-9A-Fa-f]{2}$')]
+        [string]$EndCode
+    )
+    $StartCodeCat = $StartCode.SubString(0,1)
+    $EndCodeCat = $EndCode.SubString(0,1)
+    if($StartCodeCat -ne $EndCodeCat){throw "must be tghe same type"}
+
+    # Strip the leading 'P' and convert hex to decimal
+    $startHex = $StartCode.SubString(1)
+    $endHex = $EndCode.SubString(1)
+
+    $startInt = [Convert]::ToInt32($startHex, 16)
+    $endInt = [Convert]::ToInt32($endHex, 16)
+
+    if ($startInt -gt $endInt) {
+        throw "StartCode must be less than or equal to EndCode"
+    }
+
+    # Generate codes
+    for ($i = $startInt; $i -le $endInt; $i++) {
+        '{0}{1:X4}' -f $StartCodeCat, $i
+    }
+}
 
 
 # ======================================================================
