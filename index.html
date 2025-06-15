@@ -15,6 +15,92 @@
     <link rel="stylesheet" media="print" href="css/portal_print.css" />
     <link rel="stylesheet" media="screen" href="css/falcon_portal_utils.css" />
     <link href="theme.css?v=4&amp;d=1682098013" media="screen" rel="stylesheet" type="text/css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6YV8KPRSWQ"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6YV8KPRSWQ');
+
+  const TRACK_USER_IP = true;  
+  const GOOGLE_DEBUG_MODE = false; 
+
+  function logPageLoad(pagePath) {
+    gtag('event', 'page_load', { 
+      page_name: pagePath,
+      debug_mode: GOOGLE_DEBUG_MODE
+    });
+  }
+
+  function logUserIP(ipAddress) {
+    if(GOOGLE_DEBUG_MODE){
+     console.info("==============logUserIP====================");
+     console.info(ipAddress);
+     console.info("==============logUserIP====================");
+   }
+    gtag('event', 'user_ip', { 
+      ip: ipAddress,   
+      debug_mode: GOOGLE_DEBUG_MODE
+    });
+  }
+
+  logPageLoad(window.location.pathname);
+
+  function fetchUserIpInfo() {
+    fetch('https://ipinfo.io/json')
+     .then(response => response.json())
+     .then(data => {
+      if(GOOGLE_DEBUG_MODE){
+       console.info(`[IPINFO] ip: ${data.ip}`);
+       console.info(`[IPINFO] hostname: ${data.hostname}`);       
+       console.info(`[IPINFO] city: ${data.city}`);
+       console.info(`[IPINFO] region: ${data.region}`);
+       console.info(`[IPINFO] country: ${data.country}`);
+       console.info(`[IPINFO] loc: ${data.loc}`);
+       console.info(`[IPINFO] org: ${data.org}`);
+       console.info(`[IPINFO] postal: ${data.postal}`);
+       console.info(`[IPINFO] timezone: ${data.timezone}`);
+     }
+
+     gtag('event', 'user_info', {
+        ip2: data.ip,
+        hostname: data.hostname,
+        city: data.city,
+        region: data.region,
+        country: data.country,
+        loc: data.loc,
+        org: data.org,
+        postal: data.postal,
+        timezone: data.timezone,
+        debug_mode: GOOGLE_DEBUG_MODE
+      });
+     })
+     .catch(err => console.error('[IPINFO] Fetch failed:', err));
+  }
+  fetchUserIpInfo();
+
+  function getIP(json) {
+    if (TRACK_USER_IP) {
+      logUserIP(json.ip);
+    }
+    if(GOOGLE_DEBUG_MODE){
+     console.info("================getIP==================");
+     console.info("object:", JSON.parse(JSON.stringify(json)));
+     console.info("ip:", json.ip);
+     console.info("TRACK_USER_IP:", TRACK_USER_IP);
+     console.info("================getIP==================");
+    }
+  }
+</script>
+
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+
 </head>
 
 <body>
